@@ -1,0 +1,1 @@
+Invoking command in '/userdata/dev_ws/build/line_follower_perception': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/userdata/dev_ws/install/line_follower_perception

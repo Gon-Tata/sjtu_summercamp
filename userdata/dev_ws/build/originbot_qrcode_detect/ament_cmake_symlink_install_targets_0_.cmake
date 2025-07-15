@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/userdata/dev_ws/build/originbot_qrcode_detect/qr_decoder" "/userdata/dev_ws/build/originbot_qrcode_detect/qrcode_control" "TARGETS" "qr_decoder" "qrcode_control" "DESTINATION" "lib/originbot_qrcode_detect")

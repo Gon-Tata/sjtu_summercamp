@@ -1,0 +1,23 @@
+[5.693s] Invoking command in '/userdata/dev_ws/build/originbot_demo': AMENT_PREFIX_PATH=/userdata/dev_ws/install/originbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/dev_ws/install/originbot_msgs LD_LIBRARY_PATH=/userdata/dev_ws/install/originbot_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/dev_ws/build/originbot_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/dev_ws/install/originbot_demo/lib/python3.10/site-packages:/userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /userdata/dev_ws/build/originbot_demo/build --no-deps symlink_data
+[7.319s] running develop
+[8.246s] running egg_info
+[8.246s] writing originbot_demo.egg-info/PKG-INFO
+[8.247s] writing dependency_links to originbot_demo.egg-info/dependency_links.txt
+[8.249s] writing entry points to originbot_demo.egg-info/entry_points.txt
+[8.249s] writing requirements to originbot_demo.egg-info/requires.txt
+[8.250s] writing top-level names to originbot_demo.egg-info/top_level.txt
+[8.260s] reading manifest file 'originbot_demo.egg-info/SOURCES.txt'
+[8.264s] writing manifest file 'originbot_demo.egg-info/SOURCES.txt'
+[8.272s] running build_ext
+[8.273s] Creating /userdata/dev_ws/install/originbot_demo/lib/python3.10/site-packages/originbot-demo.egg-link (link to .)
+[8.278s] Installing control_buzzer script to /userdata/dev_ws/install/originbot_demo/lib/originbot_demo
+[8.279s] Installing control_led script to /userdata/dev_ws/install/originbot_demo/lib/originbot_demo
+[8.280s] Installing draw_circle script to /userdata/dev_ws/install/originbot_demo/lib/originbot_demo
+[8.280s] Installing echo_odom script to /userdata/dev_ws/install/originbot_demo/lib/originbot_demo
+[8.281s] Installing echo_status script to /userdata/dev_ws/install/originbot_demo/lib/originbot_demo
+[8.282s] Installing take_pictures script to /userdata/dev_ws/install/originbot_demo/lib/originbot_demo
+[8.282s] Installing transport_img script to /userdata/dev_ws/install/originbot_demo/lib/originbot_demo
+[8.283s] 
+[8.284s] Installed /userdata/dev_ws/build/originbot_demo
+[8.285s] running symlink_data
+[8.517s] Invoked command in '/userdata/dev_ws/build/originbot_demo' returned '0': AMENT_PREFIX_PATH=/userdata/dev_ws/install/originbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/dev_ws/install/originbot_msgs LD_LIBRARY_PATH=/userdata/dev_ws/install/originbot_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/dev_ws/build/originbot_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/dev_ws/install/originbot_demo/lib/python3.10/site-packages:/userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /userdata/dev_ws/build/originbot_demo/build --no-deps symlink_data

@@ -1,0 +1,23 @@
+[0.048s] Invoking command in '/userdata/dev_ws/build/originbot_navigation': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/dev_ws/src/originbot/originbot_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/userdata/dev_ws/install/originbot_navigation
+[0.111s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.812s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.925s] [31mCMake Error at CMakeLists.txt:20 (find_package):
+[0.926s]   By not providing "Findnav2_bringup.cmake" in CMAKE_MODULE_PATH this project
+[0.926s]   has asked CMake to find a package configuration file provided by
+[0.927s]   "nav2_bringup", but CMake did not find one.
+[0.927s] 
+[0.928s]   Could not find a package configuration file provided by "nav2_bringup" with
+[0.928s]   any of the following names:
+[0.929s] 
+[0.929s]     nav2_bringupConfig.cmake
+[0.929s]     nav2_bringup-config.cmake
+[0.930s] 
+[0.930s]   Add the installation prefix of "nav2_bringup" to CMAKE_PREFIX_PATH or set
+[0.931s]   "nav2_bringup_DIR" to a directory containing one of the above files.  If
+[0.931s]   "nav2_bringup" provides a separate development package or SDK, be sure it
+[0.932s]   has been installed.
+[0.932s] 
+[0.932s] [0m
+[0.933s] -- Configuring incomplete, errors occurred!
+[0.933s] See also "/userdata/dev_ws/build/originbot_navigation/CMakeFiles/CMakeOutput.log".
+[0.941s] Invoked command in '/userdata/dev_ws/build/originbot_navigation' returned '1': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/dev_ws/src/originbot/originbot_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/userdata/dev_ws/install/originbot_navigation

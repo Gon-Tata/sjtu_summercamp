@@ -1,0 +1,23 @@
+[0.186s] Invoking command in '/userdata/dev_ws/build/originbot_send_goal': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/originbot_send_goal -- -j8 -l8
+[0.477s] [35m[1mConsolidate compiler generated dependencies of target send_goal_node[0m
+[0.744s] [100%] Built target send_goal_node
+[1.123s] Invoked command in '/userdata/dev_ws/build/originbot_send_goal' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/originbot_send_goal -- -j8 -l8
+[1.129s] Invoking command in '/userdata/dev_ws/build/originbot_send_goal': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/originbot_send_goal
+[1.223s] -- Install configuration: ""
+[1.228s] -- Execute custom install script
+[1.230s] -- Symlinking: /userdata/dev_ws/install/originbot_send_goal/lib/originbot_send_goal/send_goal_node
+[1.259s] -- Symlinking: /userdata/dev_ws/install/originbot_send_goal/share/ament_index/resource_index/package_run_dependencies/originbot_send_goal
+[1.275s] -- Symlinking: /userdata/dev_ws/install/originbot_send_goal/share/ament_index/resource_index/parent_prefix_path/originbot_send_goal
+[1.312s] -- Symlinking: /userdata/dev_ws/install/originbot_send_goal/share/originbot_send_goal/environment/ament_prefix_path.sh
+[1.354s] -- Symlinking: /userdata/dev_ws/install/originbot_send_goal/share/originbot_send_goal/environment/ament_prefix_path.dsv
+[1.395s] -- Symlinking: /userdata/dev_ws/install/originbot_send_goal/share/originbot_send_goal/environment/path.sh
+[1.436s] -- Symlinking: /userdata/dev_ws/install/originbot_send_goal/share/originbot_send_goal/environment/path.dsv
+[1.479s] -- Symlinking: /userdata/dev_ws/install/originbot_send_goal/share/originbot_send_goal/local_setup.bash
+[1.519s] -- Symlinking: /userdata/dev_ws/install/originbot_send_goal/share/originbot_send_goal/local_setup.sh
+[1.558s] -- Symlinking: /userdata/dev_ws/install/originbot_send_goal/share/originbot_send_goal/local_setup.zsh
+[1.596s] -- Symlinking: /userdata/dev_ws/install/originbot_send_goal/share/originbot_send_goal/local_setup.dsv
+[1.635s] -- Symlinking: /userdata/dev_ws/install/originbot_send_goal/share/originbot_send_goal/package.dsv
+[1.674s] -- Symlinking: /userdata/dev_ws/install/originbot_send_goal/share/ament_index/resource_index/packages/originbot_send_goal
+[1.716s] -- Symlinking: /userdata/dev_ws/install/originbot_send_goal/share/originbot_send_goal/cmake/originbot_send_goalConfig.cmake
+[1.752s] -- Symlinking: /userdata/dev_ws/install/originbot_send_goal/share/originbot_send_goal/cmake/originbot_send_goalConfig-version.cmake
+[1.792s] -- Symlinking: /userdata/dev_ws/install/originbot_send_goal/share/originbot_send_goal/package.xml

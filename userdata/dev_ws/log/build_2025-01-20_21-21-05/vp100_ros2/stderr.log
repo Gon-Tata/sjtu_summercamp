@@ -1,0 +1,8 @@
+[01m[K/userdata/dev_ws/src/originbot/originbot_driver/vp100_ros2/sdk/src/impl/src/serial/nvilidar_serial_unix.cpp:[m[K In member function ‘[01m[Kvoid vp100_serial::Nvilidar_Serial::serialInit(std::string, int, int, int, int, int, unsigned int)[m[K’:
+[01m[K/userdata/dev_ws/src/originbot/originbot_driver/vp100_ros2/sdk/src/impl/src/serial/nvilidar_serial_unix.cpp:55:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KreadBufferSize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   55 |                                     int flowControl,[01;35m[Kunsigned int readBufferSize[m[K)
+      |                                                     [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/userdata/dev_ws/src/originbot/originbot_driver/vp100_ros2/sdk/src/impl/src/serial/nvilidar_serial_unix.cpp:[m[K In member function ‘[01m[Kvoid vp100_serial::Nvilidar_Serial::serialInit(std::string, int, int, int, int, int, unsigned int)[m[K’:
+[01m[K/userdata/dev_ws/src/originbot/originbot_driver/vp100_ros2/sdk/src/impl/src/serial/nvilidar_serial_unix.cpp:55:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KreadBufferSize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   55 |                                     int flowControl,[01;35m[Kunsigned int readBufferSize[m[K)
+      |                                                     [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K

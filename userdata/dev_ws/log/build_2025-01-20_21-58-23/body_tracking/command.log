@@ -1,0 +1,3 @@
+Invoking command in '/userdata/dev_ws/build/body_tracking': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/body_tracking -- -j8 -l8
+Invoked command in '/userdata/dev_ws/build/body_tracking' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/body_tracking -- -j8 -l8
+Invoking command in '/userdata/dev_ws/build/body_tracking': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/body_tracking

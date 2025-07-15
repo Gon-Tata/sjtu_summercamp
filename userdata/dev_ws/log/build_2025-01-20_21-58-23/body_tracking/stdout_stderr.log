@@ -1,0 +1,34 @@
+[35m[1mConsolidate compiler generated dependencies of target body_tracking[0m
+[100%] Built target body_tracking
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /userdata/dev_ws/install/body_tracking/lib/body_tracking/body_tracking
+-- Symlinking: /userdata/dev_ws/install/body_tracking/share/body_tracking/launch/body_tracking.launch.py
+-- Symlinking: /userdata/dev_ws/install/body_tracking/share/body_tracking/launch/body_tracking_without_gesture.launch.py
+-- Symlinking: /userdata/dev_ws/install/body_tracking/share/body_tracking/launch/body_tracking_without_input_node.launch.py
+-- Symlinking: /userdata/dev_ws/install/body_tracking/lib/body_tracking/README.md
+-- Symlinking: /userdata/dev_ws/install/body_tracking/lib/body_tracking/images/20220922180336.png
+-- Symlinking: /userdata/dev_ws/install/body_tracking/lib/body_tracking/images/body_detection.gif
+-- Symlinking: /userdata/dev_ws/install/body_tracking/lib/body_tracking/images/ezgif-5-5c246b7347.gif
+-- Symlinking: /userdata/dev_ws/install/body_tracking/lib/body_tracking/images/gazebo1.jpeg
+-- Symlinking: /userdata/dev_ws/install/body_tracking/lib/body_tracking/images/image-ok.png
+-- Symlinking: /userdata/dev_ws/install/body_tracking/lib/body_tracking/images/image-palm.png
+-- Symlinking: /userdata/dev_ws/install/body_tracking/lib/body_tracking/images/interfaces.jpg
+-- Symlinking: /userdata/dev_ws/install/body_tracking/lib/body_tracking/images/tracking.gif
+-- Symlinking: /userdata/dev_ws/install/body_tracking/lib/body_tracking/images/webservice.jpeg
+-- Symlinking: /userdata/dev_ws/install/body_tracking/share/ament_index/resource_index/package_run_dependencies/body_tracking
+-- Symlinking: /userdata/dev_ws/install/body_tracking/share/ament_index/resource_index/parent_prefix_path/body_tracking
+-- Symlinking: /userdata/dev_ws/install/body_tracking/share/body_tracking/environment/ament_prefix_path.sh
+-- Symlinking: /userdata/dev_ws/install/body_tracking/share/body_tracking/environment/ament_prefix_path.dsv
+-- Symlinking: /userdata/dev_ws/install/body_tracking/share/body_tracking/environment/path.sh
+-- Symlinking: /userdata/dev_ws/install/body_tracking/share/body_tracking/environment/path.dsv
+-- Symlinking: /userdata/dev_ws/install/body_tracking/share/body_tracking/local_setup.bash
+-- Symlinking: /userdata/dev_ws/install/body_tracking/share/body_tracking/local_setup.sh
+-- Symlinking: /userdata/dev_ws/install/body_tracking/share/body_tracking/local_setup.zsh
+-- Symlinking: /userdata/dev_ws/install/body_tracking/share/body_tracking/local_setup.dsv
+-- Symlinking: /userdata/dev_ws/install/body_tracking/share/body_tracking/package.dsv
+-- Symlinking: /userdata/dev_ws/install/body_tracking/share/ament_index/resource_index/packages/body_tracking
+-- Symlinking: /userdata/dev_ws/install/body_tracking/share/body_tracking/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /userdata/dev_ws/install/body_tracking/share/body_tracking/cmake/body_trackingConfig.cmake
+-- Symlinking: /userdata/dev_ws/install/body_tracking/share/body_tracking/cmake/body_trackingConfig-version.cmake
+-- Symlinking: /userdata/dev_ws/install/body_tracking/share/body_tracking/package.xml

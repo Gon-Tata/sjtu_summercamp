@@ -1,0 +1,6 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/body_tracking.dir/src/body_tracking.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/body_tracking.dir/src/main.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/body_tracking.dir/src/util.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/body_tracking.dir/src/smart_subscriber.cpp.o[0m
+[100%] [32m[1mLinking CXX executable body_tracking[0m
+[100%] Built target body_tracking

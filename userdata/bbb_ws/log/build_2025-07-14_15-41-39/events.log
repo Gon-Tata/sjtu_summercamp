@@ -1,0 +1,103 @@
+[0.000000] (-) TimerEvent: {}
+[0.001148] (bbb_pkg_python) JobQueued: {'identifier': 'bbb_pkg_python', 'dependencies': OrderedDict()}
+[0.002152] (bbb_pkg_python) JobStarted: {'identifier': 'bbb_pkg_python'}
+[0.098980] (-) TimerEvent: {}
+[0.199744] (-) TimerEvent: {}
+[0.300502] (-) TimerEvent: {}
+[0.401281] (-) TimerEvent: {}
+[0.502098] (-) TimerEvent: {}
+[0.602861] (-) TimerEvent: {}
+[0.703626] (-) TimerEvent: {}
+[0.804379] (-) TimerEvent: {}
+[0.905134] (-) TimerEvent: {}
+[1.005877] (-) TimerEvent: {}
+[1.106656] (-) TimerEvent: {}
+[1.207444] (-) TimerEvent: {}
+[1.308209] (-) TimerEvent: {}
+[1.408970] (-) TimerEvent: {}
+[1.509755] (-) TimerEvent: {}
+[1.610631] (-) TimerEvent: {}
+[1.711537] (-) TimerEvent: {}
+[1.812376] (-) TimerEvent: {}
+[1.913126] (-) TimerEvent: {}
+[2.013875] (-) TimerEvent: {}
+[2.114685] (-) TimerEvent: {}
+[2.215557] (-) TimerEvent: {}
+[2.316307] (-) TimerEvent: {}
+[2.417041] (-) TimerEvent: {}
+[2.517762] (-) TimerEvent: {}
+[2.618468] (-) TimerEvent: {}
+[2.719152] (-) TimerEvent: {}
+[2.819840] (-) TimerEvent: {}
+[2.920530] (-) TimerEvent: {}
+[3.021296] (-) TimerEvent: {}
+[3.121983] (-) TimerEvent: {}
+[3.222721] (-) TimerEvent: {}
+[3.323515] (-) TimerEvent: {}
+[3.424285] (-) TimerEvent: {}
+[3.525073] (-) TimerEvent: {}
+[3.625900] (-) TimerEvent: {}
+[3.726734] (-) TimerEvent: {}
+[3.827593] (-) TimerEvent: {}
+[3.888993] (bbb_pkg_python) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/bbb_pkg_python', 'build', '--build-base', '/userdata/bbb_ws/build/bbb_pkg_python/build', 'install', '--record', '/userdata/bbb_ws/build/bbb_pkg_python/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/userdata/bbb_ws/src/bbb_pkg_python', 'env': {'LANGUAGE': 'en_US.UTF-8', 'USER': 'root', 'SSH_CLIENT': '192.168.137.1 58398 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/originbot_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'OLDPWD': '/userdata/bbb_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'DEBUGINFOD_URLS': '', 'TROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/userdata/dev_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '8', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/tros/humble/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/0', 'DISPLAY': 'localhost:10.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROSDISTRO_INDEX_URL': 'https://mirrors.tuna.tsinghua.edu.cn/rosdistro/index-v4.yaml', 'AMENT_PREFIX_PATH': '/userdata/dev_ws/install/vp100_ros2:/userdata/dev_ws/install/originbot_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/originbot_teleop:/userdata/dev_ws/install/originbot_send_goal:/userdata/dev_ws/install/originbot_qrcode_detect:/userdata/dev_ws/install/originbot_navigation:/userdata/dev_ws/install/originbot_linefollower:/userdata/dev_ws/install/originbot_demo:/userdata/dev_ws/install/originbot_msgs:/userdata/dev_ws/install/originbot_bringup:/userdata/dev_ws/install/line_follower_perception:/userdata/dev_ws/install/gesture_control:/userdata/dev_ws/install/body_tracking:/opt/tros/humble:/opt/ros/humble', 'SHELL': '/bin/bash', 'PWD': '/userdata/bbb_ws/build/bbb_pkg_python', 'SSH_CONNECTION': '192.168.137.1 58398 192.168.137.65 22', 'PYTHONPATH': '/userdata/bbb_ws/build/bbb_pkg_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/bbb_ws/install/bbb_pkg_python/lib/python3.10/site-packages:/userdata/dev_ws/build/originbot_linefollower:/userdata/dev_ws/install/originbot_linefollower/lib/python3.10/site-packages:/userdata/dev_ws/build/originbot_demo:/userdata/dev_ws/install/originbot_demo/lib/python3.10/site-packages:/userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/userdata/dev_ws/install/vp100_ros2:/userdata/dev_ws/install/originbot_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/originbot_teleop:/userdata/dev_ws/install/originbot_send_goal:/userdata/dev_ws/install/originbot_qrcode_detect:/userdata/dev_ws/install/originbot_navigation:/userdata/dev_ws/install/originbot_msgs:/userdata/dev_ws/install/originbot_bringup:/userdata/dev_ws/install/line_follower_perception:/userdata/dev_ws/install/gesture_control:/userdata/dev_ws/install/body_tracking'}, 'shell': False}
+[3.927742] (-) TimerEvent: {}
+[4.028574] (-) TimerEvent: {}
+[4.129357] (-) TimerEvent: {}
+[4.230214] (-) TimerEvent: {}
+[4.330997] (-) TimerEvent: {}
+[4.431805] (-) TimerEvent: {}
+[4.532546] (-) TimerEvent: {}
+[4.633287] (-) TimerEvent: {}
+[4.734027] (-) TimerEvent: {}
+[4.834764] (-) TimerEvent: {}
+[4.935490] (-) TimerEvent: {}
+[5.036235] (-) TimerEvent: {}
+[5.136972] (-) TimerEvent: {}
+[5.237774] (-) TimerEvent: {}
+[5.338613] (-) TimerEvent: {}
+[5.369799] (bbb_pkg_python) StdoutLine: {'line': b'running egg_info\n'}
+[5.373333] (bbb_pkg_python) StdoutLine: {'line': b'creating ../../build/bbb_pkg_python/bbb_pkg_python.egg-info\n'}
+[5.374361] (bbb_pkg_python) StdoutLine: {'line': b'writing ../../build/bbb_pkg_python/bbb_pkg_python.egg-info/PKG-INFO\n'}
+[5.375417] (bbb_pkg_python) StdoutLine: {'line': b'writing dependency_links to ../../build/bbb_pkg_python/bbb_pkg_python.egg-info/dependency_links.txt\n'}
+[5.376051] (bbb_pkg_python) StdoutLine: {'line': b'writing entry points to ../../build/bbb_pkg_python/bbb_pkg_python.egg-info/entry_points.txt\n'}
+[5.376623] (bbb_pkg_python) StdoutLine: {'line': b'writing requirements to ../../build/bbb_pkg_python/bbb_pkg_python.egg-info/requires.txt\n'}
+[5.377144] (bbb_pkg_python) StdoutLine: {'line': b'writing top-level names to ../../build/bbb_pkg_python/bbb_pkg_python.egg-info/top_level.txt\n'}
+[5.377956] (bbb_pkg_python) StdoutLine: {'line': b"writing manifest file '../../build/bbb_pkg_python/bbb_pkg_python.egg-info/SOURCES.txt'\n"}
+[5.386526] (bbb_pkg_python) StdoutLine: {'line': b"reading manifest file '../../build/bbb_pkg_python/bbb_pkg_python.egg-info/SOURCES.txt'\n"}
+[5.390415] (bbb_pkg_python) StdoutLine: {'line': b"writing manifest file '../../build/bbb_pkg_python/bbb_pkg_python.egg-info/SOURCES.txt'\n"}
+[5.391116] (bbb_pkg_python) StdoutLine: {'line': b'running build\n'}
+[5.391622] (bbb_pkg_python) StdoutLine: {'line': b'running build_py\n'}
+[5.392192] (bbb_pkg_python) StdoutLine: {'line': b'creating /userdata/bbb_ws/build/bbb_pkg_python/build\n'}
+[5.392756] (bbb_pkg_python) StdoutLine: {'line': b'creating /userdata/bbb_ws/build/bbb_pkg_python/build/lib\n'}
+[5.393263] (bbb_pkg_python) StdoutLine: {'line': b'creating /userdata/bbb_ws/build/bbb_pkg_python/build/lib/bbb_pkg_python\n'}
+[5.393712] (bbb_pkg_python) StdoutLine: {'line': b'copying bbb_pkg_python/__init__.py -> /userdata/bbb_ws/build/bbb_pkg_python/build/lib/bbb_pkg_python\n'}
+[5.394213] (bbb_pkg_python) StdoutLine: {'line': b'copying bbb_pkg_python/topic_helloworld_pub.py -> /userdata/bbb_ws/build/bbb_pkg_python/build/lib/bbb_pkg_python\n'}
+[5.394645] (bbb_pkg_python) StdoutLine: {'line': b'copying bbb_pkg_python/topic_helloworld_sub.py -> /userdata/bbb_ws/build/bbb_pkg_python/build/lib/bbb_pkg_python\n'}
+[5.395621] (bbb_pkg_python) StdoutLine: {'line': b'running install\n'}
+[5.397326] (bbb_pkg_python) StdoutLine: {'line': b'running install_lib\n'}
+[5.400946] (bbb_pkg_python) StdoutLine: {'line': b'creating /userdata/bbb_ws/install/bbb_pkg_python/lib/python3.10/site-packages/bbb_pkg_python\n'}
+[5.401670] (bbb_pkg_python) StdoutLine: {'line': b'copying /userdata/bbb_ws/build/bbb_pkg_python/build/lib/bbb_pkg_python/__init__.py -> /userdata/bbb_ws/install/bbb_pkg_python/lib/python3.10/site-packages/bbb_pkg_python\n'}
+[5.402224] (bbb_pkg_python) StdoutLine: {'line': b'copying /userdata/bbb_ws/build/bbb_pkg_python/build/lib/bbb_pkg_python/topic_helloworld_pub.py -> /userdata/bbb_ws/install/bbb_pkg_python/lib/python3.10/site-packages/bbb_pkg_python\n'}
+[5.402736] (bbb_pkg_python) StdoutLine: {'line': b'copying /userdata/bbb_ws/build/bbb_pkg_python/build/lib/bbb_pkg_python/topic_helloworld_sub.py -> /userdata/bbb_ws/install/bbb_pkg_python/lib/python3.10/site-packages/bbb_pkg_python\n'}
+[5.405454] (bbb_pkg_python) StdoutLine: {'line': b'byte-compiling /userdata/bbb_ws/install/bbb_pkg_python/lib/python3.10/site-packages/bbb_pkg_python/__init__.py to __init__.cpython-310.pyc\n'}
+[5.406458] (bbb_pkg_python) StdoutLine: {'line': b'byte-compiling /userdata/bbb_ws/install/bbb_pkg_python/lib/python3.10/site-packages/bbb_pkg_python/topic_helloworld_pub.py to topic_helloworld_pub.cpython-310.pyc\n'}
+[5.408502] (bbb_pkg_python) StdoutLine: {'line': b'byte-compiling /userdata/bbb_ws/install/bbb_pkg_python/lib/python3.10/site-packages/bbb_pkg_python/topic_helloworld_sub.py to topic_helloworld_sub.cpython-310.pyc\n'}
+[5.409990] (bbb_pkg_python) StdoutLine: {'line': b'running install_data\n'}
+[5.410587] (bbb_pkg_python) StdoutLine: {'line': b'creating /userdata/bbb_ws/install/bbb_pkg_python/share/ament_index\n'}
+[5.411272] (bbb_pkg_python) StdoutLine: {'line': b'creating /userdata/bbb_ws/install/bbb_pkg_python/share/ament_index/resource_index\n'}
+[5.411756] (bbb_pkg_python) StdoutLine: {'line': b'creating /userdata/bbb_ws/install/bbb_pkg_python/share/ament_index/resource_index/packages\n'}
+[5.412331] (bbb_pkg_python) StdoutLine: {'line': b'copying resource/bbb_pkg_python -> /userdata/bbb_ws/install/bbb_pkg_python/share/ament_index/resource_index/packages\n'}
+[5.412762] (bbb_pkg_python) StdoutLine: {'line': b'copying package.xml -> /userdata/bbb_ws/install/bbb_pkg_python/share/bbb_pkg_python\n'}
+[5.413183] (bbb_pkg_python) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.422275] (bbb_pkg_python) StdoutLine: {'line': b'Copying ../../build/bbb_pkg_python/bbb_pkg_python.egg-info to /userdata/bbb_ws/install/bbb_pkg_python/lib/python3.10/site-packages/bbb_pkg_python-0.0.0-py3.10.egg-info\n'}
+[5.426410] (bbb_pkg_python) StdoutLine: {'line': b'running install_scripts\n'}
+[5.438750] (-) TimerEvent: {}
+[5.539547] (-) TimerEvent: {}
+[5.544774] (bbb_pkg_python) StdoutLine: {'line': b'Installing pub script to /userdata/bbb_ws/install/bbb_pkg_python/lib/bbb_pkg_python\n'}
+[5.545560] (bbb_pkg_python) StdoutLine: {'line': b'Installing sub script to /userdata/bbb_ws/install/bbb_pkg_python/lib/bbb_pkg_python\n'}
+[5.546882] (bbb_pkg_python) StdoutLine: {'line': b"writing list of installed files to '/userdata/bbb_ws/build/bbb_pkg_python/install.log'\n"}
+[5.639741] (-) TimerEvent: {}
+[5.740960] (-) TimerEvent: {}
+[5.748208] (bbb_pkg_python) CommandEnded: {'returncode': 0}
+[5.821924] (bbb_pkg_python) JobEnded: {'identifier': 'bbb_pkg_python', 'rc': 0}
+[5.824730] (-) EventReactorShutdown: {}

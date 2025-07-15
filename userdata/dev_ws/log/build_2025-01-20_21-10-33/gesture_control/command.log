@@ -1,0 +1,1 @@
+Invoking command in '/userdata/dev_ws/build/gesture_control': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/userdata/dev_ws/install/gesture_control

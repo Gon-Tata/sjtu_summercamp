@@ -1,0 +1,27 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/launch/cartographer.launch.py
+-- Up-to-date symlink: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/launch/ekf.md
+-- Up-to-date symlink: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/launch/nav_bringup.launch.py
+-- Up-to-date symlink: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/launch/occupancy_grid.launch.py
+-- Up-to-date symlink: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/launch/odom_ekf.launch.py
+-- Up-to-date symlink: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/param/originbot_nav2.yaml
+-- Up-to-date symlink: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/maps/my_map.pgm
+-- Up-to-date symlink: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/maps/my_map.yaml
+-- Up-to-date symlink: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/config/ekf.yaml
+-- Up-to-date symlink: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/config/lds_2d.lua
+-- Up-to-date symlink: /userdata/dev_ws/install/originbot_navigation/share/ament_index/resource_index/package_run_dependencies/originbot_navigation
+-- Up-to-date symlink: /userdata/dev_ws/install/originbot_navigation/share/ament_index/resource_index/parent_prefix_path/originbot_navigation
+-- Up-to-date symlink: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/environment/path.sh
+-- Up-to-date symlink: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/environment/path.dsv
+-- Up-to-date symlink: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/local_setup.bash
+-- Up-to-date symlink: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/local_setup.sh
+-- Up-to-date symlink: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/local_setup.zsh
+-- Up-to-date symlink: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/local_setup.dsv
+-- Symlinking: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/package.dsv
+-- Up-to-date symlink: /userdata/dev_ws/install/originbot_navigation/share/ament_index/resource_index/packages/originbot_navigation
+-- Up-to-date symlink: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/cmake/originbot_navigationConfig.cmake
+-- Up-to-date symlink: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/cmake/originbot_navigationConfig-version.cmake
+-- Up-to-date symlink: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/package.xml

@@ -1,0 +1,29 @@
+[0.177s] Invoking command in '/userdata/dev_ws/build/originbot_bringup': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/originbot_bringup -- -j8 -l8
+[0.407s] Invoked command in '/userdata/dev_ws/build/originbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/originbot_bringup -- -j8 -l8
+[0.488s] Invoking command in '/userdata/dev_ws/build/originbot_bringup': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/originbot_bringup
+[0.607s] -- Install configuration: ""
+[0.608s] -- Execute custom install script
+[0.609s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/launch/camera.launch.py
+[0.609s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/launch/camera_internal.launch.py
+[0.610s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/launch/camera_websoket_display.launch.py
+[0.611s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/launch/joy_teleop.launch.py
+[0.611s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/launch/originbot.launch.py
+[0.612s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/launch/vp100.launch.py
+[0.613s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/param/ydlidar.yaml
+[0.614s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/config/joy.yaml
+[0.614s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/ament_index/resource_index/package_run_dependencies/originbot_bringup
+[0.615s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/ament_index/resource_index/parent_prefix_path/originbot_bringup
+[0.616s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/environment/ament_prefix_path.sh
+[0.616s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/environment/ament_prefix_path.dsv
+[0.626s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/environment/path.sh
+[0.627s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/environment/path.dsv
+[0.628s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/local_setup.bash
+[0.628s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/local_setup.sh
+[0.632s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/local_setup.zsh
+[0.634s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/local_setup.dsv
+[0.638s] -- Symlinking: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/package.dsv
+[0.677s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/ament_index/resource_index/packages/originbot_bringup
+[0.678s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/cmake/originbot_bringupConfig.cmake
+[0.679s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/cmake/originbot_bringupConfig-version.cmake
+[0.679s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/package.xml
+[0.733s] Invoked command in '/userdata/dev_ws/build/originbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/originbot_bringup

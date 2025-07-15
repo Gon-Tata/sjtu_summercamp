@@ -1,0 +1,128 @@
+[0.000000] (-) TimerEvent: {}
+[0.000736] (-) JobUnselected: {'identifier': 'body_tracking'}
+[0.001356] (-) JobUnselected: {'identifier': 'gesture_control'}
+[0.002361] (-) JobUnselected: {'identifier': 'line_follower_perception'}
+[0.003033] (-) JobUnselected: {'identifier': 'originbot_base'}
+[0.003757] (-) JobUnselected: {'identifier': 'originbot_demo'}
+[0.004000] (-) JobUnselected: {'identifier': 'originbot_linefollower'}
+[0.004230] (-) JobUnselected: {'identifier': 'originbot_msgs'}
+[0.004444] (-) JobUnselected: {'identifier': 'originbot_navigation'}
+[0.004668] (-) JobUnselected: {'identifier': 'originbot_qrcode_detect'}
+[0.004885] (-) JobUnselected: {'identifier': 'originbot_send_goal'}
+[0.005100] (-) JobUnselected: {'identifier': 'originbot_teleop'}
+[0.005319] (-) JobUnselected: {'identifier': 'qpOASES'}
+[0.005564] (-) JobUnselected: {'identifier': 'serial'}
+[0.005735] (-) JobUnselected: {'identifier': 'vp100_ros2'}
+[0.005982] (originbot_bringup) JobQueued: {'identifier': 'originbot_bringup', 'dependencies': OrderedDict()}
+[0.006404] (originbot_bringup) JobStarted: {'identifier': 'originbot_bringup'}
+[0.043473] (originbot_bringup) JobProgress: {'identifier': 'originbot_bringup', 'progress': 'cmake'}
+[0.047090] (originbot_bringup) Command: {'cmd': ['/usr/bin/cmake', '/userdata/dev_ws/src/originbot/originbot_bringup', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/userdata/dev_ws/install/originbot_bringup'], 'cwd': '/userdata/dev_ws/build/originbot_bringup', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.127.123 58463 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/root/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('BROWSER', '/root/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/userdata/dev_ws/src/originbot/originbot_driver/qpOASES'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-9a97f271-8393-45fd-b7fd-07ae31514955.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('DEBUGINFOD_URLS', ''), ('TROS_DISTRO', 'humble'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/humble/bin:/opt/ros/humble/bin:/root/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/remote-cli:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-c5edfd054c.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/tros/humble:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/userdata/dev_ws/build/originbot_bringup'), ('SSH_CONNECTION', '192.168.127.123 58463 192.168.127.10 22'), ('PYTHONPATH', '/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[0.098864] (-) TimerEvent: {}
+[0.113892] (originbot_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199049] (-) TimerEvent: {}
+[0.299937] (-) TimerEvent: {}
+[0.400834] (-) TimerEvent: {}
+[0.501670] (-) TimerEvent: {}
+[0.602498] (-) TimerEvent: {}
+[0.703333] (-) TimerEvent: {}
+[0.804214] (-) TimerEvent: {}
+[0.830105] (originbot_bringup) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.890288] (originbot_bringup) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.904390] (-) TimerEvent: {}
+[1.005306] (-) TimerEvent: {}
+[1.028781] (originbot_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.043603] (originbot_bringup) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.075048] (originbot_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.105480] (-) TimerEvent: {}
+[1.130574] (originbot_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.201033] (originbot_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.205589] (-) TimerEvent: {}
+[1.306360] (-) TimerEvent: {}
+[1.381790] (originbot_bringup) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.388845] (originbot_bringup) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.406527] (-) TimerEvent: {}
+[1.507419] (-) TimerEvent: {}
+[1.608320] (-) TimerEvent: {}
+[1.709225] (-) TimerEvent: {}
+[1.810120] (-) TimerEvent: {}
+[1.845167] (originbot_bringup) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.910303] (-) TimerEvent: {}
+[2.011189] (-) TimerEvent: {}
+[2.112107] (-) TimerEvent: {}
+[2.122365] (originbot_bringup) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[2.212321] (-) TimerEvent: {}
+[2.288314] (originbot_bringup) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.312479] (-) TimerEvent: {}
+[2.388193] (originbot_bringup) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.9 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[2.412642] (-) TimerEvent: {}
+[2.513477] (-) TimerEvent: {}
+[2.614349] (-) TimerEvent: {}
+[2.715226] (-) TimerEvent: {}
+[2.816164] (-) TimerEvent: {}
+[2.855483] (originbot_bringup) StdoutLine: {'line': b'-- Found joy_linux: 3.3.0 (/opt/ros/humble/share/joy_linux/cmake)\n'}
+[2.861515] (originbot_bringup) StdoutLine: {'line': b'-- Found teleop_twist_joy: 2.4.7 (/opt/ros/humble/share/teleop_twist_joy/cmake)\n'}
+[2.877170] (originbot_bringup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.916290] (-) TimerEvent: {}
+[3.017066] (-) TimerEvent: {}
+[3.117876] (-) TimerEvent: {}
+[3.218721] (-) TimerEvent: {}
+[3.319624] (-) TimerEvent: {}
+[3.348326] (originbot_bringup) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.357461] (originbot_bringup) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.360089] (originbot_bringup) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.362402] (originbot_bringup) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.367554] (originbot_bringup) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.374616] (originbot_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.397727] (originbot_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[3.409087] (originbot_bringup) StdoutLine: {'line': b'-- Build files have been written to: /userdata/dev_ws/build/originbot_bringup\n'}
+[3.419787] (-) TimerEvent: {}
+[3.463953] (originbot_bringup) CommandEnded: {'returncode': 0}
+[3.469164] (originbot_bringup) JobProgress: {'identifier': 'originbot_bringup', 'progress': 'build'}
+[3.477812] (originbot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/userdata/dev_ws/build/originbot_bringup', '--', '-j8', '-l8'], 'cwd': '/userdata/dev_ws/build/originbot_bringup', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.127.123 58463 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/root/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('BROWSER', '/root/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/userdata/dev_ws/src/originbot/originbot_driver/qpOASES'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-9a97f271-8393-45fd-b7fd-07ae31514955.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('DEBUGINFOD_URLS', ''), ('TROS_DISTRO', 'humble'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/humble/bin:/opt/ros/humble/bin:/root/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/remote-cli:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-c5edfd054c.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/tros/humble:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/userdata/dev_ws/build/originbot_bringup'), ('SSH_CONNECTION', '192.168.127.123 58463 192.168.127.10 22'), ('PYTHONPATH', '/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[3.519990] (-) TimerEvent: {}
+[3.620885] (-) TimerEvent: {}
+[3.697414] (originbot_bringup) CommandEnded: {'returncode': 0}
+[3.700132] (originbot_bringup) JobProgress: {'identifier': 'originbot_bringup', 'progress': 'install'}
+[3.721073] (-) TimerEvent: {}
+[3.752047] (originbot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/userdata/dev_ws/build/originbot_bringup'], 'cwd': '/userdata/dev_ws/build/originbot_bringup', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.127.123 58463 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/root/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('BROWSER', '/root/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/userdata/dev_ws/src/originbot/originbot_driver/qpOASES'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-9a97f271-8393-45fd-b7fd-07ae31514955.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('DEBUGINFOD_URLS', ''), ('TROS_DISTRO', 'humble'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/humble/bin:/opt/ros/humble/bin:/root/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/remote-cli:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-c5edfd054c.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/tros/humble:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/userdata/dev_ws/build/originbot_bringup'), ('SSH_CONNECTION', '192.168.127.123 58463 192.168.127.10 22'), ('PYTHONPATH', '/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[3.790221] (originbot_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.792059] (originbot_bringup) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.793958] (originbot_bringup) StdoutLine: {'line': b'-- Symlinking: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/launch/camera.launch.py\n'}
+[3.821287] (-) TimerEvent: {}
+[3.832545] (originbot_bringup) StdoutLine: {'line': b'-- Symlinking: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/launch/camera_internal.launch.py\n'}
+[3.873292] (originbot_bringup) StdoutLine: {'line': b'-- Symlinking: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/launch/camera_websoket_display.launch.py\n'}
+[3.921646] (-) TimerEvent: {}
+[3.923526] (originbot_bringup) StdoutLine: {'line': b'-- Symlinking: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/launch/joy_teleop.launch.py\n'}
+[3.971840] (originbot_bringup) StdoutLine: {'line': b'-- Symlinking: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/launch/originbot.launch.py\n'}
+[4.022025] (-) TimerEvent: {}
+[4.023948] (originbot_bringup) StdoutLine: {'line': b'-- Symlinking: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/launch/vp100.launch.py\n'}
+[4.069538] (originbot_bringup) StdoutLine: {'line': b'-- Symlinking: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/param/ydlidar.yaml\n'}
+[4.109743] (originbot_bringup) StdoutLine: {'line': b'-- Symlinking: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/config/joy.yaml\n'}
+[4.122151] (-) TimerEvent: {}
+[4.151660] (originbot_bringup) StdoutLine: {'line': b'-- Symlinking: /userdata/dev_ws/install/originbot_bringup/share/ament_index/resource_index/package_run_dependencies/originbot_bringup\n'}
+[4.194565] (originbot_bringup) StdoutLine: {'line': b'-- Symlinking: /userdata/dev_ws/install/originbot_bringup/share/ament_index/resource_index/parent_prefix_path/originbot_bringup\n'}
+[4.222377] (-) TimerEvent: {}
+[4.245709] (originbot_bringup) StdoutLine: {'line': b'-- Symlinking: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/environment/ament_prefix_path.sh\n'}
+[4.295957] (originbot_bringup) StdoutLine: {'line': b'-- Symlinking: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/environment/ament_prefix_path.dsv\n'}
+[4.322600] (-) TimerEvent: {}
+[4.345210] (originbot_bringup) StdoutLine: {'line': b'-- Symlinking: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/environment/path.sh\n'}
+[4.395228] (originbot_bringup) StdoutLine: {'line': b'-- Symlinking: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/environment/path.dsv\n'}
+[4.422829] (-) TimerEvent: {}
+[4.444029] (originbot_bringup) StdoutLine: {'line': b'-- Symlinking: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/local_setup.bash\n'}
+[4.492782] (originbot_bringup) StdoutLine: {'line': b'-- Symlinking: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/local_setup.sh\n'}
+[4.523050] (-) TimerEvent: {}
+[4.543231] (originbot_bringup) StdoutLine: {'line': b'-- Symlinking: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/local_setup.zsh\n'}
+[4.592820] (originbot_bringup) StdoutLine: {'line': b'-- Symlinking: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/local_setup.dsv\n'}
+[4.623297] (-) TimerEvent: {}
+[4.643062] (originbot_bringup) StdoutLine: {'line': b'-- Symlinking: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/package.dsv\n'}
+[4.693394] (originbot_bringup) StdoutLine: {'line': b'-- Symlinking: /userdata/dev_ws/install/originbot_bringup/share/ament_index/resource_index/packages/originbot_bringup\n'}
+[4.723538] (-) TimerEvent: {}
+[4.744393] (originbot_bringup) StdoutLine: {'line': b'-- Symlinking: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/cmake/originbot_bringupConfig.cmake\n'}
+[4.791069] (originbot_bringup) StdoutLine: {'line': b'-- Symlinking: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/cmake/originbot_bringupConfig-version.cmake\n'}
+[4.823767] (-) TimerEvent: {}
+[4.842210] (originbot_bringup) StdoutLine: {'line': b'-- Symlinking: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/package.xml\n'}
+[4.908021] (originbot_bringup) CommandEnded: {'returncode': 0}
+[4.925275] (-) TimerEvent: {}
+[5.027523] (-) TimerEvent: {}
+[5.053997] (originbot_bringup) JobEnded: {'identifier': 'originbot_bringup', 'rc': 0}
+[5.056995] (-) EventReactorShutdown: {}

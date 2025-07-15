@@ -1,0 +1,10 @@
+/userdata/dev_ws/build/originbot_base/CMakeFiles/uninstall.dir
+/userdata/dev_ws/build/originbot_base/CMakeFiles/originbot_base_uninstall.dir
+/userdata/dev_ws/build/originbot_base/CMakeFiles/originbot_base.dir
+/userdata/dev_ws/build/originbot_base/CMakeFiles/test.dir
+/userdata/dev_ws/build/originbot_base/CMakeFiles/edit_cache.dir
+/userdata/dev_ws/build/originbot_base/CMakeFiles/rebuild_cache.dir
+/userdata/dev_ws/build/originbot_base/CMakeFiles/list_install_components.dir
+/userdata/dev_ws/build/originbot_base/CMakeFiles/install.dir
+/userdata/dev_ws/build/originbot_base/CMakeFiles/install/local.dir
+/userdata/dev_ws/build/originbot_base/CMakeFiles/install/strip.dir

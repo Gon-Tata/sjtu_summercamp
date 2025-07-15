@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-001c0f6e034947b0b9e6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "originbot_msgs__py",
+					"jsonFile" : "directory-originbot_msgs__py-e8a93f70e6d9a783e5a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/userdata/dev_ws/build/originbot_msgs/originbot_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "originbot_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_originbot_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_originbot_msgs_egg-ef4e140ca89554c61b09.json",
+					"name" : "ament_cmake_python_build_originbot_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_originbot_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_originbot_msgs-d016644b550147ec7045.json",
+					"name" : "ament_cmake_python_symlink_originbot_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "originbot_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-originbot_msgs-a978dd57800fd3f68e0d.json",
+					"name" : "originbot_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "originbot_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-originbot_msgs__cpp-819ffc6137f5f5a04728.json",
+					"name" : "originbot_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "originbot_msgs__py::@d09d505d83e207db91a4",
+					"jsonFile" : "target-originbot_msgs__py-654066df649867ea534b.json",
+					"name" : "originbot_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "originbot_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-originbot_msgs__rosidl_generator_c-a4ab785c5dcf41b05307.json",
+					"name" : "originbot_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "originbot_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-originbot_msgs__rosidl_generator_py-1450a7069f28d7819ed2.json",
+					"name" : "originbot_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "originbot_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-originbot_msgs__rosidl_typesupport_c-4a1e108a2f342771daa4.json",
+					"name" : "originbot_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "originbot_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-originbot_msgs__rosidl_typesupport_c__pyext-bd8b0e9709060a71f086.json",
+					"name" : "originbot_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "originbot_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-originbot_msgs__rosidl_typesupport_cpp-5bebe8992483695156d0.json",
+					"name" : "originbot_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "originbot_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-originbot_msgs__rosidl_typesupport_fastrtps_c-b795bf14f50962e489f4.json",
+					"name" : "originbot_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "originbot_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-originbot_msgs__rosidl_typesupport_fastrtps_c__pyext-9679718a07f62e32a5c9.json",
+					"name" : "originbot_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "originbot_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-originbot_msgs__rosidl_typesupport_fastrtps_cpp-019708c9d098006e5762.json",
+					"name" : "originbot_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "originbot_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-originbot_msgs__rosidl_typesupport_introspection_c-3b931a7659daa9c2cda8.json",
+					"name" : "originbot_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "originbot_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-originbot_msgs__rosidl_typesupport_introspection_c__pyext-1d8e6f1a0290bb368f47.json",
+					"name" : "originbot_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "originbot_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-originbot_msgs__rosidl_typesupport_introspection_cpp-94a137e4ffdc5866acde.json",
+					"name" : "originbot_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "originbot_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-originbot_msgs_uninstall-dc8cf5afb9136e038e8f.json",
+					"name" : "originbot_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d800312f26d1c4e57a2b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/userdata/dev_ws/build/originbot_msgs",
+		"source" : "/userdata/dev_ws/src/originbot/originbot_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

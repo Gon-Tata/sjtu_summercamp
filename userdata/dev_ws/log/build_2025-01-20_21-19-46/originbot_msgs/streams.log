@@ -1,0 +1,251 @@
+[0.049s] Invoking command in '/userdata/dev_ws/build/originbot_msgs': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/originbot_msgs -- -j8 -l8
+[0.248s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.292s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.327s] [  3%] Built target ament_cmake_python_symlink_originbot_msgs
+[1.718s] running egg_info
+[1.722s] creating originbot_msgs.egg-info
+[1.723s] writing originbot_msgs.egg-info/PKG-INFO
+[1.723s] writing dependency_links to originbot_msgs.egg-info/dependency_links.txt
+[1.724s] writing top-level names to originbot_msgs.egg-info/top_level.txt
+[1.725s] writing manifest file 'originbot_msgs.egg-info/SOURCES.txt'
+[1.738s] reading manifest file 'originbot_msgs.egg-info/SOURCES.txt'
+[1.742s] writing manifest file 'originbot_msgs.egg-info/SOURCES.txt'
+[1.931s] [  3%] Built target ament_cmake_python_build_originbot_msgs_egg
+[3.592s] [  3%] Built target originbot_msgs__cpp
+[3.636s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.639s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.643s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.709s] [ 12%] [32mBuilding C object CMakeFiles/originbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/originbot_msgs/srv/detail/originbot_led__functions.c.o[0m
+[3.713s] [ 12%] [32mBuilding C object CMakeFiles/originbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/originbot_msgs/srv/detail/originbot_buzzer__functions.c.o[0m
+[3.716s] [ 14%] [32mBuilding C object CMakeFiles/originbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/originbot_msgs/srv/detail/originbot_pid__functions.c.o[0m
+[3.727s] [ 16%] [32mBuilding C object CMakeFiles/originbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/originbot_msgs/msg/detail/originbot_status__functions.c.o[0m
+[4.077s] [ 18%] [32m[1mLinking C shared library liboriginbot_msgs__rosidl_generator_c.so[0m
+[4.275s] [ 18%] Built target originbot_msgs__rosidl_generator_c
+[4.321s] [ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.322s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.324s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.974s] [ 25%] [32mBuilding CXX object CMakeFiles/originbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/originbot_msgs/srv/originbot_buzzer__type_support.cpp.o[0m
+[5.980s] [ 27%] [32mBuilding CXX object CMakeFiles/originbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/originbot_msgs/msg/originbot_status__type_support.cpp.o[0m
+[5.989s] [ 29%] [32mBuilding CXX object CMakeFiles/originbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/originbot_msgs/srv/originbot_led__type_support.cpp.o[0m
+[6.482s] [ 30%] [32mBuilding CXX object CMakeFiles/originbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/originbot_msgs/msg/detail/originbot_status__type_support.cpp.o[0m
+[6.590s] [ 32%] [32mBuilding CXX object CMakeFiles/originbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/originbot_msgs/msg/originbot_status__type_support.cpp.o[0m
+[6.749s] [ 34%] [32mBuilding CXX object CMakeFiles/originbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/originbot_msgs/srv/originbot_buzzer__type_support.cpp.o[0m
+[6.923s] [ 36%] [32mBuilding CXX object CMakeFiles/originbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/originbot_msgs/srv/originbot_led__type_support.cpp.o[0m
+[6.954s] [ 38%] [32mBuilding CXX object CMakeFiles/originbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/originbot_msgs/msg/detail/dds_fastrtps/originbot_status__type_support.cpp.o[0m
+[7.103s] [ 40%] [32mBuilding CXX object CMakeFiles/originbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/originbot_msgs/srv/originbot_pid__type_support.cpp.o[0m
+[7.270s] [ 41%] [32m[1mLinking CXX shared library liboriginbot_msgs__rosidl_typesupport_c.so[0m
+[7.364s] [ 43%] [32mBuilding C object CMakeFiles/originbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/originbot_msgs/msg/detail/originbot_status__type_support.c.o[0m
+[7.477s] [ 43%] Built target originbot_msgs__rosidl_typesupport_c
+[7.592s] [ 47%] [32mBuilding C object CMakeFiles/originbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/originbot_msgs/srv/detail/originbot_led__type_support.c.o[0m
+[7.595s] [ 47%] [32mBuilding C object CMakeFiles/originbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/originbot_msgs/srv/detail/originbot_buzzer__type_support.c.o[0m
+[7.652s] [ 49%] [32mBuilding CXX object CMakeFiles/originbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/originbot_msgs/msg/detail/originbot_status__type_support_c.cpp.o[0m
+[7.855s] [ 50%] [32mBuilding CXX object CMakeFiles/originbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/originbot_msgs/srv/originbot_pid__type_support.cpp.o[0m
+[7.859s] [ 52%] [32mBuilding CXX object CMakeFiles/originbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/originbot_msgs/srv/detail/dds_fastrtps/originbot_buzzer__type_support.cpp.o[0m
+[7.863s] [ 54%] [32mBuilding CXX object CMakeFiles/originbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/originbot_msgs/srv/detail/dds_fastrtps/originbot_led__type_support.cpp.o[0m
+[7.922s] [ 56%] [32mBuilding C object CMakeFiles/originbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/originbot_msgs/srv/detail/originbot_pid__type_support.c.o[0m
+[7.937s] [ 58%] [32mBuilding CXX object CMakeFiles/originbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/originbot_msgs/srv/detail/dds_fastrtps/originbot_pid__type_support.cpp.o[0m
+[8.107s] [ 60%] [32m[1mLinking C shared library liboriginbot_msgs__rosidl_typesupport_introspection_c.so[0m
+[8.265s] [ 60%] Built target originbot_msgs__rosidl_typesupport_introspection_c
+[8.312s] [ 61%] [32mBuilding CXX object CMakeFiles/originbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/originbot_msgs/srv/detail/originbot_buzzer__type_support.cpp.o[0m
+[9.115s] [ 63%] [32mBuilding CXX object CMakeFiles/originbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/originbot_msgs/srv/detail/originbot_buzzer__type_support_c.cpp.o[0m
+[9.644s] [ 65%] [32mBuilding CXX object CMakeFiles/originbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/originbot_msgs/srv/detail/originbot_led__type_support_c.cpp.o[0m
+[9.701s] [ 67%] [32m[1mLinking CXX shared library liboriginbot_msgs__rosidl_typesupport_cpp.so[0m
+[9.948s] [ 67%] Built target originbot_msgs__rosidl_typesupport_cpp
+[9.991s] [ 69%] [32mBuilding CXX object CMakeFiles/originbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/originbot_msgs/srv/detail/originbot_pid__type_support_c.cpp.o[0m
+[9.994s] [ 70%] [32mBuilding CXX object CMakeFiles/originbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/originbot_msgs/srv/detail/originbot_led__type_support.cpp.o[0m
+[10.640s] [ 72%] [32mBuilding CXX object CMakeFiles/originbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/originbot_msgs/srv/detail/originbot_pid__type_support.cpp.o[0m
+[10.784s] [ 74%] [32m[1mLinking CXX shared library liboriginbot_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.304s] [ 74%] Built target originbot_msgs__rosidl_typesupport_fastrtps_cpp
+[12.276s] [ 76%] [32m[1mLinking CXX shared library liboriginbot_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[12.746s] [ 76%] Built target originbot_msgs__rosidl_typesupport_fastrtps_c
+[12.951s] [ 78%] [32m[1mLinking CXX shared library liboriginbot_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[13.159s] [ 78%] Built target originbot_msgs__rosidl_typesupport_introspection_cpp
+[13.253s] [ 78%] Built target originbot_msgs
+[13.359s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[18.434s] [ 80%] Built target originbot_msgs__py
+[18.526s] [ 87%] [32mBuilding C object CMakeFiles/originbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/originbot_msgs/srv/_originbot_buzzer_s.c.o[0m
+[18.527s] [ 87%] [32mBuilding C object CMakeFiles/originbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/originbot_msgs/srv/_originbot_led_s.c.o[0m
+[18.527s] [ 87%] [32mBuilding C object CMakeFiles/originbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/originbot_msgs/msg/_originbot_status_s.c.o[0m
+[18.528s] [ 87%] [32mBuilding C object CMakeFiles/originbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/originbot_msgs/srv/_originbot_pid_s.c.o[0m
+[19.226s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/originbot_msgs/liboriginbot_msgs__rosidl_generator_py.so[0m
+[19.455s] [ 89%] Built target originbot_msgs__rosidl_generator_py
+[19.543s] [ 94%] [32mBuilding C object CMakeFiles/originbot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/originbot_msgs/_originbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[19.544s] [ 94%] [32mBuilding C object CMakeFiles/originbot_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/originbot_msgs/_originbot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[19.545s] [ 94%] [32mBuilding C object CMakeFiles/originbot_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/originbot_msgs/_originbot_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[20.188s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/originbot_msgs/originbot_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[20.195s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/originbot_msgs/originbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[20.201s] [100%] [32m[1mLinking C shared library rosidl_generator_py/originbot_msgs/originbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[20.353s] [100%] Built target originbot_msgs__rosidl_typesupport_c__pyext
+[20.364s] [100%] Built target originbot_msgs__rosidl_typesupport_introspection_c__pyext
+[20.372s] [100%] Built target originbot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[20.430s] Invoked command in '/userdata/dev_ws/build/originbot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/originbot_msgs -- -j8 -l8
+[20.482s] Invoking command in '/userdata/dev_ws/build/originbot_msgs': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/originbot_msgs
+[20.517s] -- Install configuration: ""
+[20.520s] -- Execute custom install script
+[20.521s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/ament_index/resource_index/rosidl_interfaces/originbot_msgs
+[20.563s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/msg/detail/originbot_status__functions.h
+[20.602s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/msg/detail/originbot_status__struct.h
+[20.651s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/msg/detail/originbot_status__type_support.h
+[20.699s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/msg/originbot_status.h
+[20.748s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/msg/rosidl_generator_c__visibility_control.h
+[20.799s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/detail/originbot_buzzer__functions.h
+[20.847s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/detail/originbot_buzzer__struct.h
+[20.898s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/detail/originbot_buzzer__type_support.h
+[20.950s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/detail/originbot_led__functions.h
+[21.002s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/detail/originbot_led__struct.h
+[21.050s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/detail/originbot_led__type_support.h
+[21.099s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/detail/originbot_pid__functions.h
+[21.146s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/detail/originbot_pid__struct.h
+[21.194s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/detail/originbot_pid__type_support.h
+[21.242s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/originbot_buzzer.h
+[21.292s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/originbot_led.h
+[21.338s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/originbot_pid.h
+[21.381s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/environment/library_path.sh
+[21.430s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/environment/library_path.dsv
+[21.487s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/msg/detail/originbot_status__rosidl_typesupport_fastrtps_c.h
+[21.533s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[21.583s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/detail/originbot_buzzer__rosidl_typesupport_fastrtps_c.h
+[21.633s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/detail/originbot_led__rosidl_typesupport_fastrtps_c.h
+[21.681s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/detail/originbot_pid__rosidl_typesupport_fastrtps_c.h
+[21.737s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/msg/detail/originbot_status__rosidl_typesupport_introspection_c.h
+[21.784s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[21.832s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/detail/originbot_buzzer__rosidl_typesupport_introspection_c.h
+[21.882s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/detail/originbot_led__rosidl_typesupport_introspection_c.h
+[21.933s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/detail/originbot_pid__rosidl_typesupport_introspection_c.h
+[21.990s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/msg/detail/originbot_status__builder.hpp
+[22.037s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/msg/detail/originbot_status__struct.hpp
+[22.088s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/msg/detail/originbot_status__traits.hpp
+[22.153s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/msg/detail/originbot_status__type_support.hpp
+[22.202s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/msg/originbot_status.hpp
+[22.251s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[22.302s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/detail/originbot_buzzer__builder.hpp
+[22.352s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/detail/originbot_buzzer__struct.hpp
+[22.402s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/detail/originbot_buzzer__traits.hpp
+[22.451s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/detail/originbot_buzzer__type_support.hpp
+[22.501s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/detail/originbot_led__builder.hpp
+[22.580s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/detail/originbot_led__struct.hpp
+[22.603s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/detail/originbot_led__traits.hpp
+[22.652s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/detail/originbot_led__type_support.hpp
+[22.702s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/detail/originbot_pid__builder.hpp
+[22.752s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/detail/originbot_pid__struct.hpp
+[22.802s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/detail/originbot_pid__traits.hpp
+[22.851s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/detail/originbot_pid__type_support.hpp
+[22.899s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/originbot_buzzer.hpp
+[22.950s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/originbot_led.hpp
+[23.001s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/originbot_pid.hpp
+[23.059s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/msg/detail/originbot_status__rosidl_typesupport_fastrtps_cpp.hpp
+[23.107s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[23.155s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/detail/originbot_buzzer__rosidl_typesupport_fastrtps_cpp.hpp
+[23.205s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/detail/originbot_led__rosidl_typesupport_fastrtps_cpp.hpp
+[23.253s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/detail/originbot_pid__rosidl_typesupport_fastrtps_cpp.hpp
+[23.308s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/msg/detail/originbot_status__rosidl_typesupport_introspection_cpp.hpp
+[23.356s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/detail/originbot_buzzer__rosidl_typesupport_introspection_cpp.hpp
+[23.406s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/detail/originbot_led__rosidl_typesupport_introspection_cpp.hpp
+[23.455s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/include/originbot_msgs/originbot_msgs/srv/detail/originbot_pid__rosidl_typesupport_introspection_cpp.hpp
+[23.508s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/environment/pythonpath.sh
+[23.557s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/environment/pythonpath.dsv
+[23.613s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages/originbot_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[23.659s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages/originbot_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[23.706s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages/originbot_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[23.748s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages/originbot_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[23.795s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages/originbot_msgs/__init__.py
+[23.832s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages/originbot_msgs/_originbot_msgs_s.ep.rosidl_typesupport_c.c
+[23.874s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages/originbot_msgs/_originbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[23.915s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages/originbot_msgs/_originbot_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[23.954s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages/originbot_msgs/liboriginbot_msgs__rosidl_generator_py.so
+[23.992s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages/originbot_msgs/msg/__init__.py
+[24.031s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages/originbot_msgs/msg/_originbot_status.py
+[24.071s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages/originbot_msgs/msg/_originbot_status_s.c
+[24.112s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages/originbot_msgs/originbot_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[24.160s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages/originbot_msgs/originbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[24.211s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages/originbot_msgs/originbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[24.261s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages/originbot_msgs/srv/__init__.py
+[24.313s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages/originbot_msgs/srv/_originbot_buzzer.py
+[24.356s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages/originbot_msgs/srv/_originbot_buzzer_s.c
+[24.397s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages/originbot_msgs/srv/_originbot_led.py
+[24.437s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages/originbot_msgs/srv/_originbot_led_s.c
+[24.479s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages/originbot_msgs/srv/_originbot_pid.py
+[24.528s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages/originbot_msgs/srv/_originbot_pid_s.c
+[24.584s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages/originbot_msgs/originbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[24.589s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages/originbot_msgs/originbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[24.594s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages/originbot_msgs/originbot_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[24.598s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/msg/OriginbotStatus.idl
+[24.648s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/srv/OriginbotBuzzer.idl
+[24.697s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/srv/OriginbotLed.idl
+[24.745s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/srv/OriginbotPID.idl
+[24.794s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/msg/OriginbotStatus.msg
+[24.843s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/srv/OriginbotBuzzer.srv
+[24.892s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/srv/OriginbotBuzzer_Request.msg
+[24.943s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/srv/OriginbotBuzzer_Response.msg
+[24.991s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/srv/OriginbotLed.srv
+[25.042s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/srv/OriginbotLed_Request.msg
+[25.091s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/srv/OriginbotLed_Response.msg
+[25.140s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/srv/OriginbotPID.srv
+[25.189s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/srv/OriginbotPID_Request.msg
+[25.240s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/srv/OriginbotPID_Response.msg
+[25.290s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/ament_index/resource_index/package_run_dependencies/originbot_msgs
+[25.339s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/ament_index/resource_index/parent_prefix_path/originbot_msgs
+[25.386s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/environment/ament_prefix_path.sh
+[25.431s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/environment/ament_prefix_path.dsv
+[25.473s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/environment/path.sh
+[25.522s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/environment/path.dsv
+[25.571s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/local_setup.bash
+[25.617s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/local_setup.sh
+[25.658s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/local_setup.zsh
+[25.701s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/local_setup.dsv
+[25.754s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/package.dsv
+[25.802s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/ament_index/resource_index/packages/originbot_msgs
+[25.853s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/cmake/rosidl_cmake-extras.cmake
+[25.902s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[25.951s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[26.001s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[26.050s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[26.098s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.148s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[26.197s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/cmake/originbot_msgsConfig.cmake
+[26.245s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/cmake/originbot_msgsConfig-version.cmake
+[26.296s] -- Symlinking: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/package.xml
+[26.347s] -- Installing: /userdata/dev_ws/install/originbot_msgs/lib/liboriginbot_msgs__rosidl_generator_c.so
+[26.356s] -- Set runtime path of "/userdata/dev_ws/install/originbot_msgs/lib/liboriginbot_msgs__rosidl_generator_c.so" to ""
+[26.358s] -- Installing: /userdata/dev_ws/install/originbot_msgs/lib/liboriginbot_msgs__rosidl_typesupport_fastrtps_c.so
+[26.364s] -- Set runtime path of "/userdata/dev_ws/install/originbot_msgs/lib/liboriginbot_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[26.366s] -- Installing: /userdata/dev_ws/install/originbot_msgs/lib/liboriginbot_msgs__rosidl_typesupport_introspection_c.so
+[26.374s] -- Set runtime path of "/userdata/dev_ws/install/originbot_msgs/lib/liboriginbot_msgs__rosidl_typesupport_introspection_c.so" to ""
+[26.376s] -- Installing: /userdata/dev_ws/install/originbot_msgs/lib/liboriginbot_msgs__rosidl_typesupport_c.so
+[26.380s] -- Set runtime path of "/userdata/dev_ws/install/originbot_msgs/lib/liboriginbot_msgs__rosidl_typesupport_c.so" to ""
+[26.381s] -- Installing: /userdata/dev_ws/install/originbot_msgs/lib/liboriginbot_msgs__rosidl_typesupport_fastrtps_cpp.so
+[26.384s] -- Set runtime path of "/userdata/dev_ws/install/originbot_msgs/lib/liboriginbot_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[26.385s] -- Installing: /userdata/dev_ws/install/originbot_msgs/lib/liboriginbot_msgs__rosidl_typesupport_introspection_cpp.so
+[26.389s] -- Set runtime path of "/userdata/dev_ws/install/originbot_msgs/lib/liboriginbot_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[26.390s] -- Installing: /userdata/dev_ws/install/originbot_msgs/lib/liboriginbot_msgs__rosidl_typesupport_cpp.so
+[26.393s] -- Set runtime path of "/userdata/dev_ws/install/originbot_msgs/lib/liboriginbot_msgs__rosidl_typesupport_cpp.so" to ""
+[26.610s] Listing '/userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages/originbot_msgs'...
+[26.610s] Compiling '/userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages/originbot_msgs/__init__.py'...
+[26.611s] Listing '/userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages/originbot_msgs/msg'...
+[26.612s] Compiling '/userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages/originbot_msgs/msg/__init__.py'...
+[26.612s] Compiling '/userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages/originbot_msgs/msg/_originbot_status.py'...
+[26.612s] Listing '/userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages/originbot_msgs/srv'...
+[26.613s] Compiling '/userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages/originbot_msgs/srv/__init__.py'...
+[26.613s] Compiling '/userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages/originbot_msgs/srv/_originbot_buzzer.py'...
+[26.614s] Compiling '/userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages/originbot_msgs/srv/_originbot_led.py'...
+[26.614s] Compiling '/userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages/originbot_msgs/srv/_originbot_pid.py'...
+[26.647s] -- Installing: /userdata/dev_ws/install/originbot_msgs/lib/liboriginbot_msgs__rosidl_generator_py.so
+[26.651s] -- Set runtime path of "/userdata/dev_ws/install/originbot_msgs/lib/liboriginbot_msgs__rosidl_generator_py.so" to ""
+[26.652s] -- Installing: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/cmake/export_originbot_msgs__rosidl_generator_cExport.cmake
+[26.653s] -- Installing: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/cmake/export_originbot_msgs__rosidl_generator_cExport-noconfig.cmake
+[26.654s] -- Installing: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/cmake/export_originbot_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[26.656s] -- Installing: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/cmake/export_originbot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[26.657s] -- Installing: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/cmake/originbot_msgs__rosidl_typesupport_introspection_cExport.cmake
+[26.658s] -- Installing: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/cmake/originbot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[26.660s] -- Installing: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/cmake/originbot_msgs__rosidl_typesupport_cExport.cmake
+[26.661s] -- Installing: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/cmake/originbot_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[26.662s] -- Installing: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/cmake/export_originbot_msgs__rosidl_generator_cppExport.cmake
+[26.664s] -- Installing: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/cmake/export_originbot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[26.665s] -- Installing: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/cmake/export_originbot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[26.667s] -- Installing: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/cmake/originbot_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[26.668s] -- Installing: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/cmake/originbot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[26.669s] -- Installing: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/cmake/originbot_msgs__rosidl_typesupport_cppExport.cmake
+[26.671s] -- Installing: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/cmake/originbot_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[26.672s] -- Installing: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/cmake/export_originbot_msgs__rosidl_generator_pyExport.cmake
+[26.674s] -- Installing: /userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/cmake/export_originbot_msgs__rosidl_generator_pyExport-noconfig.cmake
+[26.688s] Invoked command in '/userdata/dev_ws/build/originbot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/originbot_msgs

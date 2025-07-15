@@ -1,0 +1,37 @@
+[0.176s] Invoking command in '/userdata/dev_ws/build/body_tracking': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/body_tracking -- -j8 -l8
+[0.393s] [35m[1mConsolidate compiler generated dependencies of target body_tracking[0m
+[0.667s] [100%] Built target body_tracking
+[1.033s] Invoked command in '/userdata/dev_ws/build/body_tracking' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/body_tracking -- -j8 -l8
+[1.038s] Invoking command in '/userdata/dev_ws/build/body_tracking': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/body_tracking
+[1.240s] -- Install configuration: ""
+[1.241s] -- Execute custom install script
+[1.242s] -- Symlinking: /userdata/dev_ws/install/body_tracking/lib/body_tracking/body_tracking
+[1.243s] -- Symlinking: /userdata/dev_ws/install/body_tracking/share/body_tracking/launch/body_tracking.launch.py
+[1.249s] -- Symlinking: /userdata/dev_ws/install/body_tracking/share/body_tracking/launch/body_tracking_without_gesture.launch.py
+[1.256s] -- Symlinking: /userdata/dev_ws/install/body_tracking/share/body_tracking/launch/body_tracking_without_input_node.launch.py
+[1.294s] -- Symlinking: /userdata/dev_ws/install/body_tracking/lib/body_tracking/README.md
+[1.346s] -- Symlinking: /userdata/dev_ws/install/body_tracking/lib/body_tracking/images/20220922180336.png
+[1.362s] -- Symlinking: /userdata/dev_ws/install/body_tracking/lib/body_tracking/images/body_detection.gif
+[1.403s] -- Symlinking: /userdata/dev_ws/install/body_tracking/lib/body_tracking/images/ezgif-5-5c246b7347.gif
+[1.445s] -- Symlinking: /userdata/dev_ws/install/body_tracking/lib/body_tracking/images/gazebo1.jpeg
+[1.485s] -- Symlinking: /userdata/dev_ws/install/body_tracking/lib/body_tracking/images/image-ok.png
+[1.522s] -- Symlinking: /userdata/dev_ws/install/body_tracking/lib/body_tracking/images/image-palm.png
+[1.589s] -- Symlinking: /userdata/dev_ws/install/body_tracking/lib/body_tracking/images/interfaces.jpg
+[1.630s] -- Symlinking: /userdata/dev_ws/install/body_tracking/lib/body_tracking/images/tracking.gif
+[1.669s] -- Symlinking: /userdata/dev_ws/install/body_tracking/lib/body_tracking/images/webservice.jpeg
+[1.709s] -- Symlinking: /userdata/dev_ws/install/body_tracking/share/ament_index/resource_index/package_run_dependencies/body_tracking
+[1.749s] -- Symlinking: /userdata/dev_ws/install/body_tracking/share/ament_index/resource_index/parent_prefix_path/body_tracking
+[1.788s] -- Symlinking: /userdata/dev_ws/install/body_tracking/share/body_tracking/environment/ament_prefix_path.sh
+[1.829s] -- Symlinking: /userdata/dev_ws/install/body_tracking/share/body_tracking/environment/ament_prefix_path.dsv
+[1.869s] -- Symlinking: /userdata/dev_ws/install/body_tracking/share/body_tracking/environment/path.sh
+[1.910s] -- Symlinking: /userdata/dev_ws/install/body_tracking/share/body_tracking/environment/path.dsv
+[1.948s] -- Symlinking: /userdata/dev_ws/install/body_tracking/share/body_tracking/local_setup.bash
+[1.986s] -- Symlinking: /userdata/dev_ws/install/body_tracking/share/body_tracking/local_setup.sh
+[2.028s] -- Symlinking: /userdata/dev_ws/install/body_tracking/share/body_tracking/local_setup.zsh
+[2.067s] -- Symlinking: /userdata/dev_ws/install/body_tracking/share/body_tracking/local_setup.dsv
+[2.106s] -- Symlinking: /userdata/dev_ws/install/body_tracking/share/body_tracking/package.dsv
+[2.145s] -- Symlinking: /userdata/dev_ws/install/body_tracking/share/ament_index/resource_index/packages/body_tracking
+[2.184s] -- Symlinking: /userdata/dev_ws/install/body_tracking/share/body_tracking/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.225s] -- Symlinking: /userdata/dev_ws/install/body_tracking/share/body_tracking/cmake/body_trackingConfig.cmake
+[2.262s] -- Symlinking: /userdata/dev_ws/install/body_tracking/share/body_tracking/cmake/body_trackingConfig-version.cmake
+[2.302s] -- Symlinking: /userdata/dev_ws/install/body_tracking/share/body_tracking/package.xml

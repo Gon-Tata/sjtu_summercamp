@@ -1,0 +1,53 @@
+[01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/src/line_follower_perception.cpp:[m[K In member function ‘[01m[Kvoid LineFollowerPerceptionNode::subscription_callback(hbm_img_msgs::msg::HbmMsg1080P_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/src/line_follower_perception.cpp:170:7:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kret[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  170 |   int [01;35m[Kret[m[K = 0;
+      |       [01;35m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/include/line_follower_perception/line_follower_perception.h:20[m[K,
+                 from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/src/line_follower_perception.cpp:15[m[K:
+[01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/src/line_follower_perception.cpp:[m[K In member function ‘[01m[Kint LineFollowerPerceptionNode::Predict(std::vector<std::shared_ptr<hobot::easy_dnn::DNNInput> >&, const std::shared_ptr<hobot::dnn_node::DnnNodeOutput>&, std::shared_ptr<std::vector<hbDNNRoi> >)[m[K’:
+[01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/src/line_follower_perception.cpp:234:65:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<std::shared_ptr<hobot::easy_dnn::DNNInput> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  234 |   RCLCPP_INFO(rclcpp::get_logger("LineFollowerPerceptionNode"), [01;35m[K"input size:%d roi size:%d"[m[K, [32m[Kdnn_inputs.size()[m[K, rois->size());
+      |                                                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                                             [32m[K|[m[K
+      |                                                                                                             [32m[Kstd::vector<std::shared_ptr<hobot::easy_dnn::DNNInput> >::size_type {aka long unsigned int}[m[K
+[01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/src/line_follower_perception.cpp:234:78:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  234 |   RCLCPP_INFO(rclcpp::get_logger("LineFollowerPerceptionNode"), "input size:[01;36m[K%d[m[K roi size:%d", dnn_inputs.size(), rois->size());
+      |                                                                             [01;36m[K~^[m[K
+      |                                                                              [01;36m[K|[m[K
+      |                                                                              [01;36m[Kint[m[K
+      |                                                                             [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/include/line_follower_perception/line_follower_perception.h:20[m[K,
+                 from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/src/line_follower_perception.cpp:15[m[K:
+[01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/src/line_follower_perception.cpp:234:65:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kstd::vector<hbDNNRoi>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  234 |   RCLCPP_INFO(rclcpp::get_logger("LineFollowerPerceptionNode"), [01;35m[K"input size:%d roi size:%d"[m[K, dnn_inputs.size(), [32m[Krois->size()[m[K);
+      |                                                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                     [32m[K~~~~~~~~~~~~[m[K
+      |                                                                                                                           [32m[K|[m[K
+      |                                                                                                                           [32m[Kstd::vector<hbDNNRoi>::size_type {aka long unsigned int}[m[K
+[01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/src/line_follower_perception.cpp:234:90:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  234 |   RCLCPP_INFO(rclcpp::get_logger("LineFollowerPerceptionNode"), "input size:%d roi size:[01;36m[K%d[m[K", dnn_inputs.size(), rois->size());
+      |                                                                                         [01;36m[K~^[m[K
+      |                                                                                          [01;36m[K|[m[K
+      |                                                                                          [01;36m[Kint[m[K
+      |                                                                                         [32m[K%ld[m[K

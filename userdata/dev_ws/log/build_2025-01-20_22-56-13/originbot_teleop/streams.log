@@ -1,0 +1,23 @@
+[0.509s] Invoking command in '/userdata/dev_ws/build/originbot_teleop': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/originbot_teleop -- -j8 -l8
+[0.787s] [100%] Built target originbot_teleop
+[0.861s] Invoked command in '/userdata/dev_ws/build/originbot_teleop' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/originbot_teleop -- -j8 -l8
+[0.864s] Invoking command in '/userdata/dev_ws/build/originbot_teleop': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/originbot_teleop
+[0.895s] -- Install configuration: ""
+[0.896s] -- Execute custom install script
+[0.898s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_teleop/lib/originbot_teleop/originbot_teleop
+[0.899s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_teleop/share/ament_index/resource_index/package_run_dependencies/originbot_teleop
+[0.900s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_teleop/share/ament_index/resource_index/parent_prefix_path/originbot_teleop
+[0.901s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_teleop/share/originbot_teleop/environment/ament_prefix_path.sh
+[0.902s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_teleop/share/originbot_teleop/environment/ament_prefix_path.dsv
+[0.903s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_teleop/share/originbot_teleop/environment/path.sh
+[0.903s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_teleop/share/originbot_teleop/environment/path.dsv
+[0.904s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_teleop/share/originbot_teleop/local_setup.bash
+[0.905s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_teleop/share/originbot_teleop/local_setup.sh
+[0.906s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_teleop/share/originbot_teleop/local_setup.zsh
+[0.908s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_teleop/share/originbot_teleop/local_setup.dsv
+[0.908s] -- Symlinking: /userdata/dev_ws/install/originbot_teleop/share/originbot_teleop/package.dsv
+[0.983s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_teleop/share/ament_index/resource_index/packages/originbot_teleop
+[0.984s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_teleop/share/originbot_teleop/cmake/originbot_teleopConfig.cmake
+[0.985s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_teleop/share/originbot_teleop/cmake/originbot_teleopConfig-version.cmake
+[0.986s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_teleop/share/originbot_teleop/package.xml
+[1.001s] Invoked command in '/userdata/dev_ws/build/originbot_teleop' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/originbot_teleop

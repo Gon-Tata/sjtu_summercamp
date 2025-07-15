@@ -1,0 +1,8 @@
+<launch>
+  <node pkg="cpp_pubsub" exec="talker" name="test_node" namespace="name_1"/>
+  <node pkg="cpp_pubsub" exec="listener" name="test_node" namespace="name_2"/>
+  
+    <!-- <remap from="/global_path" to="/test_node3/global_path"/> -->
+  </node> 
+
+</launch>

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e9efb2efe0b7ee24e158.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "originbot_qrcode_detect",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "originbot_qrcode_detect_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-originbot_qrcode_detect_uninstall-4857dfd23f1163d00365.json",
+					"name" : "originbot_qrcode_detect_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qr_decoder::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qr_decoder-875196919b3171363644.json",
+					"name" : "qr_decoder",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qrcode_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qrcode_control-75a1f29e2ab75857c36e.json",
+					"name" : "qrcode_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-cc584fe84ec72a2e0a80.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/userdata/dev_ws/build/originbot_qrcode_detect",
+		"source" : "/userdata/dev_ws/src/originbot/originbot_example/originbot_qrcode_detect"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "originbot_msgs__py",
+		"source" : "/userdata/dev_ws/build/originbot_msgs/originbot_msgs__py"
+	}
+}

@@ -1,0 +1,17 @@
+[0.175s] Invoking command in '/userdata/dev_ws/build/line_follower_perception': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/line_follower_perception -- -j8 -l8
+[0.483s] [35m[1mConsolidate compiler generated dependencies of target line_follower_perception[0m
+[0.734s] [100%] Built target line_follower_perception
+[1.172s] Invoked command in '/userdata/dev_ws/build/line_follower_perception' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/line_follower_perception -- -j8 -l8
+[1.176s] Invoking command in '/userdata/dev_ws/build/line_follower_perception': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/line_follower_perception
+[1.322s] -- Install configuration: ""
+[1.323s] -- Execute custom install script
+[1.325s] -- Up-to-date symlink: /userdata/dev_ws/install/line_follower_perception/lib/line_follower_perception/line_follower_perception
+[1.326s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[1.327s]   ament_cmake_symlink_install_directory() can't find
+[1.329s]   '/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/config/'
+[1.331s] Call Stack (most recent call first):
+[1.332s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317 (ament_cmake_symlink_install_directory)
+[1.333s]   cmake_install.cmake:46 (include)
+[1.335s] 
+[1.336s] [0m
+[1.522s] Invoked command in '/userdata/dev_ws/build/line_follower_perception' returned '1': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/line_follower_perception

@@ -1,0 +1,866 @@
+[0.000000] (-) TimerEvent: {}
+[0.001125] (-) JobUnselected: {'identifier': 'body_tracking'}
+[0.002174] (-) JobUnselected: {'identifier': 'gesture_control'}
+[0.002837] (-) JobUnselected: {'identifier': 'originbot_base'}
+[0.003565] (-) JobUnselected: {'identifier': 'originbot_bringup'}
+[0.003815] (-) JobUnselected: {'identifier': 'originbot_demo'}
+[0.004045] (-) JobUnselected: {'identifier': 'originbot_linefollower'}
+[0.004336] (-) JobUnselected: {'identifier': 'originbot_msgs'}
+[0.004553] (-) JobUnselected: {'identifier': 'originbot_navigation'}
+[0.004771] (-) JobUnselected: {'identifier': 'originbot_qrcode_detect'}
+[0.004987] (-) JobUnselected: {'identifier': 'originbot_send_goal'}
+[0.005207] (-) JobUnselected: {'identifier': 'originbot_teleop'}
+[0.005423] (-) JobUnselected: {'identifier': 'qpOASES'}
+[0.005644] (-) JobUnselected: {'identifier': 'serial'}
+[0.005939] (-) JobUnselected: {'identifier': 'vp100_ros2'}
+[0.006236] (line_follower_perception) JobQueued: {'identifier': 'line_follower_perception', 'dependencies': OrderedDict()}
+[0.006368] (line_follower_perception) JobStarted: {'identifier': 'line_follower_perception'}
+[0.060056] (line_follower_perception) JobProgress: {'identifier': 'line_follower_perception', 'progress': 'cmake'}
+[0.067539] (line_follower_perception) Command: {'cmd': ['/usr/bin/cmake', '/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception', '-DCMAKE_INSTALL_PREFIX=/userdata/dev_ws/install/line_follower_perception'], 'cwd': '/userdata/dev_ws/build/line_follower_perception', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.137.1 64309 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/originbot_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/userdata'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('DEBUGINFOD_URLS', ''), ('TROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/userdata/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/humble/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.tuna.tsinghua.edu.cn/rosdistro/index-v4.yaml'), ('AMENT_PREFIX_PATH', '/userdata/dev_ws/install/vp100_ros2:/userdata/dev_ws/install/originbot_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/originbot_teleop:/userdata/dev_ws/install/originbot_send_goal:/userdata/dev_ws/install/originbot_qrcode_detect:/userdata/dev_ws/install/originbot_navigation:/userdata/dev_ws/install/originbot_linefollower:/userdata/dev_ws/install/originbot_demo:/userdata/dev_ws/install/originbot_msgs:/userdata/dev_ws/install/originbot_bringup:/userdata/dev_ws/install/line_follower_perception:/userdata/dev_ws/install/gesture_control:/userdata/dev_ws/install/body_tracking:/opt/tros/humble:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/userdata/dev_ws/build/line_follower_perception'), ('SSH_CONNECTION', '192.168.137.1 64309 192.168.137.133 22'), ('PYTHONPATH', '/userdata/dev_ws/build/originbot_linefollower:/userdata/dev_ws/install/originbot_linefollower/lib/python3.10/site-packages:/userdata/dev_ws/build/originbot_demo:/userdata/dev_ws/install/originbot_demo/lib/python3.10/site-packages:/userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/userdata/dev_ws/install/vp100_ros2:/userdata/dev_ws/install/originbot_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/originbot_teleop:/userdata/dev_ws/install/originbot_send_goal:/userdata/dev_ws/install/originbot_qrcode_detect:/userdata/dev_ws/install/originbot_navigation:/userdata/dev_ws/install/originbot_msgs:/userdata/dev_ws/install/originbot_bringup:/userdata/dev_ws/install/line_follower_perception:/userdata/dev_ws/install/gesture_control:/userdata/dev_ws/install/body_tracking:/userdata/dev_ws/install/originbot_linefollower:/userdata/dev_ws/install/originbot_demo:/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[0.098707] (-) TimerEvent: {}
+[0.199552] (-) TimerEvent: {}
+[0.255303] (line_follower_perception) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299710] (-) TimerEvent: {}
+[0.400644] (-) TimerEvent: {}
+[0.501527] (-) TimerEvent: {}
+[0.602472] (-) TimerEvent: {}
+[0.703342] (-) TimerEvent: {}
+[0.804083] (-) TimerEvent: {}
+[0.904826] (-) TimerEvent: {}
+[1.005628] (-) TimerEvent: {}
+[1.074538] (line_follower_perception) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.105847] (-) TimerEvent: {}
+[1.154417] (line_follower_perception) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.206032] (-) TimerEvent: {}
+[1.306853] (-) TimerEvent: {}
+[1.336088] (line_follower_perception) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.354559] (line_follower_perception) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.395147] (line_follower_perception) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.406964] (-) TimerEvent: {}
+[1.463713] (line_follower_perception) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.507147] (-) TimerEvent: {}
+[1.549032] (line_follower_perception) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.607294] (-) TimerEvent: {}
+[1.708073] (-) TimerEvent: {}
+[1.799084] (line_follower_perception) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.808277] (-) TimerEvent: {}
+[1.812384] (line_follower_perception) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.908476] (-) TimerEvent: {}
+[2.009296] (-) TimerEvent: {}
+[2.110134] (-) TimerEvent: {}
+[2.210978] (-) TimerEvent: {}
+[2.311828] (-) TimerEvent: {}
+[2.339690] (line_follower_perception) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.411991] (-) TimerEvent: {}
+[2.512790] (-) TimerEvent: {}
+[2.613603] (-) TimerEvent: {}
+[2.669167] (line_follower_perception) StdoutLine: {'line': b'-- Found dnn_node: 2.4.2 (/opt/tros/humble/share/dnn_node/cmake)\n'}
+[2.681381] (line_follower_perception) StdoutLine: {'line': b'-- Found hbm_img_msgs: 2.0.0 (/opt/tros/humble/share/hbm_img_msgs/cmake)\n'}
+[2.713735] (-) TimerEvent: {}
+[2.757194] (line_follower_perception) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.813901] (-) TimerEvent: {}
+[2.884690] (line_follower_perception) StdoutLine: {'line': b'-- Found hobot_cv: 2.3.0 (/opt/tros/humble/share/hobot_cv/cmake)\n'}
+[2.914042] (-) TimerEvent: {}
+[2.920476] (line_follower_perception) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.014163] (-) TimerEvent: {}
+[3.114944] (-) TimerEvent: {}
+[3.215748] (-) TimerEvent: {}
+[3.316538] (-) TimerEvent: {}
+[3.416326] (line_follower_perception) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.417196] (-) TimerEvent: {}
+[3.422300] (line_follower_perception) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.423222] (line_follower_perception) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/include>\n'}
+[3.423841] (line_follower_perception) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.427835] (line_follower_perception) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.428411] (line_follower_perception) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.432064] (line_follower_perception) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.438581] (line_follower_perception) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.439274] (line_follower_perception) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.441411] (line_follower_perception) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.450081] (line_follower_perception) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.517407] (-) TimerEvent: {}
+[3.553801] (line_follower_perception) StdoutLine: {'line': b'-- Generating done\n'}
+[3.579915] (line_follower_perception) StdoutLine: {'line': b'-- Build files have been written to: /userdata/dev_ws/build/line_follower_perception\n'}
+[3.617584] (-) TimerEvent: {}
+[3.641283] (line_follower_perception) CommandEnded: {'returncode': 0}
+[3.650932] (line_follower_perception) JobProgress: {'identifier': 'line_follower_perception', 'progress': 'build'}
+[3.668986] (line_follower_perception) Command: {'cmd': ['/usr/bin/cmake', '--build', '/userdata/dev_ws/build/line_follower_perception', '--', '-j8', '-l8'], 'cwd': '/userdata/dev_ws/build/line_follower_perception', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.137.1 64309 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/originbot_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/userdata'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('DEBUGINFOD_URLS', ''), ('TROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/userdata/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/humble/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.tuna.tsinghua.edu.cn/rosdistro/index-v4.yaml'), ('AMENT_PREFIX_PATH', '/userdata/dev_ws/install/vp100_ros2:/userdata/dev_ws/install/originbot_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/originbot_teleop:/userdata/dev_ws/install/originbot_send_goal:/userdata/dev_ws/install/originbot_qrcode_detect:/userdata/dev_ws/install/originbot_navigation:/userdata/dev_ws/install/originbot_linefollower:/userdata/dev_ws/install/originbot_demo:/userdata/dev_ws/install/originbot_msgs:/userdata/dev_ws/install/originbot_bringup:/userdata/dev_ws/install/line_follower_perception:/userdata/dev_ws/install/gesture_control:/userdata/dev_ws/install/body_tracking:/opt/tros/humble:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/userdata/dev_ws/build/line_follower_perception'), ('SSH_CONNECTION', '192.168.137.1 64309 192.168.137.133 22'), ('PYTHONPATH', '/userdata/dev_ws/build/originbot_linefollower:/userdata/dev_ws/install/originbot_linefollower/lib/python3.10/site-packages:/userdata/dev_ws/build/originbot_demo:/userdata/dev_ws/install/originbot_demo/lib/python3.10/site-packages:/userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/userdata/dev_ws/install/vp100_ros2:/userdata/dev_ws/install/originbot_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/originbot_teleop:/userdata/dev_ws/install/originbot_send_goal:/userdata/dev_ws/install/originbot_qrcode_detect:/userdata/dev_ws/install/originbot_navigation:/userdata/dev_ws/install/originbot_msgs:/userdata/dev_ws/install/originbot_bringup:/userdata/dev_ws/install/line_follower_perception:/userdata/dev_ws/install/gesture_control:/userdata/dev_ws/install/body_tracking:/userdata/dev_ws/install/originbot_linefollower:/userdata/dev_ws/install/originbot_demo:/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[3.717769] (-) TimerEvent: {}
+[3.818676] (-) TimerEvent: {}
+[3.892793] (line_follower_perception) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target line_follower_perception\x1b[0m\n'}
+[3.918850] (-) TimerEvent: {}
+[4.019757] (-) TimerEvent: {}
+[4.107293] (line_follower_perception) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/line_follower_perception.dir/src/line_follower_perception.cpp.o\x1b[0m\n'}
+[4.119985] (-) TimerEvent: {}
+[4.221181] (-) TimerEvent: {}
+[4.322456] (-) TimerEvent: {}
+[4.424202] (-) TimerEvent: {}
+[4.525886] (-) TimerEvent: {}
+[4.626840] (-) TimerEvent: {}
+[4.727752] (-) TimerEvent: {}
+[4.828597] (-) TimerEvent: {}
+[4.929397] (-) TimerEvent: {}
+[5.030268] (-) TimerEvent: {}
+[5.131115] (-) TimerEvent: {}
+[5.231923] (-) TimerEvent: {}
+[5.332717] (-) TimerEvent: {}
+[5.433525] (-) TimerEvent: {}
+[5.534337] (-) TimerEvent: {}
+[5.635155] (-) TimerEvent: {}
+[5.735983] (-) TimerEvent: {}
+[5.836811] (-) TimerEvent: {}
+[5.937641] (-) TimerEvent: {}
+[6.038503] (-) TimerEvent: {}
+[6.139340] (-) TimerEvent: {}
+[6.240216] (-) TimerEvent: {}
+[6.341023] (-) TimerEvent: {}
+[6.441830] (-) TimerEvent: {}
+[6.542636] (-) TimerEvent: {}
+[6.643470] (-) TimerEvent: {}
+[6.744481] (-) TimerEvent: {}
+[6.845372] (-) TimerEvent: {}
+[6.946256] (-) TimerEvent: {}
+[7.047244] (-) TimerEvent: {}
+[7.148147] (-) TimerEvent: {}
+[7.249016] (-) TimerEvent: {}
+[7.349913] (-) TimerEvent: {}
+[7.450751] (-) TimerEvent: {}
+[7.551594] (-) TimerEvent: {}
+[7.652432] (-) TimerEvent: {}
+[7.753296] (-) TimerEvent: {}
+[7.854155] (-) TimerEvent: {}
+[7.955025] (-) TimerEvent: {}
+[8.055924] (-) TimerEvent: {}
+[8.156795] (-) TimerEvent: {}
+[8.257671] (-) TimerEvent: {}
+[8.358526] (-) TimerEvent: {}
+[8.459378] (-) TimerEvent: {}
+[8.560259] (-) TimerEvent: {}
+[8.661086] (-) TimerEvent: {}
+[8.761941] (-) TimerEvent: {}
+[8.862802] (-) TimerEvent: {}
+[8.963674] (-) TimerEvent: {}
+[9.064548] (-) TimerEvent: {}
+[9.165443] (-) TimerEvent: {}
+[9.266315] (-) TimerEvent: {}
+[9.367176] (-) TimerEvent: {}
+[9.468061] (-) TimerEvent: {}
+[9.568931] (-) TimerEvent: {}
+[9.669811] (-) TimerEvent: {}
+[9.770638] (-) TimerEvent: {}
+[9.871492] (-) TimerEvent: {}
+[9.972365] (-) TimerEvent: {}
+[10.073238] (-) TimerEvent: {}
+[10.174120] (-) TimerEvent: {}
+[10.275006] (-) TimerEvent: {}
+[10.375875] (-) TimerEvent: {}
+[10.476738] (-) TimerEvent: {}
+[10.577606] (-) TimerEvent: {}
+[10.678457] (-) TimerEvent: {}
+[10.779307] (-) TimerEvent: {}
+[10.880235] (-) TimerEvent: {}
+[10.981144] (-) TimerEvent: {}
+[11.082063] (-) TimerEvent: {}
+[11.182947] (-) TimerEvent: {}
+[11.283838] (-) TimerEvent: {}
+[11.384725] (-) TimerEvent: {}
+[11.485575] (-) TimerEvent: {}
+[11.586433] (-) TimerEvent: {}
+[11.687305] (-) TimerEvent: {}
+[11.788190] (-) TimerEvent: {}
+[11.889037] (-) TimerEvent: {}
+[11.990493] (-) TimerEvent: {}
+[12.091356] (-) TimerEvent: {}
+[12.192201] (-) TimerEvent: {}
+[12.293038] (-) TimerEvent: {}
+[12.393906] (-) TimerEvent: {}
+[12.494789] (-) TimerEvent: {}
+[12.595640] (-) TimerEvent: {}
+[12.696485] (-) TimerEvent: {}
+[12.797347] (-) TimerEvent: {}
+[12.898215] (-) TimerEvent: {}
+[12.999102] (-) TimerEvent: {}
+[13.100024] (-) TimerEvent: {}
+[13.200883] (-) TimerEvent: {}
+[13.301717] (-) TimerEvent: {}
+[13.402543] (-) TimerEvent: {}
+[13.503434] (-) TimerEvent: {}
+[13.604343] (-) TimerEvent: {}
+[13.705253] (-) TimerEvent: {}
+[13.806156] (-) TimerEvent: {}
+[13.907067] (-) TimerEvent: {}
+[14.008001] (-) TimerEvent: {}
+[14.108883] (-) TimerEvent: {}
+[14.209776] (-) TimerEvent: {}
+[14.310645] (-) TimerEvent: {}
+[14.411494] (-) TimerEvent: {}
+[14.512360] (-) TimerEvent: {}
+[14.613207] (-) TimerEvent: {}
+[14.714166] (-) TimerEvent: {}
+[14.815027] (-) TimerEvent: {}
+[14.915903] (-) TimerEvent: {}
+[15.016802] (-) TimerEvent: {}
+[15.117687] (-) TimerEvent: {}
+[15.218540] (-) TimerEvent: {}
+[15.319412] (-) TimerEvent: {}
+[15.420395] (-) TimerEvent: {}
+[15.521302] (-) TimerEvent: {}
+[15.622180] (-) TimerEvent: {}
+[15.723074] (-) TimerEvent: {}
+[15.823966] (-) TimerEvent: {}
+[15.924854] (-) TimerEvent: {}
+[16.025775] (-) TimerEvent: {}
+[16.126682] (-) TimerEvent: {}
+[16.227562] (-) TimerEvent: {}
+[16.328467] (-) TimerEvent: {}
+[16.429372] (-) TimerEvent: {}
+[16.530320] (-) TimerEvent: {}
+[16.631201] (-) TimerEvent: {}
+[16.732090] (-) TimerEvent: {}
+[16.832977] (-) TimerEvent: {}
+[16.933885] (-) TimerEvent: {}
+[17.034834] (-) TimerEvent: {}
+[17.135771] (-) TimerEvent: {}
+[17.236683] (-) TimerEvent: {}
+[17.337545] (-) TimerEvent: {}
+[17.438433] (-) TimerEvent: {}
+[17.539314] (-) TimerEvent: {}
+[17.640239] (-) TimerEvent: {}
+[17.741109] (-) TimerEvent: {}
+[17.841991] (-) TimerEvent: {}
+[17.942908] (-) TimerEvent: {}
+[18.043828] (-) TimerEvent: {}
+[18.144748] (-) TimerEvent: {}
+[18.245660] (-) TimerEvent: {}
+[18.346562] (-) TimerEvent: {}
+[18.447453] (-) TimerEvent: {}
+[18.548341] (-) TimerEvent: {}
+[18.649250] (-) TimerEvent: {}
+[18.750182] (-) TimerEvent: {}
+[18.851054] (-) TimerEvent: {}
+[18.951945] (-) TimerEvent: {}
+[19.052876] (-) TimerEvent: {}
+[19.153779] (-) TimerEvent: {}
+[19.254693] (-) TimerEvent: {}
+[19.355603] (-) TimerEvent: {}
+[19.456478] (-) TimerEvent: {}
+[19.557378] (-) TimerEvent: {}
+[19.658273] (-) TimerEvent: {}
+[19.759164] (-) TimerEvent: {}
+[19.860108] (-) TimerEvent: {}
+[19.960998] (-) TimerEvent: {}
+[20.061885] (-) TimerEvent: {}
+[20.162778] (-) TimerEvent: {}
+[20.263676] (-) TimerEvent: {}
+[20.364575] (-) TimerEvent: {}
+[20.465469] (-) TimerEvent: {}
+[20.566357] (-) TimerEvent: {}
+[20.667251] (-) TimerEvent: {}
+[20.768144] (-) TimerEvent: {}
+[20.869029] (-) TimerEvent: {}
+[20.969971] (-) TimerEvent: {}
+[21.070885] (-) TimerEvent: {}
+[21.171781] (-) TimerEvent: {}
+[21.272696] (-) TimerEvent: {}
+[21.373589] (-) TimerEvent: {}
+[21.474481] (-) TimerEvent: {}
+[21.575384] (-) TimerEvent: {}
+[21.676302] (-) TimerEvent: {}
+[21.777248] (-) TimerEvent: {}
+[21.878151] (-) TimerEvent: {}
+[21.979046] (-) TimerEvent: {}
+[22.080028] (-) TimerEvent: {}
+[22.213039] (-) TimerEvent: {}
+[22.313930] (-) TimerEvent: {}
+[22.414843] (-) TimerEvent: {}
+[22.515752] (-) TimerEvent: {}
+[22.616658] (-) TimerEvent: {}
+[22.717567] (-) TimerEvent: {}
+[22.818482] (-) TimerEvent: {}
+[22.919385] (-) TimerEvent: {}
+[23.020364] (-) TimerEvent: {}
+[23.121244] (-) TimerEvent: {}
+[23.222098] (-) TimerEvent: {}
+[23.322947] (-) TimerEvent: {}
+[23.423822] (-) TimerEvent: {}
+[23.524667] (-) TimerEvent: {}
+[23.625521] (-) TimerEvent: {}
+[23.726415] (-) TimerEvent: {}
+[23.827308] (-) TimerEvent: {}
+[23.928192] (-) TimerEvent: {}
+[24.029112] (-) TimerEvent: {}
+[24.130041] (-) TimerEvent: {}
+[24.230897] (-) TimerEvent: {}
+[24.331735] (-) TimerEvent: {}
+[24.432612] (-) TimerEvent: {}
+[24.533480] (-) TimerEvent: {}
+[24.634349] (-) TimerEvent: {}
+[24.735234] (-) TimerEvent: {}
+[24.836120] (-) TimerEvent: {}
+[24.936985] (-) TimerEvent: {}
+[25.037884] (-) TimerEvent: {}
+[25.138774] (-) TimerEvent: {}
+[25.239669] (-) TimerEvent: {}
+[25.340527] (-) TimerEvent: {}
+[25.441408] (-) TimerEvent: {}
+[25.542279] (-) TimerEvent: {}
+[25.643159] (-) TimerEvent: {}
+[25.744032] (-) TimerEvent: {}
+[25.844891] (-) TimerEvent: {}
+[25.945780] (-) TimerEvent: {}
+[26.046676] (-) TimerEvent: {}
+[26.147557] (-) TimerEvent: {}
+[26.248446] (-) TimerEvent: {}
+[26.349299] (-) TimerEvent: {}
+[26.450178] (-) TimerEvent: {}
+[26.551004] (-) TimerEvent: {}
+[26.565337] (line_follower_perception) StderrLine: {'line': b'\x1b[01m\x1b[K/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/src/line_follower_perception.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LineFollowerPerceptionNode::subscription_callback(hbm_img_msgs::msg::HbmMsg1080P_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[26.566280] (line_follower_perception) StderrLine: {'line': b'\x1b[01m\x1b[K/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/src/line_follower_perception.cpp:170:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kret\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K-Wunused-but-set-variable\x1b[m\x1b[K]\n'}
+[26.566910] (line_follower_perception) StderrLine: {'line': b'  170 |   int \x1b[01;35m\x1b[Kret\x1b[m\x1b[K = 0;\n'}
+[26.567405] (line_follower_perception) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[26.574286] (line_follower_perception) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[26.576289] (line_follower_perception) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[26.576843] (line_follower_perception) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[26.577333] (line_follower_perception) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[26.577801] (line_follower_perception) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[26.578247] (line_follower_perception) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[26.578686] (line_follower_perception) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[26.579117] (line_follower_perception) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[26.579595] (line_follower_perception) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[26.580047] (line_follower_perception) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[26.580470] (line_follower_perception) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[26.580891] (line_follower_perception) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/include/line_follower_perception/line_follower_perception.h:20\x1b[m\x1b[K,\n'}
+[26.581370] (line_follower_perception) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/src/line_follower_perception.cpp:15\x1b[m\x1b[K:\n'}
+[26.581809] (line_follower_perception) StderrLine: {'line': b'\x1b[01m\x1b[K/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/src/line_follower_perception.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint LineFollowerPerceptionNode::Predict(std::vector<std::shared_ptr<hobot::easy_dnn::DNNInput> >&, const std::shared_ptr<hobot::dnn_node::DnnNodeOutput>&, std::shared_ptr<std::vector<hbDNNRoi> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[26.582247] (line_follower_perception) StderrLine: {'line': b'\x1b[01m\x1b[K/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/src/line_follower_perception.cpp:234:65:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::shared_ptr<hobot::easy_dnn::DNNInput> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[26.582720] (line_follower_perception) StderrLine: {'line': b'  234 |   RCLCPP_INFO(rclcpp::get_logger("LineFollowerPerceptionNode"), \x1b[01;35m\x1b[K"input size:%d roi size:%d"\x1b[m\x1b[K, \x1b[32m\x1b[Kdnn_inputs.size()\x1b[m\x1b[K, rois->size());\n'}
+[26.583145] (line_follower_perception) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.583567] (line_follower_perception) StderrLine: {'line': b'      |                                                                                                             \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[26.583986] (line_follower_perception) StderrLine: {'line': b'      |                                                                                                             \x1b[32m\x1b[Kstd::vector<std::shared_ptr<hobot::easy_dnn::DNNInput> >::size_type {aka long unsigned int}\x1b[m\x1b[K\n'}
+[26.584409] (line_follower_perception) StderrLine: {'line': b'\x1b[01m\x1b[K/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/src/line_follower_perception.cpp:234:78:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[26.584827] (line_follower_perception) StderrLine: {'line': b'  234 |   RCLCPP_INFO(rclcpp::get_logger("LineFollowerPerceptionNode"), "input size:\x1b[01;36m\x1b[K%d\x1b[m\x1b[K roi size:%d", dnn_inputs.size(), rois->size());\n'}
+[26.585250] (line_follower_perception) StderrLine: {'line': b'      |                                                                             \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[26.585668] (line_follower_perception) StderrLine: {'line': b'      |                                                                              \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[26.586086] (line_follower_perception) StderrLine: {'line': b'      |                                                                              \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[26.586551] (line_follower_perception) StderrLine: {'line': b'      |                                                                             \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[26.587000] (line_follower_perception) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[26.587414] (line_follower_perception) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[26.587832] (line_follower_perception) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[26.588247] (line_follower_perception) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[26.588665] (line_follower_perception) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[26.589080] (line_follower_perception) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[26.589499] (line_follower_perception) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[26.589987] (line_follower_perception) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[26.590412] (line_follower_perception) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[26.590828] (line_follower_perception) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[26.591244] (line_follower_perception) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[26.591696] (line_follower_perception) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/include/line_follower_perception/line_follower_perception.h:20\x1b[m\x1b[K,\n'}
+[26.592111] (line_follower_perception) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/src/line_follower_perception.cpp:15\x1b[m\x1b[K:\n'}
+[26.592527] (line_follower_perception) StderrLine: {'line': b'\x1b[01m\x1b[K/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/src/line_follower_perception.cpp:234:65:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<hbDNNRoi>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[26.593000] (line_follower_perception) StderrLine: {'line': b'  234 |   RCLCPP_INFO(rclcpp::get_logger("LineFollowerPerceptionNode"), \x1b[01;35m\x1b[K"input size:%d roi size:%d"\x1b[m\x1b[K, dnn_inputs.size(), \x1b[32m\x1b[Krois->size()\x1b[m\x1b[K);\n'}
+[26.593426] (line_follower_perception) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                     \x1b[32m\x1b[K~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.593850] (line_follower_perception) StderrLine: {'line': b'      |                                                                                                                           \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[26.594269] (line_follower_perception) StderrLine: {'line': b'      |                                                                                                                           \x1b[32m\x1b[Kstd::vector<hbDNNRoi>::size_type {aka long unsigned int}\x1b[m\x1b[K\n'}
+[26.594687] (line_follower_perception) StderrLine: {'line': b'\x1b[01m\x1b[K/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/src/line_follower_perception.cpp:234:90:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[26.595103] (line_follower_perception) StderrLine: {'line': b'  234 |   RCLCPP_INFO(rclcpp::get_logger("LineFollowerPerceptionNode"), "input size:%d roi size:\x1b[01;36m\x1b[K%d\x1b[m\x1b[K", dnn_inputs.size(), rois->size());\n'}
+[26.595516] (line_follower_perception) StderrLine: {'line': b'      |                                                                                         \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[26.595932] (line_follower_perception) StderrLine: {'line': b'      |                                                                                          \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[26.596342] (line_follower_perception) StderrLine: {'line': b'      |                                                                                          \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[26.596752] (line_follower_perception) StderrLine: {'line': b'      |                                                                                         \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[26.651202] (-) TimerEvent: {}
+[26.752130] (-) TimerEvent: {}
+[26.853032] (-) TimerEvent: {}
+[26.953937] (-) TimerEvent: {}
+[27.054841] (-) TimerEvent: {}
+[27.155701] (-) TimerEvent: {}
+[27.256966] (-) TimerEvent: {}
+[27.357858] (-) TimerEvent: {}
+[27.458726] (-) TimerEvent: {}
+[27.559628] (-) TimerEvent: {}
+[27.660507] (-) TimerEvent: {}
+[27.761391] (-) TimerEvent: {}
+[27.862243] (-) TimerEvent: {}
+[27.963115] (-) TimerEvent: {}
+[28.064018] (-) TimerEvent: {}
+[28.164911] (-) TimerEvent: {}
+[28.265778] (-) TimerEvent: {}
+[28.366648] (-) TimerEvent: {}
+[28.467618] (-) TimerEvent: {}
+[28.568509] (-) TimerEvent: {}
+[28.669424] (-) TimerEvent: {}
+[28.770403] (-) TimerEvent: {}
+[28.871249] (-) TimerEvent: {}
+[28.972138] (-) TimerEvent: {}
+[29.073077] (-) TimerEvent: {}
+[29.174002] (-) TimerEvent: {}
+[29.274882] (-) TimerEvent: {}
+[29.375770] (-) TimerEvent: {}
+[29.476662] (-) TimerEvent: {}
+[29.577558] (-) TimerEvent: {}
+[29.678464] (-) TimerEvent: {}
+[29.779342] (-) TimerEvent: {}
+[29.880239] (-) TimerEvent: {}
+[29.981136] (-) TimerEvent: {}
+[30.082052] (-) TimerEvent: {}
+[30.182929] (-) TimerEvent: {}
+[30.283808] (-) TimerEvent: {}
+[30.384672] (-) TimerEvent: {}
+[30.485562] (-) TimerEvent: {}
+[30.586430] (-) TimerEvent: {}
+[30.687312] (-) TimerEvent: {}
+[30.788199] (-) TimerEvent: {}
+[30.889058] (-) TimerEvent: {}
+[30.989974] (-) TimerEvent: {}
+[31.090826] (-) TimerEvent: {}
+[31.191698] (-) TimerEvent: {}
+[31.292580] (-) TimerEvent: {}
+[31.393444] (-) TimerEvent: {}
+[31.494307] (-) TimerEvent: {}
+[31.595181] (-) TimerEvent: {}
+[31.696078] (-) TimerEvent: {}
+[31.796950] (-) TimerEvent: {}
+[31.897808] (-) TimerEvent: {}
+[31.998705] (-) TimerEvent: {}
+[32.099639] (-) TimerEvent: {}
+[32.200492] (-) TimerEvent: {}
+[32.301443] (-) TimerEvent: {}
+[32.402302] (-) TimerEvent: {}
+[32.503180] (-) TimerEvent: {}
+[32.604065] (-) TimerEvent: {}
+[32.704959] (-) TimerEvent: {}
+[32.805845] (-) TimerEvent: {}
+[32.906696] (-) TimerEvent: {}
+[33.007601] (-) TimerEvent: {}
+[33.108473] (-) TimerEvent: {}
+[33.209335] (-) TimerEvent: {}
+[33.310238] (-) TimerEvent: {}
+[33.411118] (-) TimerEvent: {}
+[33.512000] (-) TimerEvent: {}
+[33.612877] (-) TimerEvent: {}
+[33.713768] (-) TimerEvent: {}
+[33.814672] (-) TimerEvent: {}
+[33.915557] (-) TimerEvent: {}
+[34.016474] (-) TimerEvent: {}
+[34.117381] (-) TimerEvent: {}
+[34.218233] (-) TimerEvent: {}
+[34.319094] (-) TimerEvent: {}
+[34.420021] (-) TimerEvent: {}
+[34.520920] (-) TimerEvent: {}
+[34.621801] (-) TimerEvent: {}
+[34.722709] (-) TimerEvent: {}
+[34.823624] (-) TimerEvent: {}
+[34.924500] (-) TimerEvent: {}
+[35.025413] (-) TimerEvent: {}
+[35.126318] (-) TimerEvent: {}
+[35.227182] (-) TimerEvent: {}
+[35.328037] (-) TimerEvent: {}
+[35.428902] (-) TimerEvent: {}
+[35.529810] (-) TimerEvent: {}
+[35.630691] (-) TimerEvent: {}
+[35.731582] (-) TimerEvent: {}
+[35.832462] (-) TimerEvent: {}
+[35.933328] (-) TimerEvent: {}
+[36.034238] (-) TimerEvent: {}
+[36.135118] (-) TimerEvent: {}
+[36.235993] (-) TimerEvent: {}
+[36.336854] (-) TimerEvent: {}
+[36.437723] (-) TimerEvent: {}
+[36.538613] (-) TimerEvent: {}
+[36.639568] (-) TimerEvent: {}
+[36.740467] (-) TimerEvent: {}
+[36.841352] (-) TimerEvent: {}
+[36.942263] (-) TimerEvent: {}
+[37.043177] (-) TimerEvent: {}
+[37.144069] (-) TimerEvent: {}
+[37.244988] (-) TimerEvent: {}
+[37.345939] (-) TimerEvent: {}
+[37.446820] (-) TimerEvent: {}
+[37.547707] (-) TimerEvent: {}
+[37.648615] (-) TimerEvent: {}
+[37.749538] (-) TimerEvent: {}
+[37.850427] (-) TimerEvent: {}
+[37.951320] (-) TimerEvent: {}
+[38.052233] (-) TimerEvent: {}
+[38.153122] (-) TimerEvent: {}
+[38.254040] (-) TimerEvent: {}
+[38.354932] (-) TimerEvent: {}
+[38.455824] (-) TimerEvent: {}
+[38.556785] (-) TimerEvent: {}
+[38.657680] (-) TimerEvent: {}
+[38.758570] (-) TimerEvent: {}
+[38.859444] (-) TimerEvent: {}
+[38.960375] (-) TimerEvent: {}
+[39.061298] (-) TimerEvent: {}
+[39.162243] (-) TimerEvent: {}
+[39.263143] (-) TimerEvent: {}
+[39.364008] (-) TimerEvent: {}
+[39.464914] (-) TimerEvent: {}
+[39.565827] (-) TimerEvent: {}
+[39.666754] (-) TimerEvent: {}
+[39.767656] (-) TimerEvent: {}
+[39.868549] (-) TimerEvent: {}
+[39.969450] (-) TimerEvent: {}
+[40.070447] (-) TimerEvent: {}
+[40.171364] (-) TimerEvent: {}
+[40.272272] (-) TimerEvent: {}
+[40.373196] (-) TimerEvent: {}
+[40.474122] (-) TimerEvent: {}
+[40.575041] (-) TimerEvent: {}
+[40.675969] (-) TimerEvent: {}
+[40.776908] (-) TimerEvent: {}
+[40.877804] (-) TimerEvent: {}
+[40.978703] (-) TimerEvent: {}
+[41.079642] (-) TimerEvent: {}
+[41.180584] (-) TimerEvent: {}
+[41.281487] (-) TimerEvent: {}
+[41.382373] (-) TimerEvent: {}
+[41.483278] (-) TimerEvent: {}
+[41.584198] (-) TimerEvent: {}
+[41.685120] (-) TimerEvent: {}
+[41.786064] (-) TimerEvent: {}
+[41.886971] (-) TimerEvent: {}
+[41.987892] (-) TimerEvent: {}
+[42.088911] (-) TimerEvent: {}
+[42.189833] (-) TimerEvent: {}
+[42.290755] (-) TimerEvent: {}
+[42.391647] (-) TimerEvent: {}
+[42.492547] (-) TimerEvent: {}
+[42.593395] (-) TimerEvent: {}
+[42.694249] (-) TimerEvent: {}
+[42.795085] (-) TimerEvent: {}
+[42.895899] (-) TimerEvent: {}
+[42.996709] (-) TimerEvent: {}
+[43.097520] (-) TimerEvent: {}
+[43.198393] (-) TimerEvent: {}
+[43.299245] (-) TimerEvent: {}
+[43.400173] (-) TimerEvent: {}
+[43.501059] (-) TimerEvent: {}
+[43.601946] (-) TimerEvent: {}
+[43.702848] (-) TimerEvent: {}
+[43.803754] (-) TimerEvent: {}
+[43.904649] (-) TimerEvent: {}
+[44.005558] (-) TimerEvent: {}
+[44.106485] (-) TimerEvent: {}
+[44.207401] (-) TimerEvent: {}
+[44.308301] (-) TimerEvent: {}
+[44.409202] (-) TimerEvent: {}
+[44.510207] (-) TimerEvent: {}
+[44.611102] (-) TimerEvent: {}
+[44.712031] (-) TimerEvent: {}
+[44.812937] (-) TimerEvent: {}
+[44.913851] (-) TimerEvent: {}
+[45.014753] (-) TimerEvent: {}
+[45.115636] (-) TimerEvent: {}
+[45.216528] (-) TimerEvent: {}
+[45.317424] (-) TimerEvent: {}
+[45.418281] (-) TimerEvent: {}
+[45.519144] (-) TimerEvent: {}
+[45.620062] (-) TimerEvent: {}
+[45.720928] (-) TimerEvent: {}
+[45.821818] (-) TimerEvent: {}
+[45.922713] (-) TimerEvent: {}
+[46.023601] (-) TimerEvent: {}
+[46.124510] (-) TimerEvent: {}
+[46.225457] (-) TimerEvent: {}
+[46.326365] (-) TimerEvent: {}
+[46.427298] (-) TimerEvent: {}
+[46.528211] (-) TimerEvent: {}
+[46.629075] (-) TimerEvent: {}
+[46.730007] (-) TimerEvent: {}
+[46.830842] (-) TimerEvent: {}
+[46.931704] (-) TimerEvent: {}
+[47.032597] (-) TimerEvent: {}
+[47.133468] (-) TimerEvent: {}
+[47.234349] (-) TimerEvent: {}
+[47.335224] (-) TimerEvent: {}
+[47.436079] (-) TimerEvent: {}
+[47.545141] (-) TimerEvent: {}
+[47.646046] (-) TimerEvent: {}
+[47.747019] (-) TimerEvent: {}
+[47.847859] (-) TimerEvent: {}
+[47.948732] (-) TimerEvent: {}
+[48.049666] (-) TimerEvent: {}
+[48.150555] (-) TimerEvent: {}
+[48.251423] (-) TimerEvent: {}
+[48.352296] (-) TimerEvent: {}
+[48.453160] (-) TimerEvent: {}
+[48.553992] (-) TimerEvent: {}
+[48.654859] (-) TimerEvent: {}
+[48.755688] (-) TimerEvent: {}
+[48.856527] (-) TimerEvent: {}
+[48.957396] (-) TimerEvent: {}
+[49.058287] (-) TimerEvent: {}
+[49.159154] (-) TimerEvent: {}
+[49.260046] (-) TimerEvent: {}
+[49.360944] (-) TimerEvent: {}
+[49.461802] (-) TimerEvent: {}
+[49.562648] (-) TimerEvent: {}
+[49.663496] (-) TimerEvent: {}
+[49.764368] (-) TimerEvent: {}
+[49.865230] (-) TimerEvent: {}
+[49.966070] (-) TimerEvent: {}
+[50.066934] (-) TimerEvent: {}
+[50.167794] (-) TimerEvent: {}
+[50.268668] (-) TimerEvent: {}
+[50.369591] (-) TimerEvent: {}
+[50.470426] (-) TimerEvent: {}
+[50.571250] (-) TimerEvent: {}
+[50.672089] (-) TimerEvent: {}
+[50.772943] (-) TimerEvent: {}
+[50.873798] (-) TimerEvent: {}
+[50.974656] (-) TimerEvent: {}
+[51.075507] (-) TimerEvent: {}
+[51.176369] (-) TimerEvent: {}
+[51.277222] (-) TimerEvent: {}
+[51.378076] (-) TimerEvent: {}
+[51.478926] (-) TimerEvent: {}
+[51.579798] (-) TimerEvent: {}
+[51.680649] (-) TimerEvent: {}
+[51.781486] (-) TimerEvent: {}
+[51.882324] (-) TimerEvent: {}
+[51.983165] (-) TimerEvent: {}
+[52.084040] (-) TimerEvent: {}
+[52.184919] (-) TimerEvent: {}
+[52.285761] (-) TimerEvent: {}
+[52.386607] (-) TimerEvent: {}
+[52.487509] (-) TimerEvent: {}
+[52.588394] (-) TimerEvent: {}
+[52.689253] (-) TimerEvent: {}
+[52.790227] (-) TimerEvent: {}
+[52.891063] (-) TimerEvent: {}
+[52.991882] (-) TimerEvent: {}
+[53.092721] (-) TimerEvent: {}
+[53.193580] (-) TimerEvent: {}
+[53.294445] (-) TimerEvent: {}
+[53.395277] (-) TimerEvent: {}
+[53.496130] (-) TimerEvent: {}
+[53.596968] (-) TimerEvent: {}
+[53.697830] (-) TimerEvent: {}
+[53.798683] (-) TimerEvent: {}
+[53.899493] (-) TimerEvent: {}
+[54.000361] (-) TimerEvent: {}
+[54.101186] (-) TimerEvent: {}
+[54.202018] (-) TimerEvent: {}
+[54.302882] (-) TimerEvent: {}
+[54.403759] (-) TimerEvent: {}
+[54.504630] (-) TimerEvent: {}
+[54.605490] (-) TimerEvent: {}
+[54.706361] (-) TimerEvent: {}
+[54.807234] (-) TimerEvent: {}
+[54.908053] (-) TimerEvent: {}
+[55.008875] (-) TimerEvent: {}
+[55.109699] (-) TimerEvent: {}
+[55.210542] (-) TimerEvent: {}
+[55.311408] (-) TimerEvent: {}
+[55.412335] (-) TimerEvent: {}
+[55.513186] (-) TimerEvent: {}
+[55.614045] (-) TimerEvent: {}
+[55.714915] (-) TimerEvent: {}
+[55.815773] (-) TimerEvent: {}
+[55.916606] (-) TimerEvent: {}
+[56.017454] (-) TimerEvent: {}
+[56.118329] (-) TimerEvent: {}
+[56.219182] (-) TimerEvent: {}
+[56.320096] (-) TimerEvent: {}
+[56.420920] (-) TimerEvent: {}
+[56.521731] (-) TimerEvent: {}
+[56.622621] (-) TimerEvent: {}
+[56.723480] (-) TimerEvent: {}
+[56.824308] (-) TimerEvent: {}
+[56.925149] (-) TimerEvent: {}
+[57.025983] (-) TimerEvent: {}
+[57.126810] (-) TimerEvent: {}
+[57.227631] (-) TimerEvent: {}
+[57.328495] (-) TimerEvent: {}
+[57.429337] (-) TimerEvent: {}
+[57.530261] (-) TimerEvent: {}
+[57.631160] (-) TimerEvent: {}
+[57.732040] (-) TimerEvent: {}
+[57.832917] (-) TimerEvent: {}
+[57.933772] (-) TimerEvent: {}
+[58.034636] (-) TimerEvent: {}
+[58.135485] (-) TimerEvent: {}
+[58.236346] (-) TimerEvent: {}
+[58.337223] (-) TimerEvent: {}
+[58.438092] (-) TimerEvent: {}
+[58.538958] (-) TimerEvent: {}
+[58.639874] (-) TimerEvent: {}
+[58.740766] (-) TimerEvent: {}
+[58.841623] (-) TimerEvent: {}
+[58.942511] (-) TimerEvent: {}
+[59.043381] (-) TimerEvent: {}
+[59.144217] (-) TimerEvent: {}
+[59.245046] (-) TimerEvent: {}
+[59.345906] (-) TimerEvent: {}
+[59.446778] (-) TimerEvent: {}
+[59.547640] (-) TimerEvent: {}
+[59.648507] (-) TimerEvent: {}
+[59.749397] (-) TimerEvent: {}
+[59.850303] (-) TimerEvent: {}
+[59.951173] (-) TimerEvent: {}
+[60.052027] (-) TimerEvent: {}
+[60.152856] (-) TimerEvent: {}
+[60.253662] (-) TimerEvent: {}
+[60.354522] (-) TimerEvent: {}
+[60.455345] (-) TimerEvent: {}
+[60.556212] (-) TimerEvent: {}
+[60.657089] (-) TimerEvent: {}
+[60.757980] (-) TimerEvent: {}
+[60.858851] (-) TimerEvent: {}
+[60.959749] (-) TimerEvent: {}
+[61.060600] (-) TimerEvent: {}
+[61.161423] (-) TimerEvent: {}
+[61.262254] (-) TimerEvent: {}
+[61.363090] (-) TimerEvent: {}
+[61.463945] (-) TimerEvent: {}
+[61.564816] (-) TimerEvent: {}
+[61.665697] (-) TimerEvent: {}
+[61.766575] (-) TimerEvent: {}
+[61.867451] (-) TimerEvent: {}
+[61.968337] (-) TimerEvent: {}
+[62.069227] (-) TimerEvent: {}
+[62.170159] (-) TimerEvent: {}
+[62.271007] (-) TimerEvent: {}
+[62.371844] (-) TimerEvent: {}
+[62.472680] (-) TimerEvent: {}
+[62.573583] (-) TimerEvent: {}
+[62.674451] (-) TimerEvent: {}
+[62.775299] (-) TimerEvent: {}
+[62.876168] (-) TimerEvent: {}
+[62.977017] (-) TimerEvent: {}
+[63.077865] (-) TimerEvent: {}
+[63.178709] (-) TimerEvent: {}
+[63.279571] (-) TimerEvent: {}
+[63.380398] (-) TimerEvent: {}
+[63.481236] (-) TimerEvent: {}
+[63.582085] (-) TimerEvent: {}
+[63.682956] (-) TimerEvent: {}
+[63.783815] (-) TimerEvent: {}
+[63.884666] (-) TimerEvent: {}
+[63.985530] (-) TimerEvent: {}
+[64.086375] (-) TimerEvent: {}
+[64.187214] (-) TimerEvent: {}
+[64.288062] (-) TimerEvent: {}
+[64.388890] (-) TimerEvent: {}
+[64.489769] (-) TimerEvent: {}
+[64.590635] (-) TimerEvent: {}
+[64.691499] (-) TimerEvent: {}
+[64.792372] (-) TimerEvent: {}
+[64.893220] (-) TimerEvent: {}
+[64.994069] (-) TimerEvent: {}
+[65.094928] (-) TimerEvent: {}
+[65.195757] (-) TimerEvent: {}
+[65.296585] (-) TimerEvent: {}
+[65.397416] (-) TimerEvent: {}
+[65.498325] (-) TimerEvent: {}
+[65.599238] (-) TimerEvent: {}
+[65.700196] (-) TimerEvent: {}
+[65.801116] (-) TimerEvent: {}
+[65.902031] (-) TimerEvent: {}
+[66.002981] (-) TimerEvent: {}
+[66.103959] (-) TimerEvent: {}
+[66.204868] (-) TimerEvent: {}
+[66.305753] (-) TimerEvent: {}
+[66.406610] (-) TimerEvent: {}
+[66.507457] (-) TimerEvent: {}
+[66.608303] (-) TimerEvent: {}
+[66.709184] (-) TimerEvent: {}
+[66.810177] (-) TimerEvent: {}
+[66.911069] (-) TimerEvent: {}
+[67.011943] (-) TimerEvent: {}
+[67.112832] (-) TimerEvent: {}
+[67.213728] (-) TimerEvent: {}
+[67.314583] (-) TimerEvent: {}
+[67.415491] (-) TimerEvent: {}
+[67.430288] (line_follower_perception) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable line_follower_perception\x1b[0m\n'}
+[67.515684] (-) TimerEvent: {}
+[67.616664] (-) TimerEvent: {}
+[67.717666] (-) TimerEvent: {}
+[67.818625] (-) TimerEvent: {}
+[67.919585] (-) TimerEvent: {}
+[68.020596] (-) TimerEvent: {}
+[68.121605] (-) TimerEvent: {}
+[68.222628] (-) TimerEvent: {}
+[68.323592] (-) TimerEvent: {}
+[68.424545] (-) TimerEvent: {}
+[68.525499] (-) TimerEvent: {}
+[68.626380] (-) TimerEvent: {}
+[68.727392] (-) TimerEvent: {}
+[68.828384] (-) TimerEvent: {}
+[68.929388] (-) TimerEvent: {}
+[69.030378] (-) TimerEvent: {}
+[69.131395] (-) TimerEvent: {}
+[69.232265] (-) TimerEvent: {}
+[69.333129] (-) TimerEvent: {}
+[69.434084] (-) TimerEvent: {}
+[69.535049] (-) TimerEvent: {}
+[69.636006] (-) TimerEvent: {}
+[69.736997] (-) TimerEvent: {}
+[69.837924] (-) TimerEvent: {}
+[69.938814] (-) TimerEvent: {}
+[70.039746] (-) TimerEvent: {}
+[70.140715] (-) TimerEvent: {}
+[70.241660] (-) TimerEvent: {}
+[70.342550] (-) TimerEvent: {}
+[70.443489] (-) TimerEvent: {}
+[70.544358] (-) TimerEvent: {}
+[70.645283] (-) TimerEvent: {}
+[70.746223] (-) TimerEvent: {}
+[70.847164] (-) TimerEvent: {}
+[70.948089] (-) TimerEvent: {}
+[71.048971] (-) TimerEvent: {}
+[71.149852] (-) TimerEvent: {}
+[71.250721] (-) TimerEvent: {}
+[71.351609] (-) TimerEvent: {}
+[71.452481] (-) TimerEvent: {}
+[71.553323] (-) TimerEvent: {}
+[71.654153] (-) TimerEvent: {}
+[71.754983] (-) TimerEvent: {}
+[71.855827] (-) TimerEvent: {}
+[71.956689] (-) TimerEvent: {}
+[72.057557] (-) TimerEvent: {}
+[72.158411] (-) TimerEvent: {}
+[72.259311] (-) TimerEvent: {}
+[72.360262] (-) TimerEvent: {}
+[72.461171] (-) TimerEvent: {}
+[72.562035] (-) TimerEvent: {}
+[72.662946] (-) TimerEvent: {}
+[72.763843] (-) TimerEvent: {}
+[72.864865] (-) TimerEvent: {}
+[72.965802] (-) TimerEvent: {}
+[73.066685] (-) TimerEvent: {}
+[73.167559] (-) TimerEvent: {}
+[73.268357] (-) TimerEvent: {}
+[73.369152] (-) TimerEvent: {}
+[73.470000] (-) TimerEvent: {}
+[73.570893] (-) TimerEvent: {}
+[73.671811] (-) TimerEvent: {}
+[73.711056] (line_follower_perception) StdoutLine: {'line': b'[100%] Built target line_follower_perception\n'}
+[73.772115] (-) TimerEvent: {}
+[73.777569] (line_follower_perception) CommandEnded: {'returncode': 0}
+[73.780976] (line_follower_perception) JobProgress: {'identifier': 'line_follower_perception', 'progress': 'install'}
+[73.834376] (line_follower_perception) Command: {'cmd': ['/usr/bin/cmake', '--install', '/userdata/dev_ws/build/line_follower_perception'], 'cwd': '/userdata/dev_ws/build/line_follower_perception', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.137.1 64309 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/originbot_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/userdata'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('DEBUGINFOD_URLS', ''), ('TROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/userdata/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/humble/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.tuna.tsinghua.edu.cn/rosdistro/index-v4.yaml'), ('AMENT_PREFIX_PATH', '/userdata/dev_ws/install/vp100_ros2:/userdata/dev_ws/install/originbot_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/originbot_teleop:/userdata/dev_ws/install/originbot_send_goal:/userdata/dev_ws/install/originbot_qrcode_detect:/userdata/dev_ws/install/originbot_navigation:/userdata/dev_ws/install/originbot_linefollower:/userdata/dev_ws/install/originbot_demo:/userdata/dev_ws/install/originbot_msgs:/userdata/dev_ws/install/originbot_bringup:/userdata/dev_ws/install/line_follower_perception:/userdata/dev_ws/install/gesture_control:/userdata/dev_ws/install/body_tracking:/opt/tros/humble:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/userdata/dev_ws/build/line_follower_perception'), ('SSH_CONNECTION', '192.168.137.1 64309 192.168.137.133 22'), ('PYTHONPATH', '/userdata/dev_ws/build/originbot_linefollower:/userdata/dev_ws/install/originbot_linefollower/lib/python3.10/site-packages:/userdata/dev_ws/build/originbot_demo:/userdata/dev_ws/install/originbot_demo/lib/python3.10/site-packages:/userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/userdata/dev_ws/install/vp100_ros2:/userdata/dev_ws/install/originbot_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/originbot_teleop:/userdata/dev_ws/install/originbot_send_goal:/userdata/dev_ws/install/originbot_qrcode_detect:/userdata/dev_ws/install/originbot_navigation:/userdata/dev_ws/install/originbot_msgs:/userdata/dev_ws/install/originbot_bringup:/userdata/dev_ws/install/line_follower_perception:/userdata/dev_ws/install/gesture_control:/userdata/dev_ws/install/body_tracking:/userdata/dev_ws/install/originbot_linefollower:/userdata/dev_ws/install/originbot_demo:/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[73.872308] (-) TimerEvent: {}
+[73.873924] (line_follower_perception) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[73.875919] (line_follower_perception) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[73.878077] (line_follower_perception) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/dev_ws/install/line_follower_perception/lib/line_follower_perception/line_follower_perception\n'}
+[73.879809] (line_follower_perception) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/dev_ws/install/line_follower_perception/share/ament_index/resource_index/package_run_dependencies/line_follower_perception\n'}
+[73.881469] (line_follower_perception) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/dev_ws/install/line_follower_perception/share/ament_index/resource_index/parent_prefix_path/line_follower_perception\n'}
+[73.882743] (line_follower_perception) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception/environment/ament_prefix_path.sh\n'}
+[73.883419] (line_follower_perception) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception/environment/ament_prefix_path.dsv\n'}
+[73.884504] (line_follower_perception) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception/environment/path.sh\n'}
+[73.885235] (line_follower_perception) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception/environment/path.dsv\n'}
+[73.886290] (line_follower_perception) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception/local_setup.bash\n'}
+[73.887354] (line_follower_perception) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception/local_setup.sh\n'}
+[73.888403] (line_follower_perception) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception/local_setup.zsh\n'}
+[73.889139] (line_follower_perception) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception/local_setup.dsv\n'}
+[73.890252] (line_follower_perception) StdoutLine: {'line': b'-- Symlinking: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception/package.dsv\n'}
+[73.933179] (line_follower_perception) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/dev_ws/install/line_follower_perception/share/ament_index/resource_index/packages/line_follower_perception\n'}
+[73.934788] (line_follower_perception) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception/cmake/line_follower_perceptionConfig.cmake\n'}
+[73.935835] (line_follower_perception) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception/cmake/line_follower_perceptionConfig-version.cmake\n'}
+[73.937183] (line_follower_perception) StdoutLine: {'line': b'-- Up-to-date symlink: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception/package.xml\n'}
+[73.950704] (line_follower_perception) CommandEnded: {'returncode': 0}
+[73.973001] (-) TimerEvent: {}
+[74.075062] (-) TimerEvent: {}
+[74.108492] (line_follower_perception) JobEnded: {'identifier': 'line_follower_perception', 'rc': 0}
+[74.112012] (-) EventReactorShutdown: {}

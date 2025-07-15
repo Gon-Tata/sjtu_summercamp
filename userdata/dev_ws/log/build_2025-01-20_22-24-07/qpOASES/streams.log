@@ -1,0 +1,94 @@
+[0.375s] Invoking command in '/userdata/dev_ws/build/qpOASES': /usr/bin/cmake --build /userdata/dev_ws/build/qpOASES -- -j8 -l8
+[0.608s] [  2%] [32mBuilding CXX object CMakeFiles/qpOASES.dir/src/BLASReplacement.cpp.o[0m
+[0.629s] [  4%] [32mBuilding CXX object CMakeFiles/qpOASES.dir/src/MessageHandling.cpp.o[0m
+[0.640s] [  7%] [32mBuilding CXX object CMakeFiles/qpOASES.dir/src/Indexlist.cpp.o[0m
+[0.640s] [  9%] [32mBuilding CXX object CMakeFiles/qpOASES.dir/src/Flipper.cpp.o[0m
+[0.649s] [ 14%] [32mBuilding CXX object CMakeFiles/qpOASES.dir/src/Bounds.cpp.o[0m
+[0.650s] [ 14%] [32mBuilding CXX object CMakeFiles/qpOASES.dir/src/Constraints.cpp.o[0m
+[0.650s] [ 17%] [32mBuilding CXX object CMakeFiles/qpOASES.dir/src/LAPACKReplacement.cpp.o[0m
+[0.652s] [ 19%] [32mBuilding CXX object CMakeFiles/qpOASES.dir/src/Matrices.cpp.o[0m
+[2.914s] [ 21%] [32mBuilding CXX object CMakeFiles/qpOASES.dir/src/OQPinterface.cpp.o[0m
+[2.930s] [ 24%] [32mBuilding CXX object CMakeFiles/qpOASES.dir/src/Options.cpp.o[0m
+[3.270s] [ 26%] [32mBuilding CXX object CMakeFiles/qpOASES.dir/src/QProblem.cpp.o[0m
+[3.388s] [ 29%] [32mBuilding CXX object CMakeFiles/qpOASES.dir/src/QProblemB.cpp.o[0m
+[4.571s] [ 31%] [32mBuilding CXX object CMakeFiles/qpOASES.dir/src/SQProblem.cpp.o[0m
+[4.684s] [ 34%] [32mBuilding CXX object CMakeFiles/qpOASES.dir/src/SQProblemSchur.cpp.o[0m
+[4.843s] [ 36%] [32mBuilding CXX object CMakeFiles/qpOASES.dir/src/SolutionAnalysis.cpp.o[0m
+[5.369s] [ 39%] [32mBuilding CXX object CMakeFiles/qpOASES.dir/src/SparseSolver.cpp.o[0m
+[8.312s] [ 41%] [32mBuilding CXX object CMakeFiles/qpOASES.dir/src/SubjectTo.cpp.o[0m
+[8.616s] [ 43%] [32mBuilding CXX object CMakeFiles/qpOASES.dir/src/Utils.cpp.o[0m
+[31.717s] [ 46%] [32m[1mLinking CXX static library libs/libqpOASES.a[0m
+[32.064s] [ 46%] Built target qpOASES
+[32.184s] [ 48%] [32mBuilding CXX object CMakeFiles/example1.dir/examples/example1.cpp.o[0m
+[32.197s] [ 51%] [32mBuilding CXX object CMakeFiles/example2.dir/examples/example2.cpp.o[0m
+[32.202s] [ 53%] [32mBuilding CXX object CMakeFiles/example4.dir/examples/example4.cpp.o[0m
+[32.217s] [ 56%] [32mBuilding CXX object CMakeFiles/example1a.dir/examples/example1a.cpp.o[0m
+[32.241s] [ 58%] [32mBuilding CXX object CMakeFiles/example1b.dir/examples/example1b.cpp.o[0m
+[32.262s] [ 60%] [32mBuilding CXX object CMakeFiles/example3.dir/examples/example3.cpp.o[0m
+[32.337s] [ 63%] [32mBuilding CXX object CMakeFiles/example3b.dir/examples/example3b.cpp.o[0m
+[32.357s] [ 65%] [32mBuilding CXX object CMakeFiles/example5.dir/examples/example5.cpp.o[0m
+[36.548s] [ 68%] [32m[1mLinking CXX executable bin/example2[0m
+[36.599s] [ 70%] [32m[1mLinking CXX executable bin/example1a[0m
+[36.612s] [ 73%] [32m[1mLinking CXX executable bin/example5[0m
+[36.702s] [ 75%] [32m[1mLinking CXX executable bin/example1[0m
+[37.126s] [ 78%] [32m[1mLinking CXX executable bin/example3[0m
+[37.300s] [ 80%] [32m[1mLinking CXX executable bin/example1b[0m
+[37.542s] [ 80%] Built target example2
+[37.571s] [ 80%] Built target example1a
+[37.711s] [ 82%] [32mBuilding CXX object CMakeFiles/exampleLP.dir/examples/exampleLP.cpp.o[0m
+[37.869s] [ 85%] [32mBuilding CXX object CMakeFiles/qrecipe.dir/examples/qrecipe.cpp.o[0m
+[37.915s] [ 85%] Built target example5
+[37.946s] [ 85%] Built target example1
+[37.952s] [ 87%] [32m[1mLinking CXX executable bin/example4[0m
+[37.960s] [ 90%] [32m[1mLinking CXX executable bin/example3b[0m
+[38.146s] [ 92%] [32mBuilding CXX object CMakeFiles/qrecipeSchur.dir/examples/qrecipeSchur.cpp.o[0m
+[38.194s] [ 92%] Built target example1b
+[38.205s] [ 92%] Built target example3
+[38.712s] [ 92%] Built target example3b
+[38.770s] [ 92%] Built target example4
+[40.769s] [ 95%] [32m[1mLinking CXX executable bin/exampleLP[0m
+[41.391s] [ 95%] Built target exampleLP
+[41.503s] [ 97%] [32m[1mLinking CXX executable bin/qrecipeSchur[0m
+[41.639s] [100%] [32m[1mLinking CXX executable bin/qrecipe[0m
+[42.139s] [100%] Built target qrecipeSchur
+[42.242s] [100%] Built target qrecipe
+[42.299s] Invoked command in '/userdata/dev_ws/build/qpOASES' returned '0': /usr/bin/cmake --build /userdata/dev_ws/build/qpOASES -- -j8 -l8
+[42.307s] Invoking command in '/userdata/dev_ws/build/qpOASES': /usr/bin/cmake --install /userdata/dev_ws/build/qpOASES
+[42.342s] -- Install configuration: "Release"
+[42.344s] -- Installing: /userdata/dev_ws/install/qpOASES/lib/libqpOASES.a
+[42.369s] -- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES.hpp
+[42.370s] -- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES
+[42.371s] -- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/Matrices.hpp
+[42.373s] -- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/SQProblem.hpp
+[42.374s] -- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/QProblemB.hpp
+[42.376s] -- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/SubjectTo.ipp
+[42.378s] -- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/QProblem.ipp
+[42.379s] -- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/Options.hpp
+[42.380s] -- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/MessageHandling.hpp
+[42.382s] -- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/extras
+[42.383s] -- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/extras/SolutionAnalysis.ipp
+[42.384s] -- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/extras/OQPinterface.hpp
+[42.386s] -- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/extras/SolutionAnalysis.hpp
+[42.387s] -- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/Flipper.hpp
+[42.389s] -- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/SparseSolver.hpp
+[42.390s] -- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/Constants.hpp
+[42.390s] -- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/LapackBlasReplacement.hpp
+[42.391s] -- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/MessageHandling.ipp
+[42.392s] -- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/ConstraintProduct.hpp
+[42.393s] -- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/QProblem.hpp
+[42.393s] -- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/SQProblemSchur.hpp
+[42.394s] -- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/Constraints.hpp
+[42.395s] -- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/SQProblemSchur.ipp
+[42.415s] -- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/QProblemB.ipp
+[42.417s] -- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/Bounds.hpp
+[42.418s] -- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/Indexlist.hpp
+[42.420s] -- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/Types.hpp
+[42.422s] -- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/Indexlist.ipp
+[42.424s] -- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/UnitTesting.hpp
+[42.425s] -- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/Bounds.ipp
+[42.426s] -- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/Utils.hpp
+[42.428s] -- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/SubjectTo.hpp
+[42.433s] -- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/Constraints.ipp
+[42.434s] -- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/Utils.ipp
+[42.436s] -- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/SQProblem.ipp
+[42.437s] Invoked command in '/userdata/dev_ws/build/qpOASES' returned '0': /usr/bin/cmake --install /userdata/dev_ws/build/qpOASES

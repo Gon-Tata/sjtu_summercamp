@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target line_follower_perception[0m
+[100%] Built target line_follower_perception
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /userdata/dev_ws/install/line_follower_perception/lib/line_follower_perception/line_follower_perception
+[31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+  ament_cmake_symlink_install_directory() can't find
+  '/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/config/'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317 (ament_cmake_symlink_install_directory)
+  cmake_install.cmake:46 (include)
+
+[0m

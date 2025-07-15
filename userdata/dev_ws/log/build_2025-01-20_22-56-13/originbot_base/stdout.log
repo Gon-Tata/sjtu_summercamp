@@ -1,0 +1,23 @@
+[35m[1mConsolidate compiler generated dependencies of target originbot_base[0m
+[100%] Built target originbot_base
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /userdata/dev_ws/install/originbot_base/include/originbot_base/originbot_base.h
+-- Symlinking: /userdata/dev_ws/install/originbot_base/lib/originbot_base/originbot_base
+-- Symlinking: /userdata/dev_ws/install/originbot_base/share/originbot_base/launch/robot.launch.py
+-- Symlinking: /userdata/dev_ws/install/originbot_base/share/ament_index/resource_index/package_run_dependencies/originbot_base
+-- Symlinking: /userdata/dev_ws/install/originbot_base/share/ament_index/resource_index/parent_prefix_path/originbot_base
+-- Symlinking: /userdata/dev_ws/install/originbot_base/share/originbot_base/environment/ament_prefix_path.sh
+-- Symlinking: /userdata/dev_ws/install/originbot_base/share/originbot_base/environment/ament_prefix_path.dsv
+-- Symlinking: /userdata/dev_ws/install/originbot_base/share/originbot_base/environment/path.sh
+-- Symlinking: /userdata/dev_ws/install/originbot_base/share/originbot_base/environment/path.dsv
+-- Symlinking: /userdata/dev_ws/install/originbot_base/share/originbot_base/local_setup.bash
+-- Symlinking: /userdata/dev_ws/install/originbot_base/share/originbot_base/local_setup.sh
+-- Symlinking: /userdata/dev_ws/install/originbot_base/share/originbot_base/local_setup.zsh
+-- Symlinking: /userdata/dev_ws/install/originbot_base/share/originbot_base/local_setup.dsv
+-- Symlinking: /userdata/dev_ws/install/originbot_base/share/originbot_base/package.dsv
+-- Symlinking: /userdata/dev_ws/install/originbot_base/share/ament_index/resource_index/packages/originbot_base
+-- Symlinking: /userdata/dev_ws/install/originbot_base/share/originbot_base/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /userdata/dev_ws/install/originbot_base/share/originbot_base/cmake/originbot_baseConfig.cmake
+-- Symlinking: /userdata/dev_ws/install/originbot_base/share/originbot_base/cmake/originbot_baseConfig-version.cmake
+-- Symlinking: /userdata/dev_ws/install/originbot_base/share/originbot_base/package.xml

@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+d20f93fc090c1607ea67fc7425c301e5 CMakeFiles/originbot_qrcode_detect_uninstall

@@ -1,0 +1,56 @@
+[0.164s] Invoking command in '/userdata/dev_ws/build/line_follower_perception': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/line_follower_perception -- -j8 -l8
+[0.362s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.208s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.244s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.393s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.416s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.446s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.516s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.595s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.811s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.819s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.410s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.707s] -- Found dnn_node: 2.4.2 (/opt/tros/humble/share/dnn_node/cmake)
+[2.718s] -- Found hbm_img_msgs: 2.0.0 (/opt/tros/humble/share/hbm_img_msgs/cmake)
+[2.785s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.908s] -- Found hobot_cv: 2.3.0 (/opt/tros/humble/share/hobot_cv/cmake)
+[2.923s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.387s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.393s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.394s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/include>
+[3.394s] -- Configured cppcheck exclude dirs and/or files: 
+[3.399s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.399s] -- Configured cpplint exclude dirs and/or files: 
+[3.401s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.403s] -- Added test 'lint_cmake' to check CMake code style
+[3.406s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.410s] -- Added test 'uncrustify' to check C / C++ code style
+[3.411s] -- Configured uncrustify additional arguments: 
+[3.412s] -- Added test 'xmllint' to check XML markup files
+[3.418s] -- Configuring done
+[3.499s] -- Generating done
+[3.524s] -- Build files have been written to: /userdata/dev_ws/build/line_follower_perception
+[3.663s] [35m[1mConsolidate compiler generated dependencies of target line_follower_perception[0m
+[3.764s] [100%] Built target line_follower_perception
+[6.732s] Invoked command in '/userdata/dev_ws/build/line_follower_perception' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/line_follower_perception -- -j8 -l8
+[6.740s] Invoking command in '/userdata/dev_ws/build/line_follower_perception': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/line_follower_perception
+[6.786s] -- Install configuration: ""
+[6.787s] -- Execute custom install script
+[6.788s] -- Up-to-date symlink: /userdata/dev_ws/install/line_follower_perception/lib/line_follower_perception/line_follower_perception
+[6.791s] -- Symlinking: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception//launch/usb_cam_web.launch.py
+[6.821s] -- Symlinking: /userdata/dev_ws/install/line_follower_perception/share/ament_index/resource_index/package_run_dependencies/line_follower_perception
+[6.861s] -- Symlinking: /userdata/dev_ws/install/line_follower_perception/share/ament_index/resource_index/parent_prefix_path/line_follower_perception
+[6.902s] -- Symlinking: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception/environment/ament_prefix_path.sh
+[6.941s] -- Symlinking: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception/environment/ament_prefix_path.dsv
+[6.982s] -- Symlinking: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception/environment/path.sh
+[7.022s] -- Symlinking: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception/environment/path.dsv
+[7.063s] -- Symlinking: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception/local_setup.bash
+[7.101s] -- Symlinking: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception/local_setup.sh
+[7.139s] -- Symlinking: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception/local_setup.zsh
+[7.180s] -- Symlinking: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception/local_setup.dsv
+[7.219s] -- Symlinking: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception/package.dsv
+[7.258s] -- Symlinking: /userdata/dev_ws/install/line_follower_perception/share/ament_index/resource_index/packages/line_follower_perception
+[7.297s] -- Symlinking: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception/cmake/line_follower_perceptionConfig.cmake
+[7.337s] -- Symlinking: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception/cmake/line_follower_perceptionConfig-version.cmake
+[7.374s] -- Symlinking: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception/package.xml
+[7.422s] Invoked command in '/userdata/dev_ws/build/line_follower_perception' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/line_follower_perception

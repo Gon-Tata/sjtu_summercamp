@@ -1,0 +1,88 @@
+[0.000000] (-) TimerEvent: {}
+[0.000676] (ccc_pkg_python) JobQueued: {'identifier': 'ccc_pkg_python', 'dependencies': OrderedDict()}
+[0.002258] (ccc_pkg_python) JobStarted: {'identifier': 'ccc_pkg_python'}
+[0.098944] (-) TimerEvent: {}
+[0.199686] (-) TimerEvent: {}
+[0.300382] (-) TimerEvent: {}
+[0.401093] (-) TimerEvent: {}
+[0.501810] (-) TimerEvent: {}
+[0.602553] (-) TimerEvent: {}
+[0.703334] (-) TimerEvent: {}
+[0.804109] (-) TimerEvent: {}
+[0.904874] (-) TimerEvent: {}
+[1.005629] (-) TimerEvent: {}
+[1.106415] (-) TimerEvent: {}
+[1.207185] (-) TimerEvent: {}
+[1.307940] (-) TimerEvent: {}
+[1.408662] (-) TimerEvent: {}
+[1.509359] (-) TimerEvent: {}
+[1.610145] (-) TimerEvent: {}
+[1.710960] (-) TimerEvent: {}
+[1.812753] (-) TimerEvent: {}
+[1.913552] (-) TimerEvent: {}
+[2.014284] (-) TimerEvent: {}
+[2.115021] (-) TimerEvent: {}
+[2.215780] (-) TimerEvent: {}
+[2.316533] (-) TimerEvent: {}
+[2.417251] (-) TimerEvent: {}
+[2.517963] (-) TimerEvent: {}
+[2.618723] (-) TimerEvent: {}
+[2.719486] (-) TimerEvent: {}
+[2.820216] (-) TimerEvent: {}
+[2.920957] (-) TimerEvent: {}
+[3.021681] (-) TimerEvent: {}
+[3.122400] (-) TimerEvent: {}
+[3.223158] (-) TimerEvent: {}
+[3.323880] (-) TimerEvent: {}
+[3.424658] (-) TimerEvent: {}
+[3.525452] (-) TimerEvent: {}
+[3.626239] (-) TimerEvent: {}
+[3.727069] (-) TimerEvent: {}
+[3.827954] (-) TimerEvent: {}
+[3.927290] (ccc_pkg_python) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ccc_pkg_python', 'build', '--build-base', '/userdata/ccc_ws/build/ccc_pkg_python/build', 'install', '--record', '/userdata/ccc_ws/build/ccc_pkg_python/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/userdata/ccc_ws/src/ccc_pkg_python', 'env': {'LANGUAGE': 'en_US.UTF-8', 'USER': 'root', 'SSH_CLIENT': '192.168.137.48 58532 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/originbot_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'OLDPWD': '/root', 'SSH_TTY': '/dev/pts/7', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'DEBUGINFOD_URLS': '', 'TROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/userdata/ccc_ws/install:/userdata/dev_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '39', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/tros/humble/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/0', 'DISPLAY': 'localhost:17.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROSDISTRO_INDEX_URL': 'https://mirrors.tuna.tsinghua.edu.cn/rosdistro/index-v4.yaml', 'AMENT_PREFIX_PATH': '/userdata/ccc_ws/install/ccc_pkg_python:/userdata/dev_ws/install/vp100_ros2:/userdata/dev_ws/install/originbot_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/originbot_teleop:/userdata/dev_ws/install/originbot_send_goal:/userdata/dev_ws/install/originbot_qrcode_detect:/userdata/dev_ws/install/originbot_navigation:/userdata/dev_ws/install/originbot_linefollower:/userdata/dev_ws/install/originbot_demo:/userdata/dev_ws/install/originbot_msgs:/userdata/dev_ws/install/originbot_bringup:/userdata/dev_ws/install/line_follower_perception:/userdata/dev_ws/install/gesture_control:/userdata/dev_ws/install/body_tracking:/opt/tros/humble:/opt/ros/humble', 'SHELL': '/bin/bash', 'PWD': '/userdata/ccc_ws/build/ccc_pkg_python', 'SSH_CONNECTION': '192.168.137.48 58532 192.168.137.65 22', 'PYTHONPATH': '/userdata/ccc_ws/build/ccc_pkg_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/ccc_ws/install/ccc_pkg_python/lib/python3.10/site-packages:/userdata/ccc_ws/install/ccc_pkg_python/lib/python3.10/site-packages:/userdata/dev_ws/build/originbot_linefollower:/userdata/dev_ws/install/originbot_linefollower/lib/python3.10/site-packages:/userdata/dev_ws/build/originbot_demo:/userdata/dev_ws/install/originbot_demo/lib/python3.10/site-packages:/userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/userdata/dev_ws/install/vp100_ros2:/userdata/dev_ws/install/originbot_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/originbot_teleop:/userdata/dev_ws/install/originbot_send_goal:/userdata/dev_ws/install/originbot_qrcode_detect:/userdata/dev_ws/install/originbot_navigation:/userdata/dev_ws/install/originbot_msgs:/userdata/dev_ws/install/originbot_bringup:/userdata/dev_ws/install/line_follower_perception:/userdata/dev_ws/install/gesture_control:/userdata/dev_ws/install/body_tracking'}, 'shell': False}
+[3.950093] (-) TimerEvent: {}
+[4.052911] (-) TimerEvent: {}
+[4.153703] (-) TimerEvent: {}
+[4.254464] (-) TimerEvent: {}
+[4.355169] (-) TimerEvent: {}
+[4.455927] (-) TimerEvent: {}
+[4.556712] (-) TimerEvent: {}
+[4.657472] (-) TimerEvent: {}
+[4.758249] (-) TimerEvent: {}
+[4.859026] (-) TimerEvent: {}
+[4.959775] (-) TimerEvent: {}
+[5.060533] (-) TimerEvent: {}
+[5.161302] (-) TimerEvent: {}
+[5.262086] (-) TimerEvent: {}
+[5.362865] (-) TimerEvent: {}
+[5.445284] (ccc_pkg_python) StdoutLine: {'line': b'running egg_info\n'}
+[5.449577] (ccc_pkg_python) StdoutLine: {'line': b'writing ../../build/ccc_pkg_python/ccc_pkg_python.egg-info/PKG-INFO\n'}
+[5.450759] (ccc_pkg_python) StdoutLine: {'line': b'writing dependency_links to ../../build/ccc_pkg_python/ccc_pkg_python.egg-info/dependency_links.txt\n'}
+[5.451657] (ccc_pkg_python) StdoutLine: {'line': b'writing entry points to ../../build/ccc_pkg_python/ccc_pkg_python.egg-info/entry_points.txt\n'}
+[5.452474] (ccc_pkg_python) StdoutLine: {'line': b'writing requirements to ../../build/ccc_pkg_python/ccc_pkg_python.egg-info/requires.txt\n'}
+[5.453039] (ccc_pkg_python) StdoutLine: {'line': b'writing top-level names to ../../build/ccc_pkg_python/ccc_pkg_python.egg-info/top_level.txt\n'}
+[5.462818] (ccc_pkg_python) StdoutLine: {'line': b"reading manifest file '../../build/ccc_pkg_python/ccc_pkg_python.egg-info/SOURCES.txt'\n"}
+[5.463526] (-) TimerEvent: {}
+[5.467933] (ccc_pkg_python) StdoutLine: {'line': b"writing manifest file '../../build/ccc_pkg_python/ccc_pkg_python.egg-info/SOURCES.txt'\n"}
+[5.468650] (ccc_pkg_python) StdoutLine: {'line': b'running build\n'}
+[5.469112] (ccc_pkg_python) StdoutLine: {'line': b'running build_py\n'}
+[5.470195] (ccc_pkg_python) StdoutLine: {'line': b'copying ccc_pkg_python/topic_helloworld_sub.py -> /userdata/ccc_ws/build/ccc_pkg_python/build/lib/ccc_pkg_python\n'}
+[5.471391] (ccc_pkg_python) StdoutLine: {'line': b'running install\n'}
+[5.474107] (ccc_pkg_python) StdoutLine: {'line': b'running install_lib\n'}
+[5.478440] (ccc_pkg_python) StdoutLine: {'line': b'copying /userdata/ccc_ws/build/ccc_pkg_python/build/lib/ccc_pkg_python/topic_helloworld_sub.py -> /userdata/ccc_ws/install/ccc_pkg_python/lib/python3.10/site-packages/ccc_pkg_python\n'}
+[5.481786] (ccc_pkg_python) StdoutLine: {'line': b'byte-compiling /userdata/ccc_ws/install/ccc_pkg_python/lib/python3.10/site-packages/ccc_pkg_python/topic_helloworld_sub.py to topic_helloworld_sub.cpython-310.pyc\n'}
+[5.483630] (ccc_pkg_python) StdoutLine: {'line': b'running install_data\n'}
+[5.484309] (ccc_pkg_python) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.494232] (ccc_pkg_python) StdoutLine: {'line': b"removing '/userdata/ccc_ws/install/ccc_pkg_python/lib/python3.10/site-packages/ccc_pkg_python-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.495677] (ccc_pkg_python) StdoutLine: {'line': b'Copying ../../build/ccc_pkg_python/ccc_pkg_python.egg-info to /userdata/ccc_ws/install/ccc_pkg_python/lib/python3.10/site-packages/ccc_pkg_python-0.0.0-py3.10.egg-info\n'}
+[5.499821] (ccc_pkg_python) StdoutLine: {'line': b'running install_scripts\n'}
+[5.563706] (-) TimerEvent: {}
+[5.619227] (ccc_pkg_python) StdoutLine: {'line': b'Installing pub script to /userdata/ccc_ws/install/ccc_pkg_python/lib/ccc_pkg_python\n'}
+[5.620189] (ccc_pkg_python) StdoutLine: {'line': b'Installing sub script to /userdata/ccc_ws/install/ccc_pkg_python/lib/ccc_pkg_python\n'}
+[5.622261] (ccc_pkg_python) StdoutLine: {'line': b"writing list of installed files to '/userdata/ccc_ws/build/ccc_pkg_python/install.log'\n"}
+[5.663938] (-) TimerEvent: {}
+[5.764816] (-) TimerEvent: {}
+[5.825804] (ccc_pkg_python) CommandEnded: {'returncode': 0}
+[5.865547] (-) TimerEvent: {}
+[5.909326] (ccc_pkg_python) JobEnded: {'identifier': 'ccc_pkg_python', 'rc': 0}
+[5.912807] (-) EventReactorShutdown: {}

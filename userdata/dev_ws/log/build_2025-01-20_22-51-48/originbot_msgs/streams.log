@@ -1,0 +1,23 @@
+[0.195s] Invoking command in '/userdata/dev_ws/build/originbot_msgs': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/originbot_msgs -- -j8 -l8
+[0.475s] [  1%] Built target originbot_msgs__cpp
+[0.526s] [ 12%] Built target originbot_msgs__rosidl_generator_c
+[0.632s] [ 12%] Built target ament_cmake_python_symlink_originbot_msgs
+[0.733s] [ 23%] Built target originbot_msgs__rosidl_typesupport_fastrtps_cpp
+[0.734s] [ 34%] Built target originbot_msgs__rosidl_typesupport_cpp
+[0.813s] [ 45%] Built target originbot_msgs__rosidl_typesupport_introspection_cpp
+[0.818s] [ 56%] Built target originbot_msgs__rosidl_typesupport_fastrtps_c
+[0.841s] [ 72%] Built target originbot_msgs__rosidl_typesupport_c
+[0.843s] [ 78%] Built target originbot_msgs__rosidl_typesupport_introspection_c
+[0.936s] [ 78%] Built target originbot_msgs
+[1.097s] [ 80%] Built target originbot_msgs__py
+[1.157s] [ 89%] Built target originbot_msgs__rosidl_generator_py
+[1.257s] [ 96%] Built target originbot_msgs__rosidl_typesupport_c__pyext
+[1.259s] [ 96%] Built target originbot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.260s] [100%] Built target originbot_msgs__rosidl_typesupport_introspection_c__pyext
+[2.390s] running egg_info
+[2.394s] writing originbot_msgs.egg-info/PKG-INFO
+[2.396s] writing dependency_links to originbot_msgs.egg-info/dependency_links.txt
+[2.397s] writing top-level names to originbot_msgs.egg-info/top_level.txt
+[2.412s] reading manifest file 'originbot_msgs.egg-info/SOURCES.txt'
+[2.416s] writing manifest file 'originbot_msgs.egg-info/SOURCES.txt'
+[2.612s] [100%] Built target ament_cmake_python_build_originbot_msgs_egg

@@ -1,0 +1,61 @@
+[35m[1mConsolidate compiler generated dependencies of target qpOASES[0m
+[ 46%] Built target qpOASES
+[35m[1mConsolidate compiler generated dependencies of target example1[0m
+[35m[1mConsolidate compiler generated dependencies of target example1a[0m
+[35m[1mConsolidate compiler generated dependencies of target example2[0m
+[35m[1mConsolidate compiler generated dependencies of target example1b[0m
+[ 51%] Built target example1
+[35m[1mConsolidate compiler generated dependencies of target example3b[0m
+[35m[1mConsolidate compiler generated dependencies of target example4[0m
+[35m[1mConsolidate compiler generated dependencies of target example5[0m
+[35m[1mConsolidate compiler generated dependencies of target example3[0m
+[ 56%] Built target example1a
+[ 60%] Built target example1b
+[ 65%] Built target example2
+[35m[1mConsolidate compiler generated dependencies of target exampleLP[0m
+[ 70%] Built target example3b
+[ 75%] Built target example4
+[ 80%] Built target example3
+[35m[1mConsolidate compiler generated dependencies of target qrecipeSchur[0m
+[ 85%] Built target example5
+[35m[1mConsolidate compiler generated dependencies of target qrecipe[0m
+[ 90%] Built target exampleLP
+[ 95%] Built target qrecipeSchur
+[100%] Built target qrecipe
+-- Install configuration: "Release"
+-- Up-to-date: /userdata/dev_ws/install/qpOASES/lib/libqpOASES.a
+-- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES.hpp
+-- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES
+-- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/Matrices.hpp
+-- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/SQProblem.hpp
+-- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/QProblemB.hpp
+-- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/SubjectTo.ipp
+-- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/QProblem.ipp
+-- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/Options.hpp
+-- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/MessageHandling.hpp
+-- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/extras
+-- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/extras/SolutionAnalysis.ipp
+-- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/extras/OQPinterface.hpp
+-- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/extras/SolutionAnalysis.hpp
+-- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/Flipper.hpp
+-- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/SparseSolver.hpp
+-- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/Constants.hpp
+-- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/LapackBlasReplacement.hpp
+-- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/MessageHandling.ipp
+-- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/ConstraintProduct.hpp
+-- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/QProblem.hpp
+-- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/SQProblemSchur.hpp
+-- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/Constraints.hpp
+-- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/SQProblemSchur.ipp
+-- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/QProblemB.ipp
+-- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/Bounds.hpp
+-- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/Indexlist.hpp
+-- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/Types.hpp
+-- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/Indexlist.ipp
+-- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/UnitTesting.hpp
+-- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/Bounds.ipp
+-- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/Utils.hpp
+-- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/SubjectTo.hpp
+-- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/Constraints.ipp
+-- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/Utils.ipp
+-- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/SQProblem.ipp

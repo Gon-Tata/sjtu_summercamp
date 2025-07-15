@@ -1,0 +1,755 @@
+[0.173s] Invoking command in '/userdata/dev_ws/build/body_tracking': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/body_tracking -- -j8 -l8
+[0.430s] [ 20%] [32mBuilding CXX object CMakeFiles/body_tracking.dir/src/body_tracking.cpp.o[0m
+[0.448s] [ 40%] [32mBuilding CXX object CMakeFiles/body_tracking.dir/src/main.cpp.o[0m
+[0.452s] [ 60%] [32mBuilding CXX object CMakeFiles/body_tracking.dir/src/util.cpp.o[0m
+[0.460s] [ 80%] [32mBuilding CXX object CMakeFiles/body_tracking.dir/src/smart_subscriber.cpp.o[0m
+[30.621s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[30.634s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[30.637s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[30.640s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[30.643s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[30.646s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[30.649s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[30.653s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[30.676s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[30.679s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[30.682s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[30.687s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/smart_subscriber.h:21[m[K,
+[30.690s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/common.h:28[m[K,
+[30.693s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/body_tracking.h:28[m[K,
+[30.697s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:15[m[K:
+[30.700s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:[m[K In member function ‘[01m[Kbool TrackingManager::RotateSwitch()[m[K’:
+[30.703s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:146:17:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[30.706s]   146 |                 [01;35m[K"track_id: %d, serial_lost_num: %d, thr: %d, stop rotate!"[m[K,
+[30.709s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[30.713s]   147 |                 [32m[Ktrack_info_.track_id[m[K,
+[30.737s]       |                 [32m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[30.740s]       |                             [32m[K|[m[K
+[30.743s]       |                             [32m[Kuint64_t {aka long unsigned int}[m[K
+[30.746s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:146:29:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[30.750s]   146 |                 "track_id: [01;36m[K%d[m[K, serial_lost_num: %d, thr: %d, stop rotate!",
+[30.753s]       |                            [01;36m[K~^[m[K
+[30.756s]       |                             [01;36m[K|[m[K
+[30.778s]       |                             [01;36m[Kint[m[K
+[30.782s]       |                            [32m[K%ld[m[K
+[30.785s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[30.790s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[30.794s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[30.797s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[30.800s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[30.803s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[30.806s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[30.809s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[30.813s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[30.816s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[30.819s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[30.822s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/smart_subscriber.h:21[m[K,
+[30.825s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/common.h:28[m[K,
+[30.828s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/body_tracking.h:28[m[K,
+[30.831s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:15[m[K:
+[30.834s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:[m[K In member function ‘[01m[Kvoid TrackingManager::DoRotateMove()[m[K’:
+[30.837s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:258:17:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[30.840s]   258 |                 [01;35m[K"Do rotate move, ts sec: %llu, nanosec: %llu"[m[K,
+[30.843s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[30.846s]   259 |                 [32m[Ktrack_info_.frame_ts_sec[m[K,
+[30.849s]       |                 [32m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[30.853s]       |                             [32m[K|[m[K
+[30.856s]       |                             [32m[Kuint64_t {aka long unsigned int}[m[K
+[30.859s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:258:45:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[30.862s]   258 |                 "Do rotate move, ts sec: [01;36m[K%llu[m[K, nanosec: %llu",
+[30.864s]       |                                          [01;36m[K~~~^[m[K
+[30.865s]       |                                             [01;36m[K|[m[K
+[30.866s]       |                                             [01;36m[Klong long unsigned int[m[K
+[30.867s]       |                                          [32m[K%lu[m[K
+[30.868s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[30.868s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[30.869s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[30.870s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[30.870s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[30.871s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[30.872s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[30.873s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[30.873s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[30.874s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[30.875s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[30.875s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/smart_subscriber.h:21[m[K,
+[30.876s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/common.h:28[m[K,
+[30.877s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/body_tracking.h:28[m[K,
+[30.878s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:15[m[K:
+[30.878s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:258:17:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 6 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[30.879s]   258 |                 [01;35m[K"Do rotate move, ts sec: %llu, nanosec: %llu"[m[K,
+[30.880s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[30.881s]   259 |                 track_info_.frame_ts_sec,
+[30.881s]   260 |                 [32m[Ktrack_info_.frame_ts_nanosec[m[K);
+[30.882s]       |                 [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[30.883s]       |                             [32m[K|[m[K
+[30.883s]       |                             [32m[Kuint64_t {aka long unsigned int}[m[K
+[30.884s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:258:60:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[30.885s]   258 |                 "Do rotate move, ts sec: %llu, nanosec: [01;36m[K%llu[m[K",
+[30.885s]       |                                                         [01;36m[K~~~^[m[K
+[30.887s]       |                                                            [01;36m[K|[m[K
+[30.888s]       |                                                            [01;36m[Klong long unsigned int[m[K
+[30.889s]       |                                                         [32m[K%lu[m[K
+[30.889s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[30.890s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[30.891s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[30.892s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[30.892s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[30.893s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[30.894s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[30.897s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[30.897s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[30.898s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[30.899s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[30.900s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/smart_subscriber.h:21[m[K,
+[30.900s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/common.h:28[m[K,
+[30.901s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/body_tracking.h:28[m[K,
+[30.902s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:15[m[K:
+[30.903s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:[m[K In member function ‘[01m[Kvoid TrackingManager::ProcessSmart(const ConstSharedPtr&)[m[K’:
+[30.904s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:397:15:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[30.905s]   397 |               [01;35m[K"process smart frame_ts %llu"[m[K,
+[30.905s]       |               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[30.906s]   398 |               [32m[Kframe_ts[m[K);
+[30.908s]       |               [32m[K~~~~~~~~[m[K
+[30.909s]       |               [32m[K|[m[K
+[30.909s]       |               [32m[Kuint64_t {aka long unsigned int}[m[K
+[30.910s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:397:42:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[30.912s]   397 |               "process smart frame_ts [01;36m[K%llu[m[K",
+[30.913s]       |                                       [01;36m[K~~~^[m[K
+[30.914s]       |                                          [01;36m[K|[m[K
+[30.914s]       |                                          [01;36m[Klong long unsigned int[m[K
+[30.915s]       |                                       [32m[K%lu[m[K
+[30.916s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[30.917s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[30.918s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[30.919s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[30.920s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[30.920s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[30.921s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[30.922s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[30.922s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[30.923s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[30.924s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[30.924s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/smart_subscriber.h:21[m[K,
+[30.925s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/common.h:28[m[K,
+[30.926s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/body_tracking.h:28[m[K,
+[30.927s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:15[m[K:
+[30.927s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:460:23:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[30.928s]   460 |                       [01;35m[K"track_id: %d, attr type: %s, val: %d"[m[K,
+[30.929s]       |                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[30.929s]   461 |                       [32m[Ktarget.track_id[m[K,
+[30.930s]       |                       [32m[K~~~~~~~~~~~~~~~[m[K
+[30.931s]       |                              [32m[K|[m[K
+[30.931s]       |                              [32m[Klong unsigned int[m[K
+[30.932s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:460:35:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[30.933s]   460 |                       "track_id: [01;36m[K%d[m[K, attr type: %s, val: %d",
+[30.933s]       |                                  [01;36m[K~^[m[K
+[30.934s]       |                                   [01;36m[K|[m[K
+[30.935s]       |                                   [01;36m[Kint[m[K
+[30.935s]       |                                  [32m[K%ld[m[K
+[30.936s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[30.937s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[30.937s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[30.938s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[30.939s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[30.939s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[30.940s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[30.941s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[30.941s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[30.942s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[30.943s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[30.943s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/smart_subscriber.h:21[m[K,
+[30.944s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/common.h:28[m[K,
+[30.945s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/body_tracking.h:28[m[K,
+[30.945s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:15[m[K:
+[30.946s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:460:23:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[30.947s]   460 |                       [01;35m[K"track_id: %d, attr type: %s, val: %d"[m[K,
+[30.948s]       |                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[30.948s] ......
+[30.949s]   463 |                       [32m[Kattr.value[m[K);
+[30.950s]       |                       [32m[K~~~~~~~~~~[m[K
+[30.950s]       |                            [32m[K|[m[K
+[30.951s]       |                            [32m[Kdouble[m[K
+[30.952s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:460:59:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[30.952s]   460 |                       "track_id: %d, attr type: %s, val: [01;36m[K%d[m[K",
+[30.953s]       |                                                          [01;36m[K~^[m[K
+[30.953s]       |                                                           [01;36m[K|[m[K
+[30.954s]       |                                                           [01;36m[Kint[m[K
+[30.955s]       |                                                          [32m[K%f[m[K
+[30.956s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[30.956s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[30.957s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[30.958s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[30.958s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[30.959s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[30.960s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[30.960s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[30.961s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[30.962s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[30.963s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[30.963s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/smart_subscriber.h:21[m[K,
+[30.964s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/common.h:28[m[K,
+[30.965s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/body_tracking.h:28[m[K,
+[30.966s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:15[m[K:
+[30.966s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:502:27:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[30.967s]   502 |                           [01;35m[K"track_id: %d, attr type: %s, val: %d"[m[K,
+[30.968s]       |                           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[30.968s]   503 |                           [32m[Ktarget.track_id[m[K,
+[30.969s]       |                           [32m[K~~~~~~~~~~~~~~~[m[K
+[30.970s]       |                                  [32m[K|[m[K
+[30.971s]       |                                  [32m[Klong unsigned int[m[K
+[30.971s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:502:39:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[30.972s]   502 |                           "track_id: [01;36m[K%d[m[K, attr type: %s, val: %d",
+[30.973s]       |                                      [01;36m[K~^[m[K
+[30.973s]       |                                       [01;36m[K|[m[K
+[30.974s]       |                                       [01;36m[Kint[m[K
+[30.975s]       |                                      [32m[K%ld[m[K
+[30.975s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[30.976s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[30.977s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[30.978s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[30.978s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[30.979s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[30.979s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[30.980s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[30.981s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[30.982s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[30.982s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[30.983s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/smart_subscriber.h:21[m[K,
+[30.984s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/common.h:28[m[K,
+[30.984s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/body_tracking.h:28[m[K,
+[30.985s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:15[m[K:
+[30.986s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:502:27:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[30.987s]   502 |                           [01;35m[K"track_id: %d, attr type: %s, val: %d"[m[K,
+[30.988s]       |                           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[30.989s] ......
+[30.989s]   505 |                           [32m[Kattr.value[m[K);
+[30.990s]       |                           [32m[K~~~~~~~~~~[m[K
+[30.991s]       |                                [32m[K|[m[K
+[30.991s]       |                                [32m[Kdouble[m[K
+[30.992s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:502:63:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[30.993s]   502 |                           "track_id: %d, attr type: %s, val: [01;36m[K%d[m[K",
+[30.994s]       |                                                              [01;36m[K~^[m[K
+[30.994s]       |                                                               [01;36m[K|[m[K
+[30.995s]       |                                                               [01;36m[Kint[m[K
+[30.996s]       |                                                              [32m[K%f[m[K
+[30.996s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[30.997s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[30.998s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[30.998s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[30.999s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[31.000s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[31.000s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[31.001s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[31.001s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[31.002s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[31.003s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[31.003s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/smart_subscriber.h:21[m[K,
+[31.004s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/common.h:28[m[K,
+[31.005s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/body_tracking.h:28[m[K,
+[31.005s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:15[m[K:
+[31.006s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:540:21:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[31.007s]   540 |                     [01;35m[K"frame_ts %llu, track id: %d recved cancel gesture: %d"[m[K,
+[31.007s]       |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[31.008s]   541 |                     [32m[Kframe_ts[m[K,
+[31.009s]       |                     [32m[K~~~~~~~~[m[K
+[31.009s]       |                     [32m[K|[m[K
+[31.010s]       |                     [32m[Kuint64_t {aka long unsigned int}[m[K
+[31.011s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:540:34:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[31.011s]   540 |                     "frame_ts [01;36m[K%llu[m[K, track id: %d recved cancel gesture: %d",
+[31.012s]       |                               [01;36m[K~~~^[m[K
+[31.013s]       |                                  [01;36m[K|[m[K
+[31.013s]       |                                  [01;36m[Klong long unsigned int[m[K
+[31.014s]       |                               [32m[K%lu[m[K
+[31.014s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[31.015s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[31.016s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[31.017s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[31.017s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[31.018s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[31.019s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[31.019s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[31.020s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[31.021s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[31.021s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[31.022s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/smart_subscriber.h:21[m[K,
+[31.023s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/common.h:28[m[K,
+[31.023s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/body_tracking.h:28[m[K,
+[31.024s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:15[m[K:
+[31.025s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:540:21:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[31.025s]   540 |                     [01;35m[K"frame_ts %llu, track id: %d recved cancel gesture: %d"[m[K,
+[31.026s]       |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[31.027s]   541 |                     frame_ts,
+[31.027s]   542 |                     [32m[Ktrack_info_.track_id[m[K,
+[31.028s]       |                     [32m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[31.029s]       |                                 [32m[K|[m[K
+[31.030s]       |                                 [32m[Kuint64_t {aka long unsigned int}[m[K
+[31.030s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:540:48:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[31.031s]   540 |                     "frame_ts %llu, track id: [01;36m[K%d[m[K recved cancel gesture: %d",
+[31.032s]       |                                               [01;36m[K~^[m[K
+[31.032s]       |                                                [01;36m[K|[m[K
+[31.033s]       |                                                [01;36m[Kint[m[K
+[31.033s]       |                                               [32m[K%ld[m[K
+[31.034s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[31.035s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[31.036s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[31.036s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[31.037s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[31.038s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[31.038s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[31.039s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[31.040s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[31.040s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[31.041s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[31.041s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/smart_subscriber.h:21[m[K,
+[31.042s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/common.h:28[m[K,
+[31.043s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/body_tracking.h:28[m[K,
+[31.043s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:15[m[K:
+[31.044s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:555:25:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[31.045s]   555 |                         [01;35m[K"frame_ts %llu, track id: %d recved cancel gesture: %d"[m[K,
+[31.046s]       |                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[31.046s]   556 |                         [32m[Kframe_ts[m[K,
+[31.047s]       |                         [32m[K~~~~~~~~[m[K
+[31.048s]       |                         [32m[K|[m[K
+[31.048s]       |                         [32m[Kuint64_t {aka long unsigned int}[m[K
+[31.049s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:555:38:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[31.050s]   555 |                         "frame_ts [01;36m[K%llu[m[K, track id: %d recved cancel gesture: %d",
+[31.050s]       |                                   [01;36m[K~~~^[m[K
+[31.051s]       |                                      [01;36m[K|[m[K
+[31.052s]       |                                      [01;36m[Klong long unsigned int[m[K
+[31.052s]       |                                   [32m[K%lu[m[K
+[31.053s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[31.053s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[31.054s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[31.055s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[31.055s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[31.056s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[31.057s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[31.057s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[31.058s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[31.059s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[31.059s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[31.060s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/smart_subscriber.h:21[m[K,
+[31.061s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/common.h:28[m[K,
+[31.061s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/body_tracking.h:28[m[K,
+[31.062s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:15[m[K:
+[31.063s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:555:25:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[31.063s]   555 |                         [01;35m[K"frame_ts %llu, track id: %d recved cancel gesture: %d"[m[K,
+[31.064s]       |                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[31.065s]   556 |                         frame_ts,
+[31.066s]   557 |                         [32m[Ktrack_info_.track_id[m[K,
+[31.066s]       |                         [32m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[31.067s]       |                                     [32m[K|[m[K
+[31.068s]       |                                     [32m[Kuint64_t {aka long unsigned int}[m[K
+[31.068s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:555:52:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[31.069s]   555 |                         "frame_ts %llu, track id: [01;36m[K%d[m[K recved cancel gesture: %d",
+[31.070s]       |                                                   [01;36m[K~^[m[K
+[31.070s]       |                                                    [01;36m[K|[m[K
+[31.071s]       |                                                    [01;36m[Kint[m[K
+[31.072s]       |                                                   [32m[K%ld[m[K
+[31.072s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[31.073s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[31.073s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[31.074s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[31.075s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[31.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[31.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[31.077s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[31.078s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[31.078s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[31.079s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[31.080s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/smart_subscriber.h:21[m[K,
+[31.080s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/common.h:28[m[K,
+[31.081s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/body_tracking.h:28[m[K,
+[31.082s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:15[m[K:
+[31.082s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:573:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[31.083s]   573 |                   [01;35m[K"find track fail! frame_ts %llu"[m[K,
+[31.084s]       |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[31.084s]   574 |                   [32m[Kframe_ts[m[K);
+[31.085s]       |                   [32m[K~~~~~~~~[m[K
+[31.085s]       |                   [32m[K|[m[K
+[31.086s]       |                   [32m[Kuint64_t {aka long unsigned int}[m[K
+[31.088s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:573:49:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[31.089s]   573 |                   "find track fail! frame_ts [01;36m[K%llu[m[K",
+[31.090s]       |                                              [01;36m[K~~~^[m[K
+[31.090s]       |                                                 [01;36m[K|[m[K
+[31.091s]       |                                                 [01;36m[Klong long unsigned int[m[K
+[31.093s]       |                                              [32m[K%lu[m[K
+[31.095s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[31.096s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[31.096s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[31.097s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[31.098s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[31.098s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[31.099s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[31.100s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[31.100s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[31.101s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[31.101s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[31.102s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/smart_subscriber.h:21[m[K,
+[31.103s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/common.h:28[m[K,
+[31.103s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/body_tracking.h:28[m[K,
+[31.104s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:15[m[K:
+[31.105s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:582:21:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[31.105s]   582 |                     [01;35m[K"frame_ts %llu, track id: %d serial lost num: %d"[m[K,
+[31.106s]       |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[31.107s]   583 |                     [32m[Kframe_ts[m[K,
+[31.108s]       |                     [32m[K~~~~~~~~[m[K
+[31.108s]       |                     [32m[K|[m[K
+[31.109s]       |                     [32m[Kuint64_t {aka long unsigned int}[m[K
+[31.109s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:582:34:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[31.110s]   582 |                     "frame_ts [01;36m[K%llu[m[K, track id: %d serial lost num: %d",
+[31.111s]       |                               [01;36m[K~~~^[m[K
+[31.111s]       |                                  [01;36m[K|[m[K
+[31.112s]       |                                  [01;36m[Klong long unsigned int[m[K
+[31.113s]       |                               [32m[K%lu[m[K
+[31.113s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[31.114s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[31.115s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[31.116s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[31.116s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[31.117s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[31.118s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[31.118s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[31.119s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[31.120s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[31.120s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[31.121s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/smart_subscriber.h:21[m[K,
+[31.122s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/common.h:28[m[K,
+[31.122s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/body_tracking.h:28[m[K,
+[31.123s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:15[m[K:
+[31.124s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:582:21:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[31.125s]   582 |                     [01;35m[K"frame_ts %llu, track id: %d serial lost num: %d"[m[K,
+[31.125s]       |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[31.126s]   583 |                     frame_ts,
+[31.127s]   584 |                     [32m[Ktrack_info_.track_id[m[K,
+[31.127s]       |                     [32m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[31.128s]       |                                 [32m[K|[m[K
+[31.129s]       |                                 [32m[Kuint64_t {aka long unsigned int}[m[K
+[31.130s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:582:48:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[31.130s]   582 |                     "frame_ts %llu, track id: [01;36m[K%d[m[K serial lost num: %d",
+[31.131s]       |                                               [01;36m[K~^[m[K
+[31.132s]       |                                                [01;36m[K|[m[K
+[31.132s]       |                                                [01;36m[Kint[m[K
+[31.133s]       |                                               [32m[K%ld[m[K
+[31.134s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[31.134s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[31.135s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[31.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[31.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[31.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[31.138s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[31.138s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[31.139s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[31.139s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[31.140s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[31.141s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/smart_subscriber.h:21[m[K,
+[31.141s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/common.h:28[m[K,
+[31.142s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/body_tracking.h:28[m[K,
+[31.143s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:15[m[K:
+[31.143s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:591:22:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[31.144s]   591 |                      [01;35m[K"track id: %d serial lost num exceed limit: %d"[m[K,
+[31.145s]       |                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[31.145s]   592 |                      [32m[Ktrack_info_.track_id[m[K,
+[31.146s]       |                      [32m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[31.147s]       |                                  [32m[K|[m[K
+[31.147s]       |                                  [32m[Kuint64_t {aka long unsigned int}[m[K
+[31.148s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:591:34:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[31.149s]   591 |                      "track id: [01;36m[K%d[m[K serial lost num exceed limit: %d",
+[31.149s]       |                                 [01;36m[K~^[m[K
+[31.150s]       |                                  [01;36m[K|[m[K
+[31.151s]       |                                  [01;36m[Kint[m[K
+[31.151s]       |                                 [32m[K%ld[m[K
+[31.152s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[31.153s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[31.153s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[31.154s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[31.155s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[31.155s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[31.156s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[31.157s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[31.157s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[31.158s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[31.159s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[31.159s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/smart_subscriber.h:21[m[K,
+[31.160s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/common.h:28[m[K,
+[31.161s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/body_tracking.h:28[m[K,
+[31.162s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:15[m[K:
+[31.162s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:636:23:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[31.163s]   636 |                       [01;35m[K"track_id: %d, attr type: %s, val: %d"[m[K,
+[31.164s]       |                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[31.164s]   637 |                       [32m[Ktarget.track_id[m[K,
+[31.165s]       |                       [32m[K~~~~~~~~~~~~~~~[m[K
+[31.166s]       |                              [32m[K|[m[K
+[31.166s]       |                              [32m[Klong unsigned int[m[K
+[31.167s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:636:35:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[31.168s]   636 |                       "track_id: [01;36m[K%d[m[K, attr type: %s, val: %d",
+[31.168s]       |                                  [01;36m[K~^[m[K
+[31.169s]       |                                   [01;36m[K|[m[K
+[31.170s]       |                                   [01;36m[Kint[m[K
+[31.171s]       |                                  [32m[K%ld[m[K
+[31.171s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[31.172s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[31.173s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[31.173s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[31.174s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[31.175s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[31.175s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[31.176s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[31.177s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[31.178s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[31.178s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[31.179s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/smart_subscriber.h:21[m[K,
+[31.180s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/common.h:28[m[K,
+[31.180s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/body_tracking.h:28[m[K,
+[31.181s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:15[m[K:
+[31.182s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:636:23:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[31.182s]   636 |                       [01;35m[K"track_id: %d, attr type: %s, val: %d"[m[K,
+[31.183s]       |                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[31.184s] ......
+[31.184s]   639 |                       [32m[Kattr.value[m[K);
+[31.185s]       |                       [32m[K~~~~~~~~~~[m[K
+[31.186s]       |                            [32m[K|[m[K
+[31.187s]       |                            [32m[Kdouble[m[K
+[31.189s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:636:59:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[31.190s]   636 |                       "track_id: %d, attr type: %s, val: [01;36m[K%d[m[K",
+[31.190s]       |                                                          [01;36m[K~^[m[K
+[31.191s]       |                                                           [01;36m[K|[m[K
+[31.192s]       |                                                           [01;36m[Kint[m[K
+[31.192s]       |                                                          [32m[K%f[m[K
+[31.194s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[31.196s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[31.197s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[31.198s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[31.199s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[31.199s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[31.200s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[31.201s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[31.201s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[31.202s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[31.203s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[31.203s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/smart_subscriber.h:21[m[K,
+[31.204s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/common.h:28[m[K,
+[31.205s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/body_tracking.h:28[m[K,
+[31.205s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:15[m[K:
+[31.206s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:782:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[31.207s]   782 |                   [01;35m[K"update frame_ts %llu, %d"[m[K,
+[31.208s]       |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[31.208s]   783 |                   [32m[Kframe_ts[m[K,
+[31.209s]       |                   [32m[K~~~~~~~~[m[K
+[31.210s]       |                   [32m[K|[m[K
+[31.210s]       |                   [32m[Kuint64_t {aka long unsigned int}[m[K
+[31.211s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:782:39:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[31.212s]   782 |                   "update frame_ts [01;36m[K%llu[m[K, %d",
+[31.212s]       |                                    [01;36m[K~~~^[m[K
+[31.213s]       |                                       [01;36m[K|[m[K
+[31.214s]       |                                       [01;36m[Klong long unsigned int[m[K
+[31.214s]       |                                    [32m[K%lu[m[K
+[31.215s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[31.237s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[31.237s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[31.238s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[31.239s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[31.240s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[31.240s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[31.241s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[31.241s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[31.242s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[31.243s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[31.243s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/smart_subscriber.h:21[m[K,
+[31.244s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/common.h:28[m[K,
+[31.245s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/body_tracking.h:28[m[K,
+[31.245s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:15[m[K:
+[31.246s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:[m[K In member function ‘[01m[Kvoid TrackingManager::RunTrackLostProtectionStrategy()[m[K’:
+[31.247s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:871:17:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[31.248s]   871 |                 [01;35m[K"track lost warnning! serial_lost_face_head_num: %d"[m[K,
+[31.248s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[31.249s]   872 |                 [32m[Ktrack_info_.serial_lost_face_head_num[m[K);
+[31.250s]       |                 [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[31.250s]       |                             [32m[K|[m[K
+[31.251s]       |                             [32m[Kuint64_t {aka long unsigned int}[m[K
+[31.252s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:871:67:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[31.252s]   871 |                 "track lost warnning! serial_lost_face_head_num: [01;36m[K%d[m[K",
+[31.253s]       |                                                                  [01;36m[K~^[m[K
+[31.254s]       |                                                                   [01;36m[K|[m[K
+[31.254s]       |                                                                   [01;36m[Kint[m[K
+[31.255s]       |                                                                  [32m[K%ld[m[K
+[31.276s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[31.277s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[31.278s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[31.278s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[31.279s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[31.280s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[31.280s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[31.281s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[31.282s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[31.282s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[31.283s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[31.284s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/smart_subscriber.h:21[m[K,
+[31.284s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/common.h:28[m[K,
+[31.285s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/body_tracking.h:28[m[K,
+[31.286s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:15[m[K:
+[31.287s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:[m[K In member function ‘[01m[Kvoid TrackingManager::RunOverMovingProtectionStrategy()[m[K’:
+[31.287s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:905:17:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[31.290s]   905 |                 [01;35m[K"frame_ts %llu, robot over moving warnning! The angle between "[m[K
+[31.290s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[31.291s]   906 | [01;35m[K                "robot and track is %d, less than limit %d, robot overmoving "[m[K
+[31.292s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[31.292s]   907 | [01;35m[K                "strategy is activated!"[m[K,
+[31.295s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[31.296s]   908 |                 [32m[Ktrack_info_.frame_ts[m[K,
+[31.297s]       |                 [32m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[31.298s]       |                             [32m[K|[m[K
+[31.299s]       |                             [32m[Kuint64_t {aka long unsigned int}[m[K
+[31.299s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:905:30:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[31.300s]   905 |                 "frame_ts [01;36m[K%llu[m[K, robot over moving warnning! The angle between "
+[31.301s]       |                           [01;36m[K~~~^[m[K
+[31.301s]       |                              [01;36m[K|[m[K
+[31.302s]       |                              [01;36m[Klong long unsigned int[m[K
+[31.303s]       |                           [32m[K%lu[m[K
+[31.303s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[31.304s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[31.305s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[31.305s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[31.306s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[31.307s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[31.308s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[31.308s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[31.309s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[31.310s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[31.310s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[31.311s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/smart_subscriber.h:21[m[K,
+[31.312s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/common.h:28[m[K,
+[31.312s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/body_tracking.h:28[m[K,
+[31.313s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:15[m[K:
+[31.314s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:[m[K In member function ‘[01m[Kvoid TrackingManager::TrackingWithoutNavStrategy(const ConstSharedPtr&)[m[K’:
+[31.314s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:970:17:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[31.315s]   970 |                 [01;35m[K"update smart fail! msg frame_ts %llu, track frame_ts %llu"[m[K,
+[31.316s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[31.317s]   971 |                 [32m[Kframe_ts[m[K,
+[31.318s]       |                 [32m[K~~~~~~~~[m[K
+[31.318s]       |                 [32m[K|[m[K
+[31.319s]       |                 [32m[Kuint64_t {aka long unsigned int}[m[K
+[31.320s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:970:53:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[31.320s]   970 |                 "update smart fail! msg frame_ts [01;36m[K%llu[m[K, track frame_ts %llu",
+[31.321s]       |                                                  [01;36m[K~~~^[m[K
+[31.322s]       |                                                     [01;36m[K|[m[K
+[31.323s]       |                                                     [01;36m[Klong long unsigned int[m[K
+[31.323s]       |                                                  [32m[K%lu[m[K
+[31.324s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[31.324s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[31.325s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[31.326s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[31.327s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[31.327s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[31.328s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[31.329s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[31.329s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[31.330s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[31.331s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[31.331s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/smart_subscriber.h:21[m[K,
+[31.332s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/common.h:28[m[K,
+[31.333s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/body_tracking.h:28[m[K,
+[31.334s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:15[m[K:
+[31.334s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:970:17:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 6 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[31.335s]   970 |                 [01;35m[K"update smart fail! msg frame_ts %llu, track frame_ts %llu"[m[K,
+[31.336s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[31.337s]   971 |                 frame_ts,
+[31.337s]   972 |                 [32m[Ktrack_info_.frame_ts[m[K);
+[31.338s]       |                 [32m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[31.339s]       |                             [32m[K|[m[K
+[31.339s]       |                             [32m[Kuint64_t {aka long unsigned int}[m[K
+[31.340s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:970:74:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[31.341s]   970 |                 "update smart fail! msg frame_ts %llu, track frame_ts [01;36m[K%llu[m[K",
+[31.341s]       |                                                                       [01;36m[K~~~^[m[K
+[31.342s]       |                                                                          [01;36m[K|[m[K
+[31.343s]       |                                                                          [01;36m[Klong long unsigned int[m[K
+[31.343s]       |                                                                       [32m[K%lu[m[K
+[31.344s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[31.345s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[31.346s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[31.346s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[31.347s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[31.348s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[31.348s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[31.349s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[31.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[31.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[31.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[31.352s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/smart_subscriber.h:21[m[K,
+[31.353s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/common.h:28[m[K,
+[31.354s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/body_tracking.h:28[m[K,
+[31.354s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:15[m[K:
+[31.355s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:[m[K In member function ‘[01m[Kvoid TrackingManager::RunTrackingStrategy(const ConstSharedPtr&)[m[K’:
+[31.356s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:1001:17:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[31.357s]  1001 |                 [01;35m[K"Run TrackingStrategy time ms diff: %llu"[m[K,
+[31.357s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[31.358s]  1002 |                 [32m[Kpresent_tracking_ts - last_tracking_ts[m[K);
+[31.359s]       |                 [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[31.359s]       |                                     [32m[K|[m[K
+[31.360s]       |                                     [32m[Klong unsigned int[m[K
+[31.361s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:1001:56:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[31.361s]  1001 |                 "Run TrackingStrategy time ms diff: [01;36m[K%llu[m[K",
+[31.362s]       |                                                     [01;36m[K~~~^[m[K
+[31.363s]       |                                                        [01;36m[K|[m[K
+[31.364s]       |                                                        [01;36m[Klong long unsigned int[m[K
+[31.364s]       |                                                     [32m[K%lu[m[K
+[31.365s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[31.366s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[31.367s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[31.367s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[31.368s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[31.369s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[31.369s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[31.370s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[31.371s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[31.372s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[31.372s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[31.373s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/smart_subscriber.h:21[m[K,
+[31.374s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/common.h:28[m[K,
+[31.374s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/body_tracking.h:28[m[K,
+[31.375s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:15[m[K:
+[31.376s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:1013:15:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[31.376s]  1013 |               [01;35m[K"Run TrackingStrategy time ms cost: %llu"[m[K,
+[31.377s]       |               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[31.378s]  1014 |               [32m[Kpresent_tracking_ts - start_tracking_ts[m[K);
+[31.379s]       |               [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[31.379s]       |                                   [32m[K|[m[K
+[31.380s]       |                                   [32m[Klong unsigned int[m[K
+[31.381s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:1013:54:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[31.381s]  1013 |               "Run TrackingStrategy time ms cost: [01;36m[K%llu[m[K",
+[31.382s]       |                                                   [01;36m[K~~~^[m[K
+[31.383s]       |                                                      [01;36m[K|[m[K
+[31.383s]       |                                                      [01;36m[Klong long unsigned int[m[K
+[31.384s]       |                                                   [32m[K%lu[m[K
+[31.385s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[31.386s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[31.386s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[31.387s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[31.388s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[31.390s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[31.391s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[31.391s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[31.392s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[31.393s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[31.394s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[31.396s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/smart_subscriber.h:21[m[K,
+[31.397s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/common.h:28[m[K,
+[31.398s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/include/body_tracking.h:28[m[K,
+[31.399s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:15[m[K:
+[31.399s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:[m[K In member function ‘[01m[Kvoid TrackingManager::FeedSmart(const ConstSharedPtr&)[m[K’:
+[31.400s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:1026:17:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[31.401s]  1026 |                 [01;35m[K"smart queue len exceed limit: %d"[m[K,
+[31.402s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[31.402s]  1027 |                 [32m[Kqueue_len_limit_[m[K);
+[31.403s]       |                 [32m[K~~~~~~~~~~~~~~~~[m[K
+[31.404s]       |                 [32m[K|[m[K
+[31.404s]       |                 [32m[Ksize_t {aka long unsigned int}[m[K
+[31.405s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/body_tracking/src/body_tracking.cpp:1026:49:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[31.406s]  1026 |                 "smart queue len exceed limit: [01;36m[K%d[m[K",
+[31.406s]       |                                                [01;36m[K~^[m[K
+[31.407s]       |                                                 [01;36m[K|[m[K
+[31.408s]       |                                                 [01;36m[Kint[m[K
+[31.409s]       |                                                [32m[K%ld[m[K
+[67.816s] [100%] [32m[1mLinking CXX executable body_tracking[0m
+[72.133s] [100%] Built target body_tracking

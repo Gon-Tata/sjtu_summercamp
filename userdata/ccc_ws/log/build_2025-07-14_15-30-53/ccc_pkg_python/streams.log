@@ -1,0 +1,25 @@
+[3.943s] Invoking command in '/userdata/ccc_ws/src/ccc_pkg_python': PYTHONPATH=/userdata/ccc_ws/build/ccc_pkg_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/ccc_ws/install/ccc_pkg_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ccc_pkg_python build --build-base /userdata/ccc_ws/build/ccc_pkg_python/build install --record /userdata/ccc_ws/build/ccc_pkg_python/install.log --single-version-externally-managed install_data
+[5.443s] running egg_info
+[5.447s] writing ../../build/ccc_pkg_python/ccc_pkg_python.egg-info/PKG-INFO
+[5.448s] writing dependency_links to ../../build/ccc_pkg_python/ccc_pkg_python.egg-info/dependency_links.txt
+[5.449s] writing entry points to ../../build/ccc_pkg_python/ccc_pkg_python.egg-info/entry_points.txt
+[5.450s] writing requirements to ../../build/ccc_pkg_python/ccc_pkg_python.egg-info/requires.txt
+[5.450s] writing top-level names to ../../build/ccc_pkg_python/ccc_pkg_python.egg-info/top_level.txt
+[5.460s] reading manifest file '../../build/ccc_pkg_python/ccc_pkg_python.egg-info/SOURCES.txt'
+[5.466s] writing manifest file '../../build/ccc_pkg_python/ccc_pkg_python.egg-info/SOURCES.txt'
+[5.466s] running build
+[5.467s] running build_py
+[5.468s] copying ccc_pkg_python/topic_helloworld_sub.py -> /userdata/ccc_ws/build/ccc_pkg_python/build/lib/ccc_pkg_python
+[5.469s] running install
+[5.472s] running install_lib
+[5.476s] copying /userdata/ccc_ws/build/ccc_pkg_python/build/lib/ccc_pkg_python/topic_helloworld_sub.py -> /userdata/ccc_ws/install/ccc_pkg_python/lib/python3.10/site-packages/ccc_pkg_python
+[5.479s] byte-compiling /userdata/ccc_ws/install/ccc_pkg_python/lib/python3.10/site-packages/ccc_pkg_python/topic_helloworld_sub.py to topic_helloworld_sub.cpython-310.pyc
+[5.481s] running install_data
+[5.482s] running install_egg_info
+[5.492s] removing '/userdata/ccc_ws/install/ccc_pkg_python/lib/python3.10/site-packages/ccc_pkg_python-0.0.0-py3.10.egg-info' (and everything under it)
+[5.493s] Copying ../../build/ccc_pkg_python/ccc_pkg_python.egg-info to /userdata/ccc_ws/install/ccc_pkg_python/lib/python3.10/site-packages/ccc_pkg_python-0.0.0-py3.10.egg-info
+[5.497s] running install_scripts
+[5.617s] Installing pub script to /userdata/ccc_ws/install/ccc_pkg_python/lib/ccc_pkg_python
+[5.618s] Installing sub script to /userdata/ccc_ws/install/ccc_pkg_python/lib/ccc_pkg_python
+[5.620s] writing list of installed files to '/userdata/ccc_ws/build/ccc_pkg_python/install.log'
+[5.824s] Invoked command in '/userdata/ccc_ws/src/ccc_pkg_python' returned '0': PYTHONPATH=/userdata/ccc_ws/build/ccc_pkg_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/ccc_ws/install/ccc_pkg_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ccc_pkg_python build --build-base /userdata/ccc_ws/build/ccc_pkg_python/build install --record /userdata/ccc_ws/build/ccc_pkg_python/install.log --single-version-externally-managed install_data

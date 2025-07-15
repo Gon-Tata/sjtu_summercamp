@@ -1,0 +1,35 @@
+[0.178s] Invoking command in '/userdata/dev_ws/build/originbot_bringup': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/dev_ws/src/originbot/originbot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/userdata/dev_ws/install/originbot_bringup
+[0.326s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.914s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.982s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[2.287s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.316s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.395s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.525s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.696s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.146s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.153s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.330s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.144s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[5.531s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.685s] -- Found tf2_ros: 0.25.9 (/opt/ros/humble/share/tf2_ros/cmake)
+[7.082s] [31mCMake Error at CMakeLists.txt:29 (find_package):
+[7.083s]   By not providing "Findjoy_linux.cmake" in CMAKE_MODULE_PATH this project
+[7.084s]   has asked CMake to find a package configuration file provided by
+[7.085s]   "joy_linux", but CMake did not find one.
+[7.086s] 
+[7.087s]   Could not find a package configuration file provided by "joy_linux" with
+[7.089s]   any of the following names:
+[7.091s] 
+[7.092s]     joy_linuxConfig.cmake
+[7.092s]     joy_linux-config.cmake
+[7.093s] 
+[7.094s]   Add the installation prefix of "joy_linux" to CMAKE_PREFIX_PATH or set
+[7.095s]   "joy_linux_DIR" to a directory containing one of the above files.  If
+[7.095s]   "joy_linux" provides a separate development package or SDK, be sure it has
+[7.096s]   been installed.
+[7.097s] 
+[7.098s] [0m
+[7.105s] -- Configuring incomplete, errors occurred!
+[7.106s] See also "/userdata/dev_ws/build/originbot_bringup/CMakeFiles/CMakeOutput.log".
+[7.268s] Invoked command in '/userdata/dev_ws/build/originbot_bringup' returned '1': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/dev_ws/src/originbot/originbot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/userdata/dev_ws/install/originbot_bringup

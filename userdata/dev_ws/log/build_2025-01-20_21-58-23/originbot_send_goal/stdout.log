@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target send_goal_node[0m
+[100%] Built target send_goal_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /userdata/dev_ws/install/originbot_send_goal/lib/originbot_send_goal/send_goal_node
+-- Symlinking: /userdata/dev_ws/install/originbot_send_goal/share/ament_index/resource_index/package_run_dependencies/originbot_send_goal
+-- Symlinking: /userdata/dev_ws/install/originbot_send_goal/share/ament_index/resource_index/parent_prefix_path/originbot_send_goal
+-- Symlinking: /userdata/dev_ws/install/originbot_send_goal/share/originbot_send_goal/environment/ament_prefix_path.sh
+-- Symlinking: /userdata/dev_ws/install/originbot_send_goal/share/originbot_send_goal/environment/ament_prefix_path.dsv
+-- Symlinking: /userdata/dev_ws/install/originbot_send_goal/share/originbot_send_goal/environment/path.sh
+-- Symlinking: /userdata/dev_ws/install/originbot_send_goal/share/originbot_send_goal/environment/path.dsv
+-- Symlinking: /userdata/dev_ws/install/originbot_send_goal/share/originbot_send_goal/local_setup.bash
+-- Symlinking: /userdata/dev_ws/install/originbot_send_goal/share/originbot_send_goal/local_setup.sh
+-- Symlinking: /userdata/dev_ws/install/originbot_send_goal/share/originbot_send_goal/local_setup.zsh
+-- Symlinking: /userdata/dev_ws/install/originbot_send_goal/share/originbot_send_goal/local_setup.dsv
+-- Symlinking: /userdata/dev_ws/install/originbot_send_goal/share/originbot_send_goal/package.dsv
+-- Symlinking: /userdata/dev_ws/install/originbot_send_goal/share/ament_index/resource_index/packages/originbot_send_goal
+-- Symlinking: /userdata/dev_ws/install/originbot_send_goal/share/originbot_send_goal/cmake/originbot_send_goalConfig.cmake
+-- Symlinking: /userdata/dev_ws/install/originbot_send_goal/share/originbot_send_goal/cmake/originbot_send_goalConfig-version.cmake
+-- Symlinking: /userdata/dev_ws/install/originbot_send_goal/share/originbot_send_goal/package.xml

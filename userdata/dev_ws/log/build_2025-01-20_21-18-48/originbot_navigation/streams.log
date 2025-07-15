@@ -1,0 +1,45 @@
+[0.043s] Invoking command in '/userdata/dev_ws/build/originbot_navigation': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/dev_ws/src/originbot/originbot_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/userdata/dev_ws/install/originbot_navigation
+[0.104s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.831s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.869s] -- Found nav2_bringup: 1.1.17 (/opt/ros/humble/share/nav2_bringup/cmake)
+[0.876s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.353s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.363s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.366s] -- Added test 'lint_cmake' to check CMake code style
+[1.368s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.374s] -- Added test 'xmllint' to check XML markup files
+[1.382s] -- Configuring done
+[1.394s] -- Generating done
+[1.402s] -- Build files have been written to: /userdata/dev_ws/build/originbot_navigation
+[1.416s] Invoked command in '/userdata/dev_ws/build/originbot_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/dev_ws/src/originbot/originbot_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/userdata/dev_ws/install/originbot_navigation
+[1.424s] Invoking command in '/userdata/dev_ws/build/originbot_navigation': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/originbot_navigation -- -j8 -l8
+[1.584s] Invoked command in '/userdata/dev_ws/build/originbot_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/originbot_navigation -- -j8 -l8
+[1.627s] Invoking command in '/userdata/dev_ws/build/originbot_navigation': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/originbot_navigation
+[1.657s] -- Install configuration: ""
+[1.659s] -- Execute custom install script
+[1.661s] -- Symlinking: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/launch/cartographer.launch.py
+[1.699s] -- Symlinking: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/launch/ekf.md
+[1.736s] -- Symlinking: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/launch/nav_bringup.launch.py
+[1.777s] -- Symlinking: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/launch/occupancy_grid.launch.py
+[1.816s] -- Symlinking: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/launch/odom_ekf.launch.py
+[1.853s] -- Symlinking: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/param/originbot_nav2.yaml
+[1.891s] -- Symlinking: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/maps/my_map.pgm
+[1.928s] -- Symlinking: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/maps/my_map.yaml
+[1.965s] -- Symlinking: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/config/ekf.yaml
+[2.001s] -- Symlinking: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/config/lds_2d.lua
+[2.038s] -- Symlinking: /userdata/dev_ws/install/originbot_navigation/share/ament_index/resource_index/package_run_dependencies/originbot_navigation
+[2.076s] -- Symlinking: /userdata/dev_ws/install/originbot_navigation/share/ament_index/resource_index/parent_prefix_path/originbot_navigation
+[2.115s] -- Symlinking: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/environment/ament_prefix_path.sh
+[2.152s] -- Symlinking: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/environment/ament_prefix_path.dsv
+[2.189s] -- Symlinking: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/environment/path.sh
+[2.226s] -- Symlinking: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/environment/path.dsv
+[2.263s] -- Symlinking: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/local_setup.bash
+[2.299s] -- Symlinking: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/local_setup.sh
+[2.336s] -- Symlinking: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/local_setup.zsh
+[2.373s] -- Symlinking: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/local_setup.dsv
+[2.410s] -- Symlinking: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/package.dsv
+[2.448s] -- Symlinking: /userdata/dev_ws/install/originbot_navigation/share/ament_index/resource_index/packages/originbot_navigation
+[2.485s] -- Symlinking: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/cmake/originbot_navigationConfig.cmake
+[2.521s] -- Symlinking: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/cmake/originbot_navigationConfig-version.cmake
+[2.557s] -- Symlinking: /userdata/dev_ws/install/originbot_navigation/share/originbot_navigation/package.xml
+[2.603s] Invoked command in '/userdata/dev_ws/build/originbot_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/originbot_navigation

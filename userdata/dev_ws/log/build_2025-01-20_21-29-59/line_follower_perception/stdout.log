@@ -1,0 +1,3 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/line_follower_perception.dir/src/line_follower_perception.cpp.o[0m
+[100%] [32m[1mLinking CXX executable line_follower_perception[0m
+[100%] Built target line_follower_perception

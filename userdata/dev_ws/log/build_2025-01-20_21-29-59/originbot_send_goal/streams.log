@@ -1,0 +1,22 @@
+[0.205s] Invoking command in '/userdata/dev_ws/build/originbot_send_goal': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/dev_ws/src/originbot/originbot_example/originbot_send_goal -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/userdata/dev_ws/install/originbot_send_goal
+[0.432s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.588s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.652s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.964s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.000s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.090s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.235s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.361s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.602s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.615s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.218s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.734s] -- Found rclcpp_action: 16.0.11 (/opt/ros/humble/share/rclcpp_action/cmake)
+[4.380s] -- Found nav2_msgs: 1.1.17 (/opt/ros/humble/share/nav2_msgs/cmake)
+[6.505s] -- Configuring done
+[6.639s] -- Generating done
+[6.683s] -- Build files have been written to: /userdata/dev_ws/build/originbot_send_goal
+[6.778s] Invoked command in '/userdata/dev_ws/build/originbot_send_goal' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/dev_ws/src/originbot/originbot_example/originbot_send_goal -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/userdata/dev_ws/install/originbot_send_goal
+[6.796s] Invoking command in '/userdata/dev_ws/build/originbot_send_goal': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/originbot_send_goal -- -j8 -l8
+[7.378s] [ 50%] [32mBuilding CXX object CMakeFiles/send_goal_node.dir/src/send_goal_node.cpp.o[0m
+[42.404s] [100%] [32m[1mLinking CXX executable send_goal_node[0m
+[44.105s] [100%] Built target send_goal_node

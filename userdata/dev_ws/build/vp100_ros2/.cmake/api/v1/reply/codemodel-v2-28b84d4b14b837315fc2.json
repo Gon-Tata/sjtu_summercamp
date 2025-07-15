@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c6d98bb07c79ec78da09.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "vp100_ros2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5e29dfcb6b34687b494d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vp100_ros2_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vp100_ros2_client-b1b462cdc862bcce6f6c.json",
+					"name" : "vp100_ros2_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vp100_ros2_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vp100_ros2_node-fb5efd6dd63cc0b5e498.json",
+					"name" : "vp100_ros2_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vp100_ros2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vp100_ros2_uninstall-94d3153444a9381ee093.json",
+					"name" : "vp100_ros2_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/userdata/dev_ws/build/vp100_ros2",
+		"source" : "/userdata/dev_ws/src/originbot/originbot_driver/vp100_ros2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

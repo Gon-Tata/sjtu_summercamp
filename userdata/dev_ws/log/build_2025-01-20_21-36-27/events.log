@@ -1,0 +1,86 @@
+[0.000000] (-) TimerEvent: {}
+[0.001157] (-) JobUnselected: {'identifier': 'body_tracking'}
+[0.002159] (-) JobUnselected: {'identifier': 'gesture_control'}
+[0.002827] (-) JobUnselected: {'identifier': 'line_follower_perception'}
+[0.003575] (-) JobUnselected: {'identifier': 'originbot_base'}
+[0.003841] (-) JobUnselected: {'identifier': 'originbot_demo'}
+[0.004062] (-) JobUnselected: {'identifier': 'originbot_linefollower'}
+[0.004293] (-) JobUnselected: {'identifier': 'originbot_msgs'}
+[0.004518] (-) JobUnselected: {'identifier': 'originbot_navigation'}
+[0.004816] (-) JobUnselected: {'identifier': 'originbot_qrcode_detect'}
+[0.005027] (-) JobUnselected: {'identifier': 'originbot_send_goal'}
+[0.005251] (-) JobUnselected: {'identifier': 'originbot_teleop'}
+[0.005417] (-) JobUnselected: {'identifier': 'qpOASES'}
+[0.005652] (-) JobUnselected: {'identifier': 'serial'}
+[0.006037] (-) JobUnselected: {'identifier': 'vp100_ros2'}
+[0.006240] (originbot_bringup) JobQueued: {'identifier': 'originbot_bringup', 'dependencies': OrderedDict()}
+[0.006456] (originbot_bringup) JobStarted: {'identifier': 'originbot_bringup'}
+[0.042094] (originbot_bringup) JobProgress: {'identifier': 'originbot_bringup', 'progress': 'cmake'}
+[0.045789] (originbot_bringup) Command: {'cmd': ['/usr/bin/cmake', '/userdata/dev_ws/src/originbot/originbot_bringup', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/userdata/dev_ws/install/originbot_bringup'], 'cwd': '/userdata/dev_ws/build/originbot_bringup', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.127.123 58463 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/root/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('BROWSER', '/root/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/userdata/dev_ws/src/originbot/originbot_driver/qpOASES'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-9a97f271-8393-45fd-b7fd-07ae31514955.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('DEBUGINFOD_URLS', ''), ('TROS_DISTRO', 'humble'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/humble/bin:/opt/ros/humble/bin:/root/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/remote-cli:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-c5edfd054c.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/tros/humble:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/userdata/dev_ws/build/originbot_bringup'), ('SSH_CONNECTION', '192.168.127.123 58463 192.168.127.10 22'), ('PYTHONPATH', '/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[0.098812] (-) TimerEvent: {}
+[0.113207] (originbot_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.198981] (-) TimerEvent: {}
+[0.299881] (-) TimerEvent: {}
+[0.400829] (-) TimerEvent: {}
+[0.501671] (-) TimerEvent: {}
+[0.602512] (-) TimerEvent: {}
+[0.703301] (-) TimerEvent: {}
+[0.804159] (-) TimerEvent: {}
+[0.811740] (originbot_bringup) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.873117] (originbot_bringup) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.904329] (-) TimerEvent: {}
+[1.005169] (-) TimerEvent: {}
+[1.014733] (originbot_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.029896] (originbot_bringup) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.062792] (originbot_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.105353] (-) TimerEvent: {}
+[1.118257] (originbot_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.189097] (originbot_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.205495] (-) TimerEvent: {}
+[1.306327] (-) TimerEvent: {}
+[1.371817] (originbot_bringup) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.378655] (originbot_bringup) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.406465] (-) TimerEvent: {}
+[1.507288] (-) TimerEvent: {}
+[1.608262] (-) TimerEvent: {}
+[1.709220] (-) TimerEvent: {}
+[1.810153] (-) TimerEvent: {}
+[1.832188] (originbot_bringup) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.910352] (-) TimerEvent: {}
+[2.011263] (-) TimerEvent: {}
+[2.112179] (-) TimerEvent: {}
+[2.115536] (originbot_bringup) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[2.212381] (-) TimerEvent: {}
+[2.282365] (originbot_bringup) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.312560] (-) TimerEvent: {}
+[2.381102] (originbot_bringup) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.9 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[2.412721] (-) TimerEvent: {}
+[2.513602] (-) TimerEvent: {}
+[2.614562] (-) TimerEvent: {}
+[2.715559] (-) TimerEvent: {}
+[2.816574] (-) TimerEvent: {}
+[2.873354] (originbot_bringup) StdoutLine: {'line': b'-- Found joy_linux: 3.3.0 (/opt/ros/humble/share/joy_linux/cmake)\n'}
+[2.914037] (originbot_bringup) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:30 (find_package):\n'}
+[2.915082] (originbot_bringup) StderrLine: {'line': b'  By not providing "Findteleop_twist_joy.cmake" in CMAKE_MODULE_PATH this\n'}
+[2.915665] (originbot_bringup) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[2.916185] (originbot_bringup) StderrLine: {'line': b'  "teleop_twist_joy", but CMake did not find one.\n'}
+[2.916668] (-) TimerEvent: {}
+[2.917118] (originbot_bringup) StderrLine: {'line': b'\n'}
+[2.917619] (originbot_bringup) StderrLine: {'line': b'  Could not find a package configuration file provided by "teleop_twist_joy"\n'}
+[2.918146] (originbot_bringup) StderrLine: {'line': b'  with any of the following names:\n'}
+[2.918616] (originbot_bringup) StderrLine: {'line': b'\n'}
+[2.919068] (originbot_bringup) StderrLine: {'line': b'    teleop_twist_joyConfig.cmake\n'}
+[2.919516] (originbot_bringup) StderrLine: {'line': b'    teleop_twist_joy-config.cmake\n'}
+[2.919960] (originbot_bringup) StderrLine: {'line': b'\n'}
+[2.920406] (originbot_bringup) StderrLine: {'line': b'  Add the installation prefix of "teleop_twist_joy" to CMAKE_PREFIX_PATH or\n'}
+[2.920850] (originbot_bringup) StderrLine: {'line': b'  set "teleop_twist_joy_DIR" to a directory containing one of the above\n'}
+[2.921294] (originbot_bringup) StderrLine: {'line': b'  files.  If "teleop_twist_joy" provides a separate development package or\n'}
+[2.921740] (originbot_bringup) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[2.922177] (originbot_bringup) StderrLine: {'line': b'\n'}
+[2.922609] (originbot_bringup) StderrLine: {'line': b'\x1b[0m\n'}
+[2.923048] (originbot_bringup) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.923514] (originbot_bringup) StdoutLine: {'line': b'See also "/userdata/dev_ws/build/originbot_bringup/CMakeFiles/CMakeOutput.log".\n'}
+[2.964587] (originbot_bringup) CommandEnded: {'returncode': 1}
+[3.016876] (-) TimerEvent: {}
+[3.079070] (originbot_bringup) JobEnded: {'identifier': 'originbot_bringup', 'rc': 1}
+[3.091384] (-) EventReactorShutdown: {}

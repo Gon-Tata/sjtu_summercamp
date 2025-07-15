@@ -1,0 +1,149 @@
+[0.000000] (-) TimerEvent: {}
+[0.001757] (-) JobUnselected: {'identifier': 'body_tracking'}
+[0.002469] (-) JobUnselected: {'identifier': 'gesture_control'}
+[0.003218] (-) JobUnselected: {'identifier': 'line_follower_perception'}
+[0.003487] (-) JobUnselected: {'identifier': 'originbot_base'}
+[0.003722] (-) JobUnselected: {'identifier': 'originbot_bringup'}
+[0.003957] (-) JobUnselected: {'identifier': 'originbot_demo'}
+[0.004186] (-) JobUnselected: {'identifier': 'originbot_linefollower'}
+[0.004421] (-) JobUnselected: {'identifier': 'originbot_msgs'}
+[0.004643] (-) JobUnselected: {'identifier': 'originbot_navigation'}
+[0.004868] (-) JobUnselected: {'identifier': 'originbot_send_goal'}
+[0.005113] (-) JobUnselected: {'identifier': 'originbot_teleop'}
+[0.005397] (-) JobUnselected: {'identifier': 'qpOASES'}
+[0.005569] (-) JobUnselected: {'identifier': 'serial'}
+[0.005956] (-) JobUnselected: {'identifier': 'vp100_ros2'}
+[0.006157] (originbot_qrcode_detect) JobQueued: {'identifier': 'originbot_qrcode_detect', 'dependencies': OrderedDict([('originbot_bringup', '/userdata/dev_ws/install/originbot_bringup')])}
+[0.006379] (originbot_qrcode_detect) JobStarted: {'identifier': 'originbot_qrcode_detect'}
+[0.046900] (originbot_qrcode_detect) JobProgress: {'identifier': 'originbot_qrcode_detect', 'progress': 'cmake'}
+[0.049191] (originbot_qrcode_detect) Command: {'cmd': ['/usr/bin/cmake', '/userdata/dev_ws/src/originbot/originbot_example/originbot_qrcode_detect', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/userdata/dev_ws/install/originbot_qrcode_detect'], 'cwd': '/userdata/dev_ws/build/originbot_qrcode_detect', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.127.123 58463 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/root/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('BROWSER', '/root/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/userdata/dev_ws/src/originbot/originbot_driver/qpOASES'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-9a97f271-8393-45fd-b7fd-07ae31514955.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('DEBUGINFOD_URLS', ''), ('TROS_DISTRO', 'humble'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/humble/bin:/opt/ros/humble/bin:/root/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/remote-cli:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-c5edfd054c.sock'), ('TERM_PROGRAM', 'vscode'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.tuna.tsinghua.edu.cn/rosdistro/index-v4.yaml'), ('AMENT_PREFIX_PATH', '/userdata/dev_ws/install/originbot_bringup:/opt/tros/humble:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/userdata/dev_ws/build/originbot_qrcode_detect'), ('SSH_CONNECTION', '192.168.127.123 58463 192.168.127.10 22'), ('PYTHONPATH', '/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/userdata/dev_ws/install/originbot_bringup:/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[0.098604] (-) TimerEvent: {}
+[0.199532] (-) TimerEvent: {}
+[0.300508] (-) TimerEvent: {}
+[0.371572] (originbot_qrcode_detect) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[0.400723] (-) TimerEvent: {}
+[0.501676] (-) TimerEvent: {}
+[0.602499] (-) TimerEvent: {}
+[0.703313] (-) TimerEvent: {}
+[0.706103] (originbot_qrcode_detect) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[0.744621] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.803518] (-) TimerEvent: {}
+[0.904499] (-) TimerEvent: {}
+[1.005567] (-) TimerEvent: {}
+[1.106570] (-) TimerEvent: {}
+[1.132720] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.196744] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.197721] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.199616] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.206712] (-) TimerEvent: {}
+[1.214308] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.306937] (-) TimerEvent: {}
+[1.407860] (-) TimerEvent: {}
+[1.508823] (-) TimerEvent: {}
+[1.609788] (-) TimerEvent: {}
+[1.612469] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.686601] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.687748] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.690175] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.700225] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.709892] (-) TimerEvent: {}
+[1.810603] (-) TimerEvent: {}
+[1.911420] (-) TimerEvent: {}
+[2.012224] (-) TimerEvent: {}
+[2.113051] (-) TimerEvent: {}
+[2.213886] (-) TimerEvent: {}
+[2.314696] (-) TimerEvent: {}
+[2.415602] (-) TimerEvent: {}
+[2.516449] (-) TimerEvent: {}
+[2.604054] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.616818] (-) TimerEvent: {}
+[2.718446] (-) TimerEvent: {}
+[2.819225] (-) TimerEvent: {}
+[2.920018] (-) TimerEvent: {}
+[3.003765] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.020349] (-) TimerEvent: {}
+[3.122011] (-) TimerEvent: {}
+[3.167890] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.222223] (-) TimerEvent: {}
+[3.323090] (-) TimerEvent: {}
+[3.365973] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.391289] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.423239] (-) TimerEvent: {}
+[3.434600] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.501658] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.523398] (-) TimerEvent: {}
+[3.590650] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.623549] (-) TimerEvent: {}
+[3.724316] (-) TimerEvent: {}
+[3.823727] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.824517] (-) TimerEvent: {}
+[3.836249] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.924731] (-) TimerEvent: {}
+[4.025568] (-) TimerEvent: {}
+[4.126395] (-) TimerEvent: {}
+[4.227302] (-) TimerEvent: {}
+[4.252100] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.327507] (-) TimerEvent: {}
+[4.377884] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.427706] (-) TimerEvent: {}
+[4.528569] (-) TimerEvent: {}
+[4.555496] (originbot_qrcode_detect) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.594968] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.628799] (-) TimerEvent: {}
+[4.729687] (-) TimerEvent: {}
+[4.830620] (-) TimerEvent: {}
+[4.931556] (-) TimerEvent: {}
+[4.982502] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.983975] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.031752] (-) TimerEvent: {}
+[5.132663] (-) TimerEvent: {}
+[5.233609] (-) TimerEvent: {}
+[5.334829] (-) TimerEvent: {}
+[5.407112] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.427811] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.435136] (-) TimerEvent: {}
+[5.536268] (-) TimerEvent: {}
+[5.637125] (-) TimerEvent: {}
+[5.737978] (-) TimerEvent: {}
+[5.747872] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[5.838178] (-) TimerEvent: {}
+[5.929373] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[5.938305] (-) TimerEvent: {}
+[6.017675] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[6.024305] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Found image_transport: 3.1.10 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[6.038503] (-) TimerEvent: {}
+[6.139327] (-) TimerEvent: {}
+[6.172834] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Found originbot_bringup: 0.0.0 (/userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/cmake)\n'}
+[6.206407] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[6.209095] (originbot_qrcode_detect) StdoutLine: {'line': b"-- Checking for one of the modules 'zbar'\n"}
+[6.222227] (originbot_qrcode_detect) StderrLine: {'line': b'\x1b[31mCMake Error at /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:890 (message):\n'}
+[6.223094] (originbot_qrcode_detect) StderrLine: {'line': b"  None of the required 'zbar' found\n"}
+[6.223591] (originbot_qrcode_detect) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.224042] (originbot_qrcode_detect) StderrLine: {'line': b'  CMakeLists.txt:40 (pkg_search_module)\n'}
+[6.224480] (originbot_qrcode_detect) StderrLine: {'line': b'\n'}
+[6.224919] (originbot_qrcode_detect) StderrLine: {'line': b'\x1b[0m\n'}
+[6.229593] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.239483] (-) TimerEvent: {}
+[6.340278] (-) TimerEvent: {}
+[6.441007] (-) TimerEvent: {}
+[6.541758] (-) TimerEvent: {}
+[6.642559] (-) TimerEvent: {}
+[6.692599] (originbot_qrcode_detect) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[6.697427] (originbot_qrcode_detect) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.698403] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[6.698914] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.702280] (originbot_qrcode_detect) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[6.702859] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[6.704755] (originbot_qrcode_detect) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[6.707648] (originbot_qrcode_detect) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.709969] (originbot_qrcode_detect) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[6.713702] (originbot_qrcode_detect) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.714317] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.716182] (originbot_qrcode_detect) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.723607] (originbot_qrcode_detect) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.724307] (originbot_qrcode_detect) StdoutLine: {'line': b'See also "/userdata/dev_ws/build/originbot_qrcode_detect/CMakeFiles/CMakeOutput.log".\n'}
+[6.742723] (-) TimerEvent: {}
+[6.790703] (originbot_qrcode_detect) CommandEnded: {'returncode': 1}
+[6.842955] (-) TimerEvent: {}
+[6.920606] (originbot_qrcode_detect) JobEnded: {'identifier': 'originbot_qrcode_detect', 'rc': 1}
+[6.933617] (-) EventReactorShutdown: {}

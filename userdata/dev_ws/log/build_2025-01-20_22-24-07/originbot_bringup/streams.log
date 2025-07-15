@@ -1,0 +1,54 @@
+[0.174s] Invoking command in '/userdata/dev_ws/build/originbot_bringup': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/originbot_bringup -- -j8 -l8
+[0.308s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.238s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.274s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.416s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.431s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.466s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.524s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.600s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.799s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.809s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.780s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.280s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.676s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.916s] -- Found tf2_ros: 0.25.9 (/opt/ros/humble/share/tf2_ros/cmake)
+[5.008s] -- Found joy_linux: 3.3.0 (/opt/ros/humble/share/joy_linux/cmake)
+[5.009s] -- Found teleop_twist_joy: 2.4.7 (/opt/ros/humble/share/teleop_twist_joy/cmake)
+[5.027s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.932s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.941s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.944s] -- Added test 'lint_cmake' to check CMake code style
+[5.966s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.972s] -- Added test 'xmllint' to check XML markup files
+[5.984s] -- Configuring done
+[6.046s] -- Generating done
+[6.098s] -- Build files have been written to: /userdata/dev_ws/build/originbot_bringup
+[12.125s] Invoked command in '/userdata/dev_ws/build/originbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/originbot_bringup -- -j8 -l8
+[12.138s] Invoking command in '/userdata/dev_ws/build/originbot_bringup': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/originbot_bringup
+[12.207s] -- Install configuration: ""
+[12.209s] -- Execute custom install script
+[12.210s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/launch/camera.launch.py
+[12.211s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/launch/camera_internal.launch.py
+[12.212s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/launch/camera_websoket_display.launch.py
+[12.212s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/launch/joy_teleop.launch.py
+[12.213s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/launch/originbot.launch.py
+[12.214s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/launch/vp100.launch.py
+[12.218s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/param/ydlidar.yaml
+[12.222s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/config/joy.yaml
+[12.230s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/ament_index/resource_index/package_run_dependencies/originbot_bringup
+[12.231s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/ament_index/resource_index/parent_prefix_path/originbot_bringup
+[12.233s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/environment/ament_prefix_path.sh
+[12.239s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/environment/ament_prefix_path.dsv
+[12.240s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/environment/path.sh
+[12.241s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/environment/path.dsv
+[12.242s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/local_setup.bash
+[12.242s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/local_setup.sh
+[12.243s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/local_setup.zsh
+[12.244s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/local_setup.dsv
+[12.245s] -- Symlinking: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/package.dsv
+[12.309s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/ament_index/resource_index/packages/originbot_bringup
+[12.310s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/cmake/originbot_bringupConfig.cmake
+[12.311s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/cmake/originbot_bringupConfig-version.cmake
+[12.311s] -- Up-to-date symlink: /userdata/dev_ws/install/originbot_bringup/share/originbot_bringup/package.xml
+[12.322s] Invoked command in '/userdata/dev_ws/build/originbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/originbot_bringup

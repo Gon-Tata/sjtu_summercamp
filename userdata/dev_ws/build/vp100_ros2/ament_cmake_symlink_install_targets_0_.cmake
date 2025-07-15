@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/userdata/dev_ws/build/vp100_ros2/vp100_ros2_node" "/userdata/dev_ws/build/vp100_ros2/vp100_ros2_client" "TARGETS" "vp100_ros2_node" "vp100_ros2_client" "DESTINATION" "lib/vp100_ros2")

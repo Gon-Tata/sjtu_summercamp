@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target qr_decoder[0m
+[35m[1mConsolidate compiler generated dependencies of target qrcode_control[0m
+[ 50%] Built target qr_decoder
+[100%] Built target qrcode_control
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /userdata/dev_ws/install/originbot_qrcode_detect/lib/originbot_qrcode_detect/qr_decoder
+-- Symlinking: /userdata/dev_ws/install/originbot_qrcode_detect/lib/originbot_qrcode_detect/qrcode_control
+-- Symlinking: /userdata/dev_ws/install/originbot_qrcode_detect/share/originbot_qrcode_detect/launch/qrcode_control.launch.py
+-- Symlinking: /userdata/dev_ws/install/originbot_qrcode_detect/share/ament_index/resource_index/package_run_dependencies/originbot_qrcode_detect
+-- Symlinking: /userdata/dev_ws/install/originbot_qrcode_detect/share/ament_index/resource_index/parent_prefix_path/originbot_qrcode_detect
+-- Symlinking: /userdata/dev_ws/install/originbot_qrcode_detect/share/originbot_qrcode_detect/environment/ament_prefix_path.sh
+-- Symlinking: /userdata/dev_ws/install/originbot_qrcode_detect/share/originbot_qrcode_detect/environment/ament_prefix_path.dsv
+-- Symlinking: /userdata/dev_ws/install/originbot_qrcode_detect/share/originbot_qrcode_detect/environment/path.sh
+-- Symlinking: /userdata/dev_ws/install/originbot_qrcode_detect/share/originbot_qrcode_detect/environment/path.dsv
+-- Symlinking: /userdata/dev_ws/install/originbot_qrcode_detect/share/originbot_qrcode_detect/local_setup.bash
+-- Symlinking: /userdata/dev_ws/install/originbot_qrcode_detect/share/originbot_qrcode_detect/local_setup.sh
+-- Symlinking: /userdata/dev_ws/install/originbot_qrcode_detect/share/originbot_qrcode_detect/local_setup.zsh
+-- Symlinking: /userdata/dev_ws/install/originbot_qrcode_detect/share/originbot_qrcode_detect/local_setup.dsv
+-- Symlinking: /userdata/dev_ws/install/originbot_qrcode_detect/share/originbot_qrcode_detect/package.dsv
+-- Symlinking: /userdata/dev_ws/install/originbot_qrcode_detect/share/ament_index/resource_index/packages/originbot_qrcode_detect
+-- Symlinking: /userdata/dev_ws/install/originbot_qrcode_detect/share/originbot_qrcode_detect/cmake/originbot_qrcode_detectConfig.cmake
+-- Symlinking: /userdata/dev_ws/install/originbot_qrcode_detect/share/originbot_qrcode_detect/cmake/originbot_qrcode_detectConfig-version.cmake
+-- Symlinking: /userdata/dev_ws/install/originbot_qrcode_detect/share/originbot_qrcode_detect/package.xml

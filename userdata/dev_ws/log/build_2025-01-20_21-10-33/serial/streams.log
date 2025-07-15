@@ -1,0 +1,41 @@
+[0.156s] Invoking command in '/userdata/dev_ws/build/serial': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/dev_ws/src/originbot/originbot_driver/serial_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/userdata/dev_ws/install/serial
+[0.876s] -- The C compiler identification is GNU 11.2.0
+[1.517s] -- The CXX compiler identification is GNU 11.2.0
+[1.578s] -- Detecting C compiler ABI info
+[2.067s] -- Detecting C compiler ABI info - done
+[2.137s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.138s] -- Detecting C compile features
+[2.139s] -- Detecting C compile features - done
+[2.157s] -- Detecting CXX compiler ABI info
+[2.701s] -- Detecting CXX compiler ABI info - done
+[2.769s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.771s] -- Detecting CXX compile features
+[2.774s] -- Detecting CXX compile features - done
+[2.797s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.803s] -- Found ament_cmake_core: 1.3.11 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[4.011s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.536s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.564s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.605s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.943s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.656s] -- Configuring done
+[5.683s] -- Generating done
+[5.694s] -- Build files have been written to: /userdata/dev_ws/build/serial
+[5.774s] Invoked command in '/userdata/dev_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/dev_ws/src/originbot/originbot_driver/serial_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/userdata/dev_ws/install/serial
+[5.777s] Invoking command in '/userdata/dev_ws/build/serial': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/serial -- -j8 -l8
+[8.341s] [ 25%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[8.342s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[8.343s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[8.346s] [01m[K/userdata/dev_ws/src/originbot/originbot_driver/serial_ros2/src/impl/list_ports/list_ports_linux.cc:[m[K In function ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > glob(const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[8.347s] [01m[K/userdata/dev_ws/src/originbot/originbot_driver/serial_ros2/src/impl/list_ports/list_ports_linux.cc:66:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[8.348s]    66 |     for(int path_index = 0; [01;35m[Kpath_index < glob_results.gl_pathc[m[K; path_index++)
+[8.348s]       |                             [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.349s] [01m[K/userdata/dev_ws/src/originbot/originbot_driver/serial_ros2/src/impl/list_ports/list_ports_linux.cc:57:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kglob_retval[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[8.350s]    57 |     int [01;35m[Kglob_retval[m[K = glob(patterns[0].c_str(), 0, NULL, &glob_results);
+[8.351s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[8.351s] [01m[K/userdata/dev_ws/src/originbot/originbot_driver/serial_ros2/src/impl/list_ports/list_ports_linux.cc:[m[K In function ‘[01m[Kstd::string format(const char*, ...)[m[K’:
+[8.352s] [01m[K/userdata/dev_ws/src/originbot/originbot_driver/serial_ros2/src/impl/list_ports/list_ports_linux.cc:246:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[8.353s]   246 |         else if( [01;35m[Kreturn_value >= buffer_size_bytes[m[K )
+[8.354s]       |                  [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[9.449s] [100%] [32m[1mLinking CXX static library libserial.a[0m
+[9.629s] [100%] Built target serial

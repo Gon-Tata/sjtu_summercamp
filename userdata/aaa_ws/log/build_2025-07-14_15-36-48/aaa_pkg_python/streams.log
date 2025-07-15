@@ -1,0 +1,22 @@
+[3.936s] Invoking command in '/userdata/aaa_ws/src/aaa_pkg_python': PYTHONPATH=/userdata/aaa_ws/build/aaa_pkg_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/aaa_ws/install/aaa_pkg_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aaa_pkg_python build --build-base /userdata/aaa_ws/build/aaa_pkg_python/build install --record /userdata/aaa_ws/build/aaa_pkg_python/install.log --single-version-externally-managed install_data
+[5.430s] running egg_info
+[5.434s] writing ../../build/aaa_pkg_python/aaa_pkg_python.egg-info/PKG-INFO
+[5.435s] writing dependency_links to ../../build/aaa_pkg_python/aaa_pkg_python.egg-info/dependency_links.txt
+[5.436s] writing entry points to ../../build/aaa_pkg_python/aaa_pkg_python.egg-info/entry_points.txt
+[5.437s] writing requirements to ../../build/aaa_pkg_python/aaa_pkg_python.egg-info/requires.txt
+[5.438s] writing top-level names to ../../build/aaa_pkg_python/aaa_pkg_python.egg-info/top_level.txt
+[5.447s] reading manifest file '../../build/aaa_pkg_python/aaa_pkg_python.egg-info/SOURCES.txt'
+[5.452s] writing manifest file '../../build/aaa_pkg_python/aaa_pkg_python.egg-info/SOURCES.txt'
+[5.453s] running build
+[5.454s] running build_py
+[5.455s] running install
+[5.458s] running install_lib
+[5.465s] running install_data
+[5.466s] running install_egg_info
+[5.475s] removing '/userdata/aaa_ws/install/aaa_pkg_python/lib/python3.10/site-packages/aaa_pkg_python-0.0.0-py3.10.egg-info' (and everything under it)
+[5.477s] Copying ../../build/aaa_pkg_python/aaa_pkg_python.egg-info to /userdata/aaa_ws/install/aaa_pkg_python/lib/python3.10/site-packages/aaa_pkg_python-0.0.0-py3.10.egg-info
+[5.481s] running install_scripts
+[5.602s] Installing pub script to /userdata/aaa_ws/install/aaa_pkg_python/lib/aaa_pkg_python
+[5.605s] Installing sub script to /userdata/aaa_ws/install/aaa_pkg_python/lib/aaa_pkg_python
+[5.612s] writing list of installed files to '/userdata/aaa_ws/build/aaa_pkg_python/install.log'
+[5.852s] Invoked command in '/userdata/aaa_ws/src/aaa_pkg_python' returned '0': PYTHONPATH=/userdata/aaa_ws/build/aaa_pkg_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/aaa_ws/install/aaa_pkg_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aaa_pkg_python build --build-base /userdata/aaa_ws/build/aaa_pkg_python/build install --record /userdata/aaa_ws/build/aaa_pkg_python/install.log --single-version-externally-managed install_data

@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing originbot_linefollower.egg-info/PKG-INFO
+writing dependency_links to originbot_linefollower.egg-info/dependency_links.txt
+writing entry points to originbot_linefollower.egg-info/entry_points.txt
+writing requirements to originbot_linefollower.egg-info/requires.txt
+writing top-level names to originbot_linefollower.egg-info/top_level.txt
+reading manifest file 'originbot_linefollower.egg-info/SOURCES.txt'
+writing manifest file 'originbot_linefollower.egg-info/SOURCES.txt'
+running build_ext
+Creating /userdata/dev_ws/install/originbot_linefollower/lib/python3.10/site-packages/originbot-linefollower.egg-link (link to .)
+Installing follower script to /userdata/dev_ws/install/originbot_linefollower/lib/originbot_linefollower
+
+Installed /userdata/dev_ws/build/originbot_linefollower
+running symlink_data

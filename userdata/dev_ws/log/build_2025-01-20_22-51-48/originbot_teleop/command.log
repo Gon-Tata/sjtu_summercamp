@@ -1,0 +1,1 @@
+Invoking command in '/userdata/dev_ws/build/originbot_teleop': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/originbot_teleop -- -j8 -l8

@@ -1,0 +1,29 @@
+[35m[1mConsolidate compiler generated dependencies of target serial[0m
+[100%] Built target serial
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /userdata/dev_ws/install/serial/lib/libserial.a
+-- Symlinking: /userdata/dev_ws/install/serial/share/serial/environment/library_path.sh
+-- Symlinking: /userdata/dev_ws/install/serial/share/serial/environment/library_path.dsv
+-- Symlinking: /userdata/dev_ws/install/serial/include/serial/impl/unix.h
+-- Symlinking: /userdata/dev_ws/install/serial/include/serial/impl/win.h
+-- Symlinking: /userdata/dev_ws/install/serial/include/serial/serial.h
+-- Symlinking: /userdata/dev_ws/install/serial/include/serial/v8stdint.h
+-- Symlinking: /userdata/dev_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+-- Symlinking: /userdata/dev_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+-- Symlinking: /userdata/dev_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+-- Symlinking: /userdata/dev_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+-- Symlinking: /userdata/dev_ws/install/serial/share/serial/environment/path.sh
+-- Symlinking: /userdata/dev_ws/install/serial/share/serial/environment/path.dsv
+-- Symlinking: /userdata/dev_ws/install/serial/share/serial/local_setup.bash
+-- Symlinking: /userdata/dev_ws/install/serial/share/serial/local_setup.sh
+-- Symlinking: /userdata/dev_ws/install/serial/share/serial/local_setup.zsh
+-- Symlinking: /userdata/dev_ws/install/serial/share/serial/local_setup.dsv
+-- Symlinking: /userdata/dev_ws/install/serial/share/serial/package.dsv
+-- Symlinking: /userdata/dev_ws/install/serial/share/ament_index/resource_index/packages/serial
+-- Symlinking: /userdata/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /userdata/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /userdata/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /userdata/dev_ws/install/serial/share/serial/cmake/serialConfig.cmake
+-- Symlinking: /userdata/dev_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+-- Symlinking: /userdata/dev_ws/install/serial/share/serial/package.xml

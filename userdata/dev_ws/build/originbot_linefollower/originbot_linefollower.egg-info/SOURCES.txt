@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+originbot_linefollower/__init__.py
+originbot_linefollower/follower.py
+originbot_linefollower.egg-info/PKG-INFO
+originbot_linefollower.egg-info/SOURCES.txt
+originbot_linefollower.egg-info/dependency_links.txt
+originbot_linefollower.egg-info/entry_points.txt
+originbot_linefollower.egg-info/requires.txt
+originbot_linefollower.egg-info/top_level.txt
+originbot_linefollower.egg-info/zip-safe
+resource/originbot_linefollower

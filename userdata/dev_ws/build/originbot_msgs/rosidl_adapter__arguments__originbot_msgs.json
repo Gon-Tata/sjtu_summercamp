@@ -1,0 +1,9 @@
+{
+  "package_name": "originbot_msgs",
+  "non_idl_tuples": [
+    "/userdata/dev_ws/src/originbot/originbot_msgs:msg/OriginbotStatus.msg",
+    "/userdata/dev_ws/src/originbot/originbot_msgs:srv/OriginbotBuzzer.srv",
+    "/userdata/dev_ws/src/originbot/originbot_msgs:srv/OriginbotLed.srv",
+    "/userdata/dev_ws/src/originbot/originbot_msgs:srv/OriginbotPID.srv"
+  ]
+}

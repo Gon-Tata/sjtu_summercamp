@@ -1,0 +1,58 @@
+[0.315s] Invoking command in '/userdata/dev_ws/build/originbot_base': AMENT_PREFIX_PATH=/userdata/dev_ws/install/serial:/userdata/dev_ws/install/originbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/dev_ws/install/serial:/userdata/dev_ws/install/originbot_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/originbot_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /userdata/dev_ws/src/originbot/originbot_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/userdata/dev_ws/install/originbot_base
+[3.940s] -- The C compiler identification is GNU 11.2.0
+[3.944s] -- The CXX compiler identification is GNU 11.2.0
+[3.945s] -- Detecting C compiler ABI info
+[3.945s] -- Detecting C compiler ABI info - done
+[3.946s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.947s] -- Detecting C compile features
+[3.947s] -- Detecting C compile features - done
+[3.948s] -- Detecting CXX compiler ABI info
+[3.949s] -- Detecting CXX compiler ABI info - done
+[3.950s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.951s] -- Detecting CXX compile features
+[3.951s] -- Detecting CXX compile features - done
+[3.952s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.975s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.550s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.727s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[7.027s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.080s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.216s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.369s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.483s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.793s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.810s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.353s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.595s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.947s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.010s] -- Looking for pthread.h
+[10.000s] -- Looking for pthread.h - found
+[10.004s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.805s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.812s] -- Found Threads: TRUE  
+[11.189s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[11.446s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[11.591s] -- Found serial: 1.2.1 (/userdata/dev_ws/install/serial/share/serial/cmake)
+[11.611s] -- Found tf2_ros: 0.25.9 (/opt/ros/humble/share/tf2_ros/cmake)
+[12.421s] -- Found originbot_msgs: 0.0.0 (/userdata/dev_ws/install/originbot_msgs/share/originbot_msgs/cmake)
+[12.532s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[13.190s] -- Added test 'copyright' to check source files copyright and LICENSE
+[13.197s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.200s] -- Configured cppcheck include dirs: /userdata/dev_ws/src/originbot/originbot_base/include
+[13.201s] -- Configured cppcheck exclude dirs and/or files: 
+[13.206s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[13.207s] -- Configured cpplint exclude dirs and/or files: 
+[13.210s] -- Added test 'flake8' to check Python code syntax and style conventions
+[13.213s] -- Added test 'lint_cmake' to check CMake code style
+[13.220s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[13.226s] -- Added test 'uncrustify' to check C / C++ code style
+[13.228s] -- Configured uncrustify additional arguments: 
+[13.232s] -- Added test 'xmllint' to check XML markup files
+[13.248s] -- Configuring done
+[13.342s] -- Generating done
+[13.376s] -- Build files have been written to: /userdata/dev_ws/build/originbot_base
+[13.481s] Invoked command in '/userdata/dev_ws/build/originbot_base' returned '0': AMENT_PREFIX_PATH=/userdata/dev_ws/install/serial:/userdata/dev_ws/install/originbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/dev_ws/install/serial:/userdata/dev_ws/install/originbot_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/originbot_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /userdata/dev_ws/src/originbot/originbot_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/userdata/dev_ws/install/originbot_base
+[13.487s] Invoking command in '/userdata/dev_ws/build/originbot_base': AMENT_PREFIX_PATH=/userdata/dev_ws/install/serial:/userdata/dev_ws/install/originbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/dev_ws/install/serial:/userdata/dev_ws/install/originbot_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/originbot_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /userdata/dev_ws/build/originbot_base -- -j8 -l8
+[14.041s] [ 50%] [32mBuilding CXX object CMakeFiles/originbot_base.dir/src/originbot_base.cpp.o[0m
+[94.504s] [100%] [32m[1mLinking CXX executable originbot_base[0m
+[100.110s] [100%] Built target originbot_base

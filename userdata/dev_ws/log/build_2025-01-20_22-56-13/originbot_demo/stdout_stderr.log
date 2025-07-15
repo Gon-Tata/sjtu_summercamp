@@ -1,0 +1,21 @@
+running develop
+running egg_info
+writing originbot_demo.egg-info/PKG-INFO
+writing dependency_links to originbot_demo.egg-info/dependency_links.txt
+writing entry points to originbot_demo.egg-info/entry_points.txt
+writing requirements to originbot_demo.egg-info/requires.txt
+writing top-level names to originbot_demo.egg-info/top_level.txt
+reading manifest file 'originbot_demo.egg-info/SOURCES.txt'
+writing manifest file 'originbot_demo.egg-info/SOURCES.txt'
+running build_ext
+Creating /userdata/dev_ws/install/originbot_demo/lib/python3.10/site-packages/originbot-demo.egg-link (link to .)
+Installing control_buzzer script to /userdata/dev_ws/install/originbot_demo/lib/originbot_demo
+Installing control_led script to /userdata/dev_ws/install/originbot_demo/lib/originbot_demo
+Installing draw_circle script to /userdata/dev_ws/install/originbot_demo/lib/originbot_demo
+Installing echo_odom script to /userdata/dev_ws/install/originbot_demo/lib/originbot_demo
+Installing echo_status script to /userdata/dev_ws/install/originbot_demo/lib/originbot_demo
+Installing take_pictures script to /userdata/dev_ws/install/originbot_demo/lib/originbot_demo
+Installing transport_img script to /userdata/dev_ws/install/originbot_demo/lib/originbot_demo
+
+Installed /userdata/dev_ws/build/originbot_demo
+running symlink_data

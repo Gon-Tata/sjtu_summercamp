@@ -1,0 +1,10 @@
+[0.246s] Invoking command in '/userdata/dev_ws/build/qpOASES': /usr/bin/cmake /userdata/dev_ws/src/originbot/originbot_driver/qpOASES -DCMAKE_INSTALL_PREFIX=/userdata/dev_ws/install/qpOASES
+[2.015s] -- The CXX compiler identification is GNU 11.2.0
+[2.016s] -- Detecting CXX compiler ABI info
+[2.489s] -- Detecting CXX compiler ABI info - done
+[2.576s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.577s] -- Detecting CXX compile features
+[2.585s] -- Detecting CXX compile features - done
+[2.594s] -- Configuring done
+[2.711s] -- Generating done
+[2.773s] -- Build files have been written to: /userdata/dev_ws/build/qpOASES

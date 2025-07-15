@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/ccc_pkg_python/ccc_pkg_python.egg-info
+writing ../../build/ccc_pkg_python/ccc_pkg_python.egg-info/PKG-INFO
+writing dependency_links to ../../build/ccc_pkg_python/ccc_pkg_python.egg-info/dependency_links.txt
+writing entry points to ../../build/ccc_pkg_python/ccc_pkg_python.egg-info/entry_points.txt
+writing requirements to ../../build/ccc_pkg_python/ccc_pkg_python.egg-info/requires.txt
+writing top-level names to ../../build/ccc_pkg_python/ccc_pkg_python.egg-info/top_level.txt
+writing manifest file '../../build/ccc_pkg_python/ccc_pkg_python.egg-info/SOURCES.txt'
+reading manifest file '../../build/ccc_pkg_python/ccc_pkg_python.egg-info/SOURCES.txt'
+writing manifest file '../../build/ccc_pkg_python/ccc_pkg_python.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /userdata/ccc_ws/build/ccc_pkg_python/build
+creating /userdata/ccc_ws/build/ccc_pkg_python/build/lib
+creating /userdata/ccc_ws/build/ccc_pkg_python/build/lib/ccc_pkg_python
+copying ccc_pkg_python/__init__.py -> /userdata/ccc_ws/build/ccc_pkg_python/build/lib/ccc_pkg_python
+copying ccc_pkg_python/simple.launch.py -> /userdata/ccc_ws/build/ccc_pkg_python/build/lib/ccc_pkg_python
+copying ccc_pkg_python/topic_helloworld_pub.py -> /userdata/ccc_ws/build/ccc_pkg_python/build/lib/ccc_pkg_python
+running install
+running install_lib
+creating /userdata/ccc_ws/install/ccc_pkg_python/lib/python3.10/site-packages/ccc_pkg_python
+copying /userdata/ccc_ws/build/ccc_pkg_python/build/lib/ccc_pkg_python/__init__.py -> /userdata/ccc_ws/install/ccc_pkg_python/lib/python3.10/site-packages/ccc_pkg_python
+copying /userdata/ccc_ws/build/ccc_pkg_python/build/lib/ccc_pkg_python/simple.launch.py -> /userdata/ccc_ws/install/ccc_pkg_python/lib/python3.10/site-packages/ccc_pkg_python
+copying /userdata/ccc_ws/build/ccc_pkg_python/build/lib/ccc_pkg_python/topic_helloworld_pub.py -> /userdata/ccc_ws/install/ccc_pkg_python/lib/python3.10/site-packages/ccc_pkg_python
+byte-compiling /userdata/ccc_ws/install/ccc_pkg_python/lib/python3.10/site-packages/ccc_pkg_python/__init__.py to __init__.cpython-310.pyc
+byte-compiling /userdata/ccc_ws/install/ccc_pkg_python/lib/python3.10/site-packages/ccc_pkg_python/simple.launch.py to simple.launch.cpython-310.pyc
+byte-compiling /userdata/ccc_ws/install/ccc_pkg_python/lib/python3.10/site-packages/ccc_pkg_python/topic_helloworld_pub.py to topic_helloworld_pub.cpython-310.pyc
+running install_data
+creating /userdata/ccc_ws/install/ccc_pkg_python/share/ament_index
+creating /userdata/ccc_ws/install/ccc_pkg_python/share/ament_index/resource_index
+creating /userdata/ccc_ws/install/ccc_pkg_python/share/ament_index/resource_index/packages
+copying resource/ccc_pkg_python -> /userdata/ccc_ws/install/ccc_pkg_python/share/ament_index/resource_index/packages
+copying package.xml -> /userdata/ccc_ws/install/ccc_pkg_python/share/ccc_pkg_python
+running install_egg_info
+Copying ../../build/ccc_pkg_python/ccc_pkg_python.egg-info to /userdata/ccc_ws/install/ccc_pkg_python/lib/python3.10/site-packages/ccc_pkg_python-0.0.0-py3.10.egg-info
+running install_scripts
+Installing pub script to /userdata/ccc_ws/install/ccc_pkg_python/lib/ccc_pkg_python
+Installing sub script to /userdata/ccc_ws/install/ccc_pkg_python/lib/ccc_pkg_python
+writing list of installed files to '/userdata/ccc_ws/build/ccc_pkg_python/install.log'

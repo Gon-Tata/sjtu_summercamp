@@ -1,0 +1,85 @@
+[0.000000] (-) TimerEvent: {}
+[0.001946] (aaa_pkg_python) JobQueued: {'identifier': 'aaa_pkg_python', 'dependencies': OrderedDict()}
+[0.002714] (aaa_pkg_python) JobStarted: {'identifier': 'aaa_pkg_python'}
+[0.098339] (-) TimerEvent: {}
+[0.199075] (-) TimerEvent: {}
+[0.299788] (-) TimerEvent: {}
+[0.400468] (-) TimerEvent: {}
+[0.501222] (-) TimerEvent: {}
+[0.601995] (-) TimerEvent: {}
+[0.702746] (-) TimerEvent: {}
+[0.803466] (-) TimerEvent: {}
+[0.904182] (-) TimerEvent: {}
+[1.004921] (-) TimerEvent: {}
+[1.105668] (-) TimerEvent: {}
+[1.206404] (-) TimerEvent: {}
+[1.307178] (-) TimerEvent: {}
+[1.407918] (-) TimerEvent: {}
+[1.508684] (-) TimerEvent: {}
+[1.609508] (-) TimerEvent: {}
+[1.710323] (-) TimerEvent: {}
+[1.812653] (-) TimerEvent: {}
+[1.913362] (-) TimerEvent: {}
+[2.014048] (-) TimerEvent: {}
+[2.114753] (-) TimerEvent: {}
+[2.215497] (-) TimerEvent: {}
+[2.316192] (-) TimerEvent: {}
+[2.416879] (-) TimerEvent: {}
+[2.517610] (-) TimerEvent: {}
+[2.618384] (-) TimerEvent: {}
+[2.719118] (-) TimerEvent: {}
+[2.819823] (-) TimerEvent: {}
+[2.920511] (-) TimerEvent: {}
+[3.021206] (-) TimerEvent: {}
+[3.121913] (-) TimerEvent: {}
+[3.222602] (-) TimerEvent: {}
+[3.323291] (-) TimerEvent: {}
+[3.424005] (-) TimerEvent: {}
+[3.524790] (-) TimerEvent: {}
+[3.625671] (-) TimerEvent: {}
+[3.726637] (-) TimerEvent: {}
+[3.827490] (-) TimerEvent: {}
+[3.918845] (aaa_pkg_python) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/aaa_pkg_python', 'build', '--build-base', '/userdata/aaa_ws/build/aaa_pkg_python/build', 'install', '--record', '/userdata/aaa_ws/build/aaa_pkg_python/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/userdata/aaa_ws/src/aaa_pkg_python', 'env': {'LANGUAGE': 'en_US.UTF-8', 'USER': 'root', 'SSH_CLIENT': '192.168.137.179 60128 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/originbot_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'OLDPWD': '/userdata/aaa_ws/src', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'DEBUGINFOD_URLS': '', 'TROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/userdata/aaa_ws/install:/userdata/dev_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '12', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/tros/humble/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/0', 'DISPLAY': 'localhost:12.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROSDISTRO_INDEX_URL': 'https://mirrors.tuna.tsinghua.edu.cn/rosdistro/index-v4.yaml', 'AMENT_PREFIX_PATH': '/userdata/aaa_ws/install/aaa_pkg_python:/userdata/dev_ws/install/vp100_ros2:/userdata/dev_ws/install/originbot_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/originbot_teleop:/userdata/dev_ws/install/originbot_send_goal:/userdata/dev_ws/install/originbot_qrcode_detect:/userdata/dev_ws/install/originbot_navigation:/userdata/dev_ws/install/originbot_linefollower:/userdata/dev_ws/install/originbot_demo:/userdata/dev_ws/install/originbot_msgs:/userdata/dev_ws/install/originbot_bringup:/userdata/dev_ws/install/line_follower_perception:/userdata/dev_ws/install/gesture_control:/userdata/dev_ws/install/body_tracking:/opt/tros/humble:/opt/ros/humble', 'SHELL': '/bin/bash', 'PWD': '/userdata/aaa_ws/build/aaa_pkg_python', 'SSH_CONNECTION': '192.168.137.179 60128 192.168.137.65 22', 'PYTHONPATH': '/userdata/aaa_ws/build/aaa_pkg_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/aaa_ws/install/aaa_pkg_python/lib/python3.10/site-packages:/userdata/aaa_ws/install/aaa_pkg_python/lib/python3.10/site-packages:/userdata/dev_ws/build/originbot_linefollower:/userdata/dev_ws/install/originbot_linefollower/lib/python3.10/site-packages:/userdata/dev_ws/build/originbot_demo:/userdata/dev_ws/install/originbot_demo/lib/python3.10/site-packages:/userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/userdata/dev_ws/install/vp100_ros2:/userdata/dev_ws/install/originbot_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/originbot_teleop:/userdata/dev_ws/install/originbot_send_goal:/userdata/dev_ws/install/originbot_qrcode_detect:/userdata/dev_ws/install/originbot_navigation:/userdata/dev_ws/install/originbot_msgs:/userdata/dev_ws/install/originbot_bringup:/userdata/dev_ws/install/line_follower_perception:/userdata/dev_ws/install/gesture_control:/userdata/dev_ws/install/body_tracking'}, 'shell': False}
+[3.943665] (-) TimerEvent: {}
+[4.045987] (-) TimerEvent: {}
+[4.146729] (-) TimerEvent: {}
+[4.247432] (-) TimerEvent: {}
+[4.348101] (-) TimerEvent: {}
+[4.448834] (-) TimerEvent: {}
+[4.549634] (-) TimerEvent: {}
+[4.650407] (-) TimerEvent: {}
+[4.751143] (-) TimerEvent: {}
+[4.851871] (-) TimerEvent: {}
+[4.952568] (-) TimerEvent: {}
+[5.053237] (-) TimerEvent: {}
+[5.153916] (-) TimerEvent: {}
+[5.254614] (-) TimerEvent: {}
+[5.355380] (-) TimerEvent: {}
+[5.432589] (aaa_pkg_python) StdoutLine: {'line': b'running egg_info\n'}
+[5.436814] (aaa_pkg_python) StdoutLine: {'line': b'writing ../../build/aaa_pkg_python/aaa_pkg_python.egg-info/PKG-INFO\n'}
+[5.437945] (aaa_pkg_python) StdoutLine: {'line': b'writing dependency_links to ../../build/aaa_pkg_python/aaa_pkg_python.egg-info/dependency_links.txt\n'}
+[5.438856] (aaa_pkg_python) StdoutLine: {'line': b'writing entry points to ../../build/aaa_pkg_python/aaa_pkg_python.egg-info/entry_points.txt\n'}
+[5.439651] (aaa_pkg_python) StdoutLine: {'line': b'writing requirements to ../../build/aaa_pkg_python/aaa_pkg_python.egg-info/requires.txt\n'}
+[5.440193] (aaa_pkg_python) StdoutLine: {'line': b'writing top-level names to ../../build/aaa_pkg_python/aaa_pkg_python.egg-info/top_level.txt\n'}
+[5.449796] (aaa_pkg_python) StdoutLine: {'line': b"reading manifest file '../../build/aaa_pkg_python/aaa_pkg_python.egg-info/SOURCES.txt'\n"}
+[5.454675] (aaa_pkg_python) StdoutLine: {'line': b"writing manifest file '../../build/aaa_pkg_python/aaa_pkg_python.egg-info/SOURCES.txt'\n"}
+[5.455419] (-) TimerEvent: {}
+[5.455862] (aaa_pkg_python) StdoutLine: {'line': b'running build\n'}
+[5.456368] (aaa_pkg_python) StdoutLine: {'line': b'running build_py\n'}
+[5.457661] (aaa_pkg_python) StdoutLine: {'line': b'running install\n'}
+[5.460329] (aaa_pkg_python) StdoutLine: {'line': b'running install_lib\n'}
+[5.467327] (aaa_pkg_python) StdoutLine: {'line': b'running install_data\n'}
+[5.468055] (aaa_pkg_python) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.477669] (aaa_pkg_python) StdoutLine: {'line': b"removing '/userdata/aaa_ws/install/aaa_pkg_python/lib/python3.10/site-packages/aaa_pkg_python-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.479152] (aaa_pkg_python) StdoutLine: {'line': b'Copying ../../build/aaa_pkg_python/aaa_pkg_python.egg-info to /userdata/aaa_ws/install/aaa_pkg_python/lib/python3.10/site-packages/aaa_pkg_python-0.0.0-py3.10.egg-info\n'}
+[5.483275] (aaa_pkg_python) StdoutLine: {'line': b'running install_scripts\n'}
+[5.555666] (-) TimerEvent: {}
+[5.604530] (aaa_pkg_python) StdoutLine: {'line': b'Installing pub script to /userdata/aaa_ws/install/aaa_pkg_python/lib/aaa_pkg_python\n'}
+[5.606345] (aaa_pkg_python) StdoutLine: {'line': b'Installing sub script to /userdata/aaa_ws/install/aaa_pkg_python/lib/aaa_pkg_python\n'}
+[5.613151] (aaa_pkg_python) StdoutLine: {'line': b"writing list of installed files to '/userdata/aaa_ws/build/aaa_pkg_python/install.log'\n"}
+[5.655982] (-) TimerEvent: {}
+[5.756811] (-) TimerEvent: {}
+[5.815060] (aaa_pkg_python) CommandEnded: {'returncode': 0}
+[5.857597] (-) TimerEvent: {}
+[5.918715] (aaa_pkg_python) JobEnded: {'identifier': 'aaa_pkg_python', 'rc': 0}
+[5.921812] (-) EventReactorShutdown: {}

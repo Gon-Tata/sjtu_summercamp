@@ -1,0 +1,1 @@
+Invoking command in '/userdata/dev_ws/build/qpOASES': /usr/bin/cmake /userdata/dev_ws/src/originbot/originbot_driver/qpOASES -DCMAKE_INSTALL_PREFIX=/userdata/dev_ws/install/qpOASES

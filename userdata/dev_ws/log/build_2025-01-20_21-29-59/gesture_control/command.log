@@ -1,0 +1,1 @@
+Invoking command in '/userdata/dev_ws/build/gesture_control': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/gesture_control -- -j8 -l8

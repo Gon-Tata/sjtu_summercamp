@@ -1,0 +1,90 @@
+[  2%] [32mBuilding CXX object CMakeFiles/qpOASES.dir/src/BLASReplacement.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/qpOASES.dir/src/MessageHandling.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/qpOASES.dir/src/Indexlist.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/qpOASES.dir/src/Flipper.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/qpOASES.dir/src/Bounds.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/qpOASES.dir/src/Constraints.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/qpOASES.dir/src/LAPACKReplacement.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/qpOASES.dir/src/Matrices.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/qpOASES.dir/src/OQPinterface.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/qpOASES.dir/src/Options.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/qpOASES.dir/src/QProblem.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/qpOASES.dir/src/QProblemB.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/qpOASES.dir/src/SQProblem.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/qpOASES.dir/src/SQProblemSchur.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/qpOASES.dir/src/SolutionAnalysis.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/qpOASES.dir/src/SparseSolver.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/qpOASES.dir/src/SubjectTo.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/qpOASES.dir/src/Utils.cpp.o[0m
+[ 46%] [32m[1mLinking CXX static library libs/libqpOASES.a[0m
+[ 46%] Built target qpOASES
+[ 48%] [32mBuilding CXX object CMakeFiles/example1.dir/examples/example1.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/example2.dir/examples/example2.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/example4.dir/examples/example4.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/example1a.dir/examples/example1a.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/example1b.dir/examples/example1b.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/example3.dir/examples/example3.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/example3b.dir/examples/example3b.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/example5.dir/examples/example5.cpp.o[0m
+[ 68%] [32m[1mLinking CXX executable bin/example2[0m
+[ 70%] [32m[1mLinking CXX executable bin/example1a[0m
+[ 73%] [32m[1mLinking CXX executable bin/example5[0m
+[ 75%] [32m[1mLinking CXX executable bin/example1[0m
+[ 78%] [32m[1mLinking CXX executable bin/example3[0m
+[ 80%] [32m[1mLinking CXX executable bin/example1b[0m
+[ 80%] Built target example2
+[ 80%] Built target example1a
+[ 82%] [32mBuilding CXX object CMakeFiles/exampleLP.dir/examples/exampleLP.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/qrecipe.dir/examples/qrecipe.cpp.o[0m
+[ 85%] Built target example5
+[ 85%] Built target example1
+[ 87%] [32m[1mLinking CXX executable bin/example4[0m
+[ 90%] [32m[1mLinking CXX executable bin/example3b[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/qrecipeSchur.dir/examples/qrecipeSchur.cpp.o[0m
+[ 92%] Built target example1b
+[ 92%] Built target example3
+[ 92%] Built target example3b
+[ 92%] Built target example4
+[ 95%] [32m[1mLinking CXX executable bin/exampleLP[0m
+[ 95%] Built target exampleLP
+[ 97%] [32m[1mLinking CXX executable bin/qrecipeSchur[0m
+[100%] [32m[1mLinking CXX executable bin/qrecipe[0m
+[100%] Built target qrecipeSchur
+[100%] Built target qrecipe
+-- Install configuration: "Release"
+-- Installing: /userdata/dev_ws/install/qpOASES/lib/libqpOASES.a
+-- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES.hpp
+-- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES
+-- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/Matrices.hpp
+-- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/SQProblem.hpp
+-- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/QProblemB.hpp
+-- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/SubjectTo.ipp
+-- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/QProblem.ipp
+-- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/Options.hpp
+-- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/MessageHandling.hpp
+-- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/extras
+-- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/extras/SolutionAnalysis.ipp
+-- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/extras/OQPinterface.hpp
+-- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/extras/SolutionAnalysis.hpp
+-- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/Flipper.hpp
+-- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/SparseSolver.hpp
+-- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/Constants.hpp
+-- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/LapackBlasReplacement.hpp
+-- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/MessageHandling.ipp
+-- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/ConstraintProduct.hpp
+-- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/QProblem.hpp
+-- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/SQProblemSchur.hpp
+-- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/Constraints.hpp
+-- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/SQProblemSchur.ipp
+-- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/QProblemB.ipp
+-- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/Bounds.hpp
+-- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/Indexlist.hpp
+-- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/Types.hpp
+-- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/Indexlist.ipp
+-- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/UnitTesting.hpp
+-- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/Bounds.ipp
+-- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/Utils.hpp
+-- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/SubjectTo.hpp
+-- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/Constraints.ipp
+-- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/Utils.ipp
+-- Installing: /userdata/dev_ws/install/qpOASES/include/qpOASES/SQProblem.ipp

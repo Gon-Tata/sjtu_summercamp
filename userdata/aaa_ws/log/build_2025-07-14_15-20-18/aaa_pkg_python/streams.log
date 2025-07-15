@@ -1,0 +1,41 @@
+[3.948s] Invoking command in '/userdata/aaa_ws/src/aaa_pkg_python': PYTHONPATH=/userdata/aaa_ws/build/aaa_pkg_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/aaa_ws/install/aaa_pkg_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aaa_pkg_python build --build-base /userdata/aaa_ws/build/aaa_pkg_python/build install --record /userdata/aaa_ws/build/aaa_pkg_python/install.log --single-version-externally-managed install_data
+[5.421s] running egg_info
+[5.425s] creating ../../build/aaa_pkg_python/aaa_pkg_python.egg-info
+[5.426s] writing ../../build/aaa_pkg_python/aaa_pkg_python.egg-info/PKG-INFO
+[5.427s] writing dependency_links to ../../build/aaa_pkg_python/aaa_pkg_python.egg-info/dependency_links.txt
+[5.427s] writing entry points to ../../build/aaa_pkg_python/aaa_pkg_python.egg-info/entry_points.txt
+[5.428s] writing requirements to ../../build/aaa_pkg_python/aaa_pkg_python.egg-info/requires.txt
+[5.428s] writing top-level names to ../../build/aaa_pkg_python/aaa_pkg_python.egg-info/top_level.txt
+[5.429s] writing manifest file '../../build/aaa_pkg_python/aaa_pkg_python.egg-info/SOURCES.txt'
+[5.438s] reading manifest file '../../build/aaa_pkg_python/aaa_pkg_python.egg-info/SOURCES.txt'
+[5.442s] writing manifest file '../../build/aaa_pkg_python/aaa_pkg_python.egg-info/SOURCES.txt'
+[5.442s] running build
+[5.443s] running build_py
+[5.444s] creating /userdata/aaa_ws/build/aaa_pkg_python/build
+[5.444s] creating /userdata/aaa_ws/build/aaa_pkg_python/build/lib
+[5.445s] creating /userdata/aaa_ws/build/aaa_pkg_python/build/lib/aaa_pkg_python
+[5.445s] copying aaa_pkg_python/__init__.py -> /userdata/aaa_ws/build/aaa_pkg_python/build/lib/aaa_pkg_python
+[5.446s] copying aaa_pkg_python/simple.launch.py -> /userdata/aaa_ws/build/aaa_pkg_python/build/lib/aaa_pkg_python
+[5.446s] copying aaa_pkg_python/topic_helloworld_pub.py -> /userdata/aaa_ws/build/aaa_pkg_python/build/lib/aaa_pkg_python
+[5.447s] running install
+[5.449s] running install_lib
+[5.452s] creating /userdata/aaa_ws/install/aaa_pkg_python/lib/python3.10/site-packages/aaa_pkg_python
+[5.453s] copying /userdata/aaa_ws/build/aaa_pkg_python/build/lib/aaa_pkg_python/__init__.py -> /userdata/aaa_ws/install/aaa_pkg_python/lib/python3.10/site-packages/aaa_pkg_python
+[5.454s] copying /userdata/aaa_ws/build/aaa_pkg_python/build/lib/aaa_pkg_python/simple.launch.py -> /userdata/aaa_ws/install/aaa_pkg_python/lib/python3.10/site-packages/aaa_pkg_python
+[5.454s] copying /userdata/aaa_ws/build/aaa_pkg_python/build/lib/aaa_pkg_python/topic_helloworld_pub.py -> /userdata/aaa_ws/install/aaa_pkg_python/lib/python3.10/site-packages/aaa_pkg_python
+[5.457s] byte-compiling /userdata/aaa_ws/install/aaa_pkg_python/lib/python3.10/site-packages/aaa_pkg_python/__init__.py to __init__.cpython-310.pyc
+[5.458s] byte-compiling /userdata/aaa_ws/install/aaa_pkg_python/lib/python3.10/site-packages/aaa_pkg_python/simple.launch.py to simple.launch.cpython-310.pyc
+[5.459s] byte-compiling /userdata/aaa_ws/install/aaa_pkg_python/lib/python3.10/site-packages/aaa_pkg_python/topic_helloworld_pub.py to topic_helloworld_pub.cpython-310.pyc
+[5.461s] running install_data
+[5.462s] creating /userdata/aaa_ws/install/aaa_pkg_python/share/ament_index
+[5.462s] creating /userdata/aaa_ws/install/aaa_pkg_python/share/ament_index/resource_index
+[5.463s] creating /userdata/aaa_ws/install/aaa_pkg_python/share/ament_index/resource_index/packages
+[5.463s] copying resource/aaa_pkg_python -> /userdata/aaa_ws/install/aaa_pkg_python/share/ament_index/resource_index/packages
+[5.464s] copying package.xml -> /userdata/aaa_ws/install/aaa_pkg_python/share/aaa_pkg_python
+[5.464s] running install_egg_info
+[5.473s] Copying ../../build/aaa_pkg_python/aaa_pkg_python.egg-info to /userdata/aaa_ws/install/aaa_pkg_python/lib/python3.10/site-packages/aaa_pkg_python-0.0.0-py3.10.egg-info
+[5.477s] running install_scripts
+[5.595s] Installing pub script to /userdata/aaa_ws/install/aaa_pkg_python/lib/aaa_pkg_python
+[5.596s] Installing sub script to /userdata/aaa_ws/install/aaa_pkg_python/lib/aaa_pkg_python
+[5.597s] writing list of installed files to '/userdata/aaa_ws/build/aaa_pkg_python/install.log'
+[5.799s] Invoked command in '/userdata/aaa_ws/src/aaa_pkg_python' returned '0': PYTHONPATH=/userdata/aaa_ws/build/aaa_pkg_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/aaa_ws/install/aaa_pkg_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aaa_pkg_python build --build-base /userdata/aaa_ws/build/aaa_pkg_python/build install --record /userdata/aaa_ws/build/aaa_pkg_python/install.log --single-version-externally-managed install_data

@@ -1,0 +1,37 @@
+[0.169s] Invoking command in '/userdata/dev_ws/build/body_tracking': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/body_tracking -- -j8 -l8
+[0.511s] [100%] Built target body_tracking
+[0.876s] Invoked command in '/userdata/dev_ws/build/body_tracking' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/body_tracking -- -j8 -l8
+[0.883s] Invoking command in '/userdata/dev_ws/build/body_tracking': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/body_tracking
+[1.102s] -- Install configuration: ""
+[1.103s] -- Execute custom install script
+[1.103s] -- Up-to-date symlink: /userdata/dev_ws/install/body_tracking/lib/body_tracking/body_tracking
+[1.105s] -- Up-to-date symlink: /userdata/dev_ws/install/body_tracking/share/body_tracking/launch/body_tracking.launch.py
+[1.106s] -- Up-to-date symlink: /userdata/dev_ws/install/body_tracking/share/body_tracking/launch/body_tracking_without_gesture.launch.py
+[1.108s] -- Up-to-date symlink: /userdata/dev_ws/install/body_tracking/share/body_tracking/launch/body_tracking_without_input_node.launch.py
+[1.111s] -- Up-to-date symlink: /userdata/dev_ws/install/body_tracking/lib/body_tracking/README.md
+[1.111s] -- Up-to-date symlink: /userdata/dev_ws/install/body_tracking/lib/body_tracking/images/20220922180336.png
+[1.112s] -- Up-to-date symlink: /userdata/dev_ws/install/body_tracking/lib/body_tracking/images/body_detection.gif
+[1.112s] -- Up-to-date symlink: /userdata/dev_ws/install/body_tracking/lib/body_tracking/images/ezgif-5-5c246b7347.gif
+[1.113s] -- Up-to-date symlink: /userdata/dev_ws/install/body_tracking/lib/body_tracking/images/gazebo1.jpeg
+[1.114s] -- Up-to-date symlink: /userdata/dev_ws/install/body_tracking/lib/body_tracking/images/image-ok.png
+[1.119s] -- Up-to-date symlink: /userdata/dev_ws/install/body_tracking/lib/body_tracking/images/image-palm.png
+[1.123s] -- Up-to-date symlink: /userdata/dev_ws/install/body_tracking/lib/body_tracking/images/interfaces.jpg
+[1.124s] -- Up-to-date symlink: /userdata/dev_ws/install/body_tracking/lib/body_tracking/images/tracking.gif
+[1.125s] -- Up-to-date symlink: /userdata/dev_ws/install/body_tracking/lib/body_tracking/images/webservice.jpeg
+[1.126s] -- Up-to-date symlink: /userdata/dev_ws/install/body_tracking/share/ament_index/resource_index/package_run_dependencies/body_tracking
+[1.128s] -- Up-to-date symlink: /userdata/dev_ws/install/body_tracking/share/ament_index/resource_index/parent_prefix_path/body_tracking
+[1.131s] -- Up-to-date symlink: /userdata/dev_ws/install/body_tracking/share/body_tracking/environment/ament_prefix_path.sh
+[1.135s] -- Up-to-date symlink: /userdata/dev_ws/install/body_tracking/share/body_tracking/environment/ament_prefix_path.dsv
+[1.135s] -- Up-to-date symlink: /userdata/dev_ws/install/body_tracking/share/body_tracking/environment/path.sh
+[1.136s] -- Up-to-date symlink: /userdata/dev_ws/install/body_tracking/share/body_tracking/environment/path.dsv
+[1.138s] -- Up-to-date symlink: /userdata/dev_ws/install/body_tracking/share/body_tracking/local_setup.bash
+[1.140s] -- Up-to-date symlink: /userdata/dev_ws/install/body_tracking/share/body_tracking/local_setup.sh
+[1.143s] -- Up-to-date symlink: /userdata/dev_ws/install/body_tracking/share/body_tracking/local_setup.zsh
+[1.143s] -- Up-to-date symlink: /userdata/dev_ws/install/body_tracking/share/body_tracking/local_setup.dsv
+[1.144s] -- Symlinking: /userdata/dev_ws/install/body_tracking/share/body_tracking/package.dsv
+[1.145s] -- Up-to-date symlink: /userdata/dev_ws/install/body_tracking/share/ament_index/resource_index/packages/body_tracking
+[1.148s] -- Up-to-date symlink: /userdata/dev_ws/install/body_tracking/share/body_tracking/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.152s] -- Up-to-date symlink: /userdata/dev_ws/install/body_tracking/share/body_tracking/cmake/body_trackingConfig.cmake
+[1.155s] -- Up-to-date symlink: /userdata/dev_ws/install/body_tracking/share/body_tracking/cmake/body_trackingConfig-version.cmake
+[1.156s] -- Up-to-date symlink: /userdata/dev_ws/install/body_tracking/share/body_tracking/package.xml
+[1.395s] Invoked command in '/userdata/dev_ws/build/body_tracking' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/body_tracking

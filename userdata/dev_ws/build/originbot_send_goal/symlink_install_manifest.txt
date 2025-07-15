@@ -1,0 +1,16 @@
+/userdata/dev_ws/install/originbot_send_goal/lib/originbot_send_goal/send_goal_node
+/userdata/dev_ws/install/originbot_send_goal/share/ament_index/resource_index/package_run_dependencies/originbot_send_goal
+/userdata/dev_ws/install/originbot_send_goal/share/ament_index/resource_index/parent_prefix_path/originbot_send_goal
+/userdata/dev_ws/install/originbot_send_goal/share/originbot_send_goal/environment/ament_prefix_path.sh
+/userdata/dev_ws/install/originbot_send_goal/share/originbot_send_goal/environment/ament_prefix_path.dsv
+/userdata/dev_ws/install/originbot_send_goal/share/originbot_send_goal/environment/path.sh
+/userdata/dev_ws/install/originbot_send_goal/share/originbot_send_goal/environment/path.dsv
+/userdata/dev_ws/install/originbot_send_goal/share/originbot_send_goal/local_setup.bash
+/userdata/dev_ws/install/originbot_send_goal/share/originbot_send_goal/local_setup.sh
+/userdata/dev_ws/install/originbot_send_goal/share/originbot_send_goal/local_setup.zsh
+/userdata/dev_ws/install/originbot_send_goal/share/originbot_send_goal/local_setup.dsv
+/userdata/dev_ws/install/originbot_send_goal/share/originbot_send_goal/package.dsv
+/userdata/dev_ws/install/originbot_send_goal/share/ament_index/resource_index/packages/originbot_send_goal
+/userdata/dev_ws/install/originbot_send_goal/share/originbot_send_goal/cmake/originbot_send_goalConfig.cmake
+/userdata/dev_ws/install/originbot_send_goal/share/originbot_send_goal/cmake/originbot_send_goalConfig-version.cmake
+/userdata/dev_ws/install/originbot_send_goal/share/originbot_send_goal/package.xml

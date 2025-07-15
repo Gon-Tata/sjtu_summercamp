@@ -1,0 +1,10 @@
+/userdata/dev_ws/build/gesture_control/CMakeFiles/uninstall.dir
+/userdata/dev_ws/build/gesture_control/CMakeFiles/gesture_control_uninstall.dir
+/userdata/dev_ws/build/gesture_control/CMakeFiles/gesture_control.dir
+/userdata/dev_ws/build/gesture_control/CMakeFiles/test.dir
+/userdata/dev_ws/build/gesture_control/CMakeFiles/edit_cache.dir
+/userdata/dev_ws/build/gesture_control/CMakeFiles/rebuild_cache.dir
+/userdata/dev_ws/build/gesture_control/CMakeFiles/list_install_components.dir
+/userdata/dev_ws/build/gesture_control/CMakeFiles/install.dir
+/userdata/dev_ws/build/gesture_control/CMakeFiles/install/local.dir
+/userdata/dev_ws/build/gesture_control/CMakeFiles/install/strip.dir

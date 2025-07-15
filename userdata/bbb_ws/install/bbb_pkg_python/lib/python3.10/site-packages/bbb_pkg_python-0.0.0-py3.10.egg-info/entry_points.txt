@@ -1,0 +1,4 @@
+[console_scripts]
+pub = bbb_pkg_python.topic_helloworld_pub:main
+sub = bbb_pkg_python.topic_helloworld_sub:main
+

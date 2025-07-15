@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target gesture_control[0m
+[100%] Built target gesture_control
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /userdata/dev_ws/install/gesture_control/lib/gesture_control/gesture_control
+-- Symlinking: /userdata/dev_ws/install/gesture_control/share/gesture_control/launch/gesture_control.launch.py
+-- Symlinking: /userdata/dev_ws/install/gesture_control/lib/gesture_control/README.md
+-- Symlinking: /userdata/dev_ws/install/gesture_control/lib/gesture_control/images/gazebo.jpeg
+-- Symlinking: /userdata/dev_ws/install/gesture_control/lib/gesture_control/images/gesture_ctrl_bot.gif
+-- Symlinking: /userdata/dev_ws/install/gesture_control/lib/gesture_control/images/gesture_ctrl_web.gif
+-- Symlinking: /userdata/dev_ws/install/gesture_control/lib/gesture_control/images/gesture_ctrl_workflow.jpg
+-- Symlinking: /userdata/dev_ws/install/gesture_control/lib/gesture_control/images/image-awesome.jpeg
+-- Symlinking: /userdata/dev_ws/install/gesture_control/lib/gesture_control/images/image-ok.jpeg
+-- Symlinking: /userdata/dev_ws/install/gesture_control/lib/gesture_control/images/image-palm.jpeg
+-- Symlinking: /userdata/dev_ws/install/gesture_control/lib/gesture_control/images/image-thumbleft.jpeg
+-- Symlinking: /userdata/dev_ws/install/gesture_control/lib/gesture_control/images/image-thumbright.jpeg
+-- Symlinking: /userdata/dev_ws/install/gesture_control/lib/gesture_control/images/image-victory.jpeg
+-- Symlinking: /userdata/dev_ws/install/gesture_control/share/ament_index/resource_index/package_run_dependencies/gesture_control
+-- Symlinking: /userdata/dev_ws/install/gesture_control/share/ament_index/resource_index/parent_prefix_path/gesture_control
+-- Symlinking: /userdata/dev_ws/install/gesture_control/share/gesture_control/environment/ament_prefix_path.sh
+-- Symlinking: /userdata/dev_ws/install/gesture_control/share/gesture_control/environment/ament_prefix_path.dsv
+-- Symlinking: /userdata/dev_ws/install/gesture_control/share/gesture_control/environment/path.sh
+-- Symlinking: /userdata/dev_ws/install/gesture_control/share/gesture_control/environment/path.dsv
+-- Symlinking: /userdata/dev_ws/install/gesture_control/share/gesture_control/local_setup.bash
+-- Symlinking: /userdata/dev_ws/install/gesture_control/share/gesture_control/local_setup.sh
+-- Symlinking: /userdata/dev_ws/install/gesture_control/share/gesture_control/local_setup.zsh
+-- Symlinking: /userdata/dev_ws/install/gesture_control/share/gesture_control/local_setup.dsv
+-- Symlinking: /userdata/dev_ws/install/gesture_control/share/gesture_control/package.dsv
+-- Symlinking: /userdata/dev_ws/install/gesture_control/share/ament_index/resource_index/packages/gesture_control
+-- Symlinking: /userdata/dev_ws/install/gesture_control/share/gesture_control/cmake/gesture_controlConfig.cmake
+-- Symlinking: /userdata/dev_ws/install/gesture_control/share/gesture_control/cmake/gesture_controlConfig-version.cmake
+-- Symlinking: /userdata/dev_ws/install/gesture_control/share/gesture_control/package.xml

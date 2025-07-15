@@ -1,0 +1,573 @@
+[0.178s] Invoking command in '/userdata/dev_ws/build/gesture_control': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/gesture_control -- -j8 -l8
+[0.530s] [ 20%] [32mBuilding CXX object CMakeFiles/gesture_control.dir/src/main.cpp.o[0m
+[0.576s] [ 40%] [32mBuilding CXX object CMakeFiles/gesture_control.dir/src/gesture_control_engine.cpp.o[0m
+[0.584s] [ 60%] [32mBuilding CXX object CMakeFiles/gesture_control.dir/src/gesture_control_node.cpp.o[0m
+[0.637s] [ 80%] [32mBuilding CXX object CMakeFiles/gesture_control.dir/src/param_node.cpp.o[0m
+[26.326s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[26.327s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[26.328s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[26.329s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[26.329s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[26.330s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[26.331s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[26.331s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[26.332s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[26.333s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[26.334s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[26.334s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/common.h:28[m[K,
+[26.335s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/gesture_control_engine.h:23[m[K,
+[26.336s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:15[m[K:
+[26.336s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:[m[K In member function ‘[01m[Kvoid GestureControlEngine::DoRotate(int, float)[m[K’:
+[26.337s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:92:15:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[26.338s]    92 |               [01;35m[K"present frame_ts_ms: %llu"[m[K,
+[26.339s]       |               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[26.340s]    93 |               [32m[Ktrack_info_.frame_ts_ms[m[K);
+[26.340s]       |               [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[26.358s]       |                           [32m[K|[m[K
+[26.359s]       |                           [32m[Kuint64_t {aka long unsigned int}[m[K
+[26.360s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:92:40:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[26.361s]    92 |               "present frame_ts_ms: [01;36m[K%llu[m[K",
+[26.363s]       |                                     [01;36m[K~~~^[m[K
+[26.364s]       |                                        [01;36m[K|[m[K
+[26.365s]       |                                        [01;36m[Klong long unsigned int[m[K
+[26.366s]       |                                     [32m[K%lu[m[K
+[26.367s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:[m[K In member function ‘[01m[Kvoid GestureControlEngine::ProcessSmart(const ConstSharedPtr&)[m[K’:
+[26.371s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:151:21:[m[K [01;35m[Kwarning: [m[Kloop variable ‘[01m[Ktarget[m[K’ creates a copy from type ‘[01m[Kconst ai_msgs::msg::Target_<std::allocator<void> >[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wrange-loop-construct-Wrange-loop-construct]8;;[m[K]
+[26.372s]   151 |     for (const auto [01;35m[Ktarget[m[K : ai_msg->targets) {
+[26.373s]       |                     [01;35m[K^~~~~~[m[K
+[26.376s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:151:21:[m[K [01;36m[Knote: [m[Kuse reference type to prevent copying
+[26.377s]   151 |     for (const auto [01;36m[Ktarget[m[K : ai_msg->targets) {
+[26.378s]       |                     [01;36m[K^~~~~~[m[K
+[26.398s]       |                     [32m[K&[m[K
+[26.399s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[26.401s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[26.403s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[26.404s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[26.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[26.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[26.407s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[26.408s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[26.409s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[26.410s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[26.411s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[26.411s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/common.h:28[m[K,
+[26.412s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/gesture_control_engine.h:23[m[K,
+[26.413s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:15[m[K:
+[26.414s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:154:11:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<ai_msgs::msg::Roi_<std::allocator<void> >, std::allocator<ai_msgs::msg::Roi_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[26.414s]   154 |           [01;35m[K"target.rois.size: %d, target.track_id: %d, track_info_.track_id: %d"[m[K,
+[26.415s]       |           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[26.416s]   155 |           [32m[Ktarget.rois.size()[m[K,
+[26.416s]       |           [32m[K~~~~~~~~~~~~~~~~~~[m[K
+[26.438s]       |                           [32m[K|[m[K
+[26.441s]       |                           [32m[Kstd::vector<ai_msgs::msg::Roi_<std::allocator<void> >, std::allocator<ai_msgs::msg::Roi_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K
+[26.443s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:154:31:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[26.444s]   154 |           "target.rois.size: [01;36m[K%d[m[K, target.track_id: %d, track_info_.track_id: %d",
+[26.445s]       |                              [01;36m[K~^[m[K
+[26.446s]       |                               [01;36m[K|[m[K
+[26.447s]       |                               [01;36m[Kint[m[K
+[26.448s]       |                              [32m[K%ld[m[K
+[26.450s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[26.451s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[26.452s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[26.452s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[26.453s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[26.454s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[26.455s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[26.456s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[26.456s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[26.457s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[26.458s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[26.459s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/common.h:28[m[K,
+[26.460s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/gesture_control_engine.h:23[m[K,
+[26.460s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:15[m[K:
+[26.461s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:154:11:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[26.462s]   154 |           [01;35m[K"target.rois.size: %d, target.track_id: %d, track_info_.track_id: %d"[m[K,
+[26.463s]       |           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[26.463s]   155 |           target.rois.size(),
+[26.464s]   156 |           [32m[Ktarget.track_id[m[K,
+[26.465s]       |           [32m[K~~~~~~~~~~~~~~~[m[K
+[26.466s]       |                  [32m[K|[m[K
+[26.466s]       |                  [32m[Klong unsigned int[m[K
+[26.488s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:154:52:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[26.489s]   154 |           "target.rois.size: %d, target.track_id: [01;36m[K%d[m[K, track_info_.track_id: %d",
+[26.490s]       |                                                   [01;36m[K~^[m[K
+[26.491s]       |                                                    [01;36m[K|[m[K
+[26.491s]       |                                                    [01;36m[Kint[m[K
+[26.492s]       |                                                   [32m[K%ld[m[K
+[26.493s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[26.494s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[26.495s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[26.495s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[26.496s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[26.497s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[26.498s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[26.498s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[26.499s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[26.500s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[26.501s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[26.501s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/common.h:28[m[K,
+[26.502s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/gesture_control_engine.h:23[m[K,
+[26.503s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:15[m[K:
+[26.504s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:154:11:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[26.504s]   154 |           [01;35m[K"target.rois.size: %d, target.track_id: %d, track_info_.track_id: %d"[m[K,
+[26.506s]       |           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[26.507s] ......
+[26.528s]   157 |           [32m[Ktrack_info_.track_id[m[K);
+[26.529s]       |           [32m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[26.530s]       |                       [32m[K|[m[K
+[26.531s]       |                       [32m[Kuint64_t {aka long unsigned int}[m[K
+[26.532s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:154:78:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[26.532s]   154 |           "target.rois.size: %d, target.track_id: %d, track_info_.track_id: [01;36m[K%d[m[K",
+[26.533s]       |                                                                             [01;36m[K~^[m[K
+[26.534s]       |                                                                              [01;36m[K|[m[K
+[26.535s]       |                                                                              [01;36m[Kint[m[K
+[26.535s]       |                                                                             [32m[K%ld[m[K
+[26.536s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[26.537s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[26.538s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[26.538s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[26.539s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[26.540s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[26.540s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[26.541s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[26.542s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[26.543s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[26.543s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[26.544s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/common.h:28[m[K,
+[26.545s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/gesture_control_engine.h:23[m[K,
+[26.546s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:15[m[K:
+[26.546s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:193:21:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[26.547s]   193 |                     [01;35m[K"track_id: %d, attr type: %s, val: %d"[m[K,
+[26.568s]       |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[26.569s]   194 |                     [32m[Ktarget.track_id[m[K,
+[26.570s]       |                     [32m[K~~~~~~~~~~~~~~~[m[K
+[26.571s]       |                            [32m[K|[m[K
+[26.572s]       |                            [32m[Klong unsigned int[m[K
+[26.572s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:193:33:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[26.573s]   193 |                     "track_id: [01;36m[K%d[m[K, attr type: %s, val: %d",
+[26.574s]       |                                [01;36m[K~^[m[K
+[26.575s]       |                                 [01;36m[K|[m[K
+[26.575s]       |                                 [01;36m[Kint[m[K
+[26.576s]       |                                [32m[K%ld[m[K
+[26.577s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[26.578s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[26.578s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[26.579s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[26.580s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[26.580s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[26.581s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[26.582s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[26.583s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[26.583s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[26.584s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[26.585s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/common.h:28[m[K,
+[26.586s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/gesture_control_engine.h:23[m[K,
+[26.586s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:15[m[K:
+[26.587s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:193:21:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[26.609s]   193 |                     [01;35m[K"track_id: %d, attr type: %s, val: %d"[m[K,
+[26.610s]       |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[26.611s] ......
+[26.612s]   196 |                     [32m[Kattr.value[m[K);
+[26.613s]       |                     [32m[K~~~~~~~~~~[m[K
+[26.613s]       |                          [32m[K|[m[K
+[26.614s]       |                          [32m[Kdouble[m[K
+[26.615s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:193:57:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[26.616s]   193 |                     "track_id: %d, attr type: %s, val: [01;36m[K%d[m[K",
+[26.616s]       |                                                        [01;36m[K~^[m[K
+[26.617s]       |                                                         [01;36m[K|[m[K
+[26.618s]       |                                                         [01;36m[Kint[m[K
+[26.619s]       |                                                        [32m[K%f[m[K
+[26.619s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[26.620s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[26.621s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[26.621s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[26.622s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[26.623s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[26.623s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[26.624s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[26.625s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[26.626s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[26.626s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[26.627s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/common.h:28[m[K,
+[26.649s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/gesture_control_engine.h:23[m[K,
+[26.650s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:15[m[K:
+[26.651s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:214:23:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[26.651s]   214 |                       [01;35m[K"frame_ts_ms %llu, track id: %d recved reset gesture: %d"[m[K,
+[26.652s]       |                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[26.653s]   215 |                       [32m[Ktrack_info_.frame_ts_ms[m[K,
+[26.654s]       |                       [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[26.655s]       |                                   [32m[K|[m[K
+[26.655s]       |                                   [32m[Kuint64_t {aka long unsigned int}[m[K
+[26.656s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:214:39:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[26.657s]   214 |                       "frame_ts_ms [01;36m[K%llu[m[K, track id: %d recved reset gesture: %d",
+[26.658s]       |                                    [01;36m[K~~~^[m[K
+[26.659s]       |                                       [01;36m[K|[m[K
+[26.660s]       |                                       [01;36m[Klong long unsigned int[m[K
+[26.660s]       |                                    [32m[K%lu[m[K
+[26.661s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[26.662s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[26.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[26.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[26.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[26.665s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[26.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[26.667s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[26.688s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[26.689s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[26.690s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[26.691s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/common.h:28[m[K,
+[26.691s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/gesture_control_engine.h:23[m[K,
+[26.692s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:15[m[K:
+[26.693s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:214:23:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[26.694s]   214 |                       [01;35m[K"frame_ts_ms %llu, track id: %d recved reset gesture: %d"[m[K,
+[26.694s]       |                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[26.695s]   215 |                       track_info_.frame_ts_ms,
+[26.696s]   216 |                       [32m[Ktrack_info_.track_id[m[K,
+[26.697s]       |                       [32m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[26.697s]       |                                   [32m[K|[m[K
+[26.698s]       |                                   [32m[Kuint64_t {aka long unsigned int}[m[K
+[26.699s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:214:53:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[26.700s]   214 |                       "frame_ts_ms %llu, track id: [01;36m[K%d[m[K recved reset gesture: %d",
+[26.700s]       |                                                    [01;36m[K~^[m[K
+[26.701s]       |                                                     [01;36m[K|[m[K
+[26.702s]       |                                                     [01;36m[Kint[m[K
+[26.703s]       |                                                    [32m[K%ld[m[K
+[26.703s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[26.704s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[26.705s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[26.706s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[26.706s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[26.728s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[26.730s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[26.731s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[26.732s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[26.733s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[26.733s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[26.734s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/common.h:28[m[K,
+[26.735s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/gesture_control_engine.h:23[m[K,
+[26.736s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:15[m[K:
+[26.737s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:224:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[26.738s]   224 |                   [01;35m[K"update track id: %d"[m[K,
+[26.738s]       |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[26.739s]   225 |                   [32m[Ktrack_info_.track_id[m[K);
+[26.740s]       |                   [32m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[26.741s]       |                               [32m[K|[m[K
+[26.741s]       |                               [32m[Kuint64_t {aka long unsigned int}[m[K
+[26.742s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:224:38:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[26.743s]   224 |                   "update track id: [01;36m[K%d[m[K",
+[26.744s]       |                                     [01;36m[K~^[m[K
+[26.744s]       |                                      [01;36m[K|[m[K
+[26.745s]       |                                      [01;36m[Kint[m[K
+[26.746s]       |                                     [32m[K%ld[m[K
+[26.747s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[26.768s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[26.769s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[26.770s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[26.771s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[26.771s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[26.772s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[26.773s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[26.774s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[26.774s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[26.775s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[26.776s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/common.h:28[m[K,
+[26.777s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/gesture_control_engine.h:23[m[K,
+[26.778s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:15[m[K:
+[26.778s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:236:21:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[26.779s]   236 |                     [01;35m[K"track id: %d serial lost num exceed limit: %d"[m[K,
+[26.780s]       |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[26.781s]   237 |                     [32m[Ktrack_info_.track_id[m[K,
+[26.781s]       |                     [32m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[26.782s]       |                                 [32m[K|[m[K
+[26.783s]       |                                 [32m[Kuint64_t {aka long unsigned int}[m[K
+[26.784s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:236:33:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[26.784s]   236 |                     "track id: [01;36m[K%d[m[K serial lost num exceed limit: %d",
+[26.785s]       |                                [01;36m[K~^[m[K
+[26.786s]       |                                 [01;36m[K|[m[K
+[26.786s]       |                                 [01;36m[Kint[m[K
+[26.807s]       |                                [32m[K%ld[m[K
+[26.809s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[26.810s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[26.810s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[26.811s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[26.812s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[26.813s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[26.814s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[26.814s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[26.815s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[26.816s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[26.817s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[26.818s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/common.h:28[m[K,
+[26.818s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/gesture_control_engine.h:23[m[K,
+[26.819s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:15[m[K:
+[26.820s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:257:20:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<ai_msgs::msg::Roi_<std::allocator<void> >, std::allocator<ai_msgs::msg::Roi_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[26.821s]   257 |                    [01;35m[K"target.rois.size: %d"[m[K,
+[26.821s]       |                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[26.822s]   258 |                    [32m[Ktarget.rois.size()[m[K);
+[26.823s]       |                    [32m[K~~~~~~~~~~~~~~~~~~[m[K
+[26.824s]       |                                    [32m[K|[m[K
+[26.824s]       |                                    [32m[Kstd::vector<ai_msgs::msg::Roi_<std::allocator<void> >, std::allocator<ai_msgs::msg::Roi_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K
+[26.825s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:257:40:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[26.826s]   257 |                    "target.rois.size: [01;36m[K%d[m[K",
+[26.826s]       |                                       [01;36m[K~^[m[K
+[26.848s]       |                                        [01;36m[K|[m[K
+[26.850s]       |                                        [01;36m[Kint[m[K
+[26.851s]       |                                       [32m[K%ld[m[K
+[26.852s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[26.852s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[26.853s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[26.854s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[26.855s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[26.855s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[26.856s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[26.857s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[26.858s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[26.858s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[26.859s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[26.860s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/common.h:28[m[K,
+[26.860s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/gesture_control_engine.h:23[m[K,
+[26.861s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:15[m[K:
+[26.862s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:270:22:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[26.862s]   270 |                      [01;35m[K"recv track_id: %d, hand roi x_offset: %d y_offset: %d "[m[K
+[26.863s]       |                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[26.864s]   271 | [01;35m[K                     "width: %d height: %d"[m[K,
+[26.864s]       |                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+[26.865s]   272 |                      [32m[Ktarget.track_id[m[K,
+[26.866s]       |                      [32m[K~~~~~~~~~~~~~~~[m[K
+[26.867s]       |                             [32m[K|[m[K
+[26.888s]       |                             [32m[Klong unsigned int[m[K
+[26.889s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:270:39:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[26.890s]   270 |                      "recv track_id: [01;36m[K%d[m[K, hand roi x_offset: %d y_offset: %d "
+[26.890s]       |                                      [01;36m[K~^[m[K
+[26.891s]       |                                       [01;36m[K|[m[K
+[26.892s]       |                                       [01;36m[Kint[m[K
+[26.893s]       |                                      [32m[K%ld[m[K
+[26.893s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[26.894s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[26.895s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[26.895s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[26.896s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[26.897s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[26.918s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[26.919s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[26.920s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[26.921s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[26.921s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[26.922s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/common.h:28[m[K,
+[26.923s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/gesture_control_engine.h:23[m[K,
+[26.923s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:15[m[K:
+[26.924s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:287:21:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[26.925s]   287 |                     [01;35m[K"track_id: %d, attr type: %s, val: %d"[m[K,
+[26.926s]       |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[26.926s]   288 |                     [32m[Ktarget.track_id[m[K,
+[26.927s]       |                     [32m[K~~~~~~~~~~~~~~~[m[K
+[26.928s]       |                            [32m[K|[m[K
+[26.928s]       |                            [32m[Klong unsigned int[m[K
+[26.929s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:287:33:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[26.930s]   287 |                     "track_id: [01;36m[K%d[m[K, attr type: %s, val: %d",
+[26.931s]       |                                [01;36m[K~^[m[K
+[26.931s]       |                                 [01;36m[K|[m[K
+[26.932s]       |                                 [01;36m[Kint[m[K
+[26.933s]       |                                [32m[K%ld[m[K
+[26.933s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[26.934s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[26.935s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[26.935s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[26.936s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[26.937s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[26.959s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[26.960s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[26.961s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[26.962s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[26.962s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[26.963s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/common.h:28[m[K,
+[26.964s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/gesture_control_engine.h:23[m[K,
+[26.965s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:15[m[K:
+[26.966s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:287:21:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[26.966s]   287 |                     [01;35m[K"track_id: %d, attr type: %s, val: %d"[m[K,
+[26.967s]       |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[26.968s] ......
+[26.969s]   290 |                     [32m[Kattr.value[m[K);
+[26.969s]       |                     [32m[K~~~~~~~~~~[m[K
+[26.970s]       |                          [32m[K|[m[K
+[26.971s]       |                          [32m[Kdouble[m[K
+[26.972s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:287:57:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[26.972s]   287 |                     "track_id: %d, attr type: %s, val: [01;36m[K%d[m[K",
+[26.973s]       |                                                        [01;36m[K~^[m[K
+[26.974s]       |                                                         [01;36m[K|[m[K
+[26.974s]       |                                                         [01;36m[Kint[m[K
+[26.975s]       |                                                        [32m[K%f[m[K
+[26.976s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[26.976s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[26.997s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[26.999s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[27.000s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[27.000s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[27.001s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[27.002s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[27.003s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[27.003s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[27.004s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[27.005s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/common.h:28[m[K,
+[27.005s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/gesture_control_engine.h:23[m[K,
+[27.006s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:15[m[K:
+[27.007s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:353:15:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[KTrackingStatus[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[27.008s]   353 |               [01;35m[K"tracking_sta: %d (0:INITING, 1:TRACKING, 2:LOST), track_id: %d, "[m[K
+[27.008s]       |               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[27.009s]   354 | [01;35m[K              "gesture: %d, frame_ts_ms: %llu"[m[K,
+[27.010s]       |               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[27.011s]   355 |               [32m[Ktrack_info_.tracking_sta[m[K,
+[27.011s]       |               [32m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[27.012s]       |                           [32m[K|[m[K
+[27.013s]       |                           [32m[KTrackingStatus[m[K
+[27.014s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:353:31:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[27.014s]   353 |               "tracking_sta: [01;36m[K%d[m[K (0:INITING, 1:TRACKING, 2:LOST), track_id: %d, "
+[27.015s]       |                              [01;36m[K~^[m[K
+[27.016s]       |                               [01;36m[K|[m[K
+[27.016s]       |                               [01;36m[Kint[m[K
+[27.037s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[27.039s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[27.040s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[27.040s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[27.041s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[27.042s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[27.043s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[27.043s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[27.044s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[27.045s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[27.045s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[27.046s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/common.h:28[m[K,
+[27.047s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/gesture_control_engine.h:23[m[K,
+[27.048s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:15[m[K:
+[27.049s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:353:15:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[27.049s]   353 |               [01;35m[K"tracking_sta: %d (0:INITING, 1:TRACKING, 2:LOST), track_id: %d, "[m[K
+[27.050s]       |               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[27.051s]   354 | [01;35m[K              "gesture: %d, frame_ts_ms: %llu"[m[K,
+[27.051s]       |               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[27.052s]   355 |               track_info_.tracking_sta,
+[27.053s]   356 |               [32m[Ktrack_info_.track_id[m[K,
+[27.054s]       |               [32m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[27.054s]       |                           [32m[K|[m[K
+[27.055s]       |                           [32m[Kuint64_t {aka long unsigned int}[m[K
+[27.056s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:353:77:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[27.057s]   353 |               "tracking_sta: %d (0:INITING, 1:TRACKING, 2:LOST), track_id: [01;36m[K%d[m[K, "
+[27.078s]       |                                                                            [01;36m[K~^[m[K
+[27.080s]       |                                                                             [01;36m[K|[m[K
+[27.081s]       |                                                                             [01;36m[Kint[m[K
+[27.082s]       |                                                                            [32m[K%ld[m[K
+[27.082s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[27.083s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[27.084s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[27.085s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[27.085s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[27.086s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[27.087s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[27.088s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[27.089s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[27.089s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[27.090s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[27.091s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/common.h:28[m[K,
+[27.092s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/gesture_control_engine.h:23[m[K,
+[27.092s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:15[m[K:
+[27.093s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:353:15:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 8 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[27.094s]   353 |               [01;35m[K"tracking_sta: %d (0:INITING, 1:TRACKING, 2:LOST), track_id: %d, "[m[K
+[27.094s]       |               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[27.095s]   354 | [01;35m[K              "gesture: %d, frame_ts_ms: %llu"[m[K,
+[27.096s]       |               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[27.097s] ......
+[27.118s]   358 |               [32m[Ktrack_info_.frame_ts_ms[m[K);
+[27.119s]       |               [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[27.120s]       |                           [32m[K|[m[K
+[27.120s]       |                           [32m[Kuint64_t {aka long unsigned int}[m[K
+[27.121s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:354:45:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[27.122s]   354 |               "gesture: %d, frame_ts_ms: [01;36m[K%llu[m[K",
+[27.122s]       |                                          [01;36m[K~~~^[m[K
+[27.123s]       |                                             [01;36m[K|[m[K
+[27.124s]       |                                             [01;36m[Klong long unsigned int[m[K
+[27.125s]       |                                          [32m[K%lu[m[K
+[27.125s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[27.126s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[27.127s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[27.127s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[27.128s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[27.129s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[27.129s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[27.130s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[27.131s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[27.131s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[27.132s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[27.133s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/common.h:28[m[K,
+[27.133s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/gesture_control_engine.h:23[m[K,
+[27.134s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:15[m[K:
+[27.135s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:[m[K In member function ‘[01m[Kvoid GestureControlEngine::RunStrategy(const ConstSharedPtr&)[m[K’:
+[27.136s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:384:15:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[27.136s]   384 |               [01;35m[K"frame_ts_ms: %llu, track_id: %d, tracking_sta: %d, gesture: %d"[m[K,
+[27.137s]       |               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[27.158s]   385 |               [32m[Ktrack_info_.frame_ts_ms[m[K,
+[27.159s]       |               [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[27.160s]       |                           [32m[K|[m[K
+[27.161s]       |                           [32m[Kuint64_t {aka long unsigned int}[m[K
+[27.161s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:384:32:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[27.162s]   384 |               "frame_ts_ms: [01;36m[K%llu[m[K, track_id: %d, tracking_sta: %d, gesture: %d",
+[27.163s]       |                             [01;36m[K~~~^[m[K
+[27.164s]       |                                [01;36m[K|[m[K
+[27.164s]       |                                [01;36m[Klong long unsigned int[m[K
+[27.165s]       |                             [32m[K%lu[m[K
+[27.166s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[27.166s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[27.167s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[27.168s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[27.169s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[27.169s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[27.170s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[27.171s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[27.171s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[27.172s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[27.173s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[27.174s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/common.h:28[m[K,
+[27.174s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/gesture_control_engine.h:23[m[K,
+[27.175s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:15[m[K:
+[27.176s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:384:15:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[27.176s]   384 |               [01;35m[K"frame_ts_ms: %llu, track_id: %d, tracking_sta: %d, gesture: %d"[m[K,
+[27.198s]       |               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[27.200s]   385 |               track_info_.frame_ts_ms,
+[27.201s]   386 |               [32m[Ktrack_info_.track_id[m[K,
+[27.202s]       |               [32m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[27.202s]       |                           [32m[K|[m[K
+[27.203s]       |                           [32m[Kuint64_t {aka long unsigned int}[m[K
+[27.204s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:384:46:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[27.205s]   384 |               "frame_ts_ms: %llu, track_id: [01;36m[K%d[m[K, tracking_sta: %d, gesture: %d",
+[27.205s]       |                                             [01;36m[K~^[m[K
+[27.206s]       |                                              [01;36m[K|[m[K
+[27.207s]       |                                              [01;36m[Kint[m[K
+[27.208s]       |                                             [32m[K%ld[m[K
+[27.208s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[27.209s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[27.210s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[27.210s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[27.211s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[27.212s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[27.213s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[27.213s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[27.214s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[27.215s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[27.215s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[27.216s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/common.h:28[m[K,
+[27.217s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/include/gesture_control_engine.h:23[m[K,
+[27.238s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:15[m[K:
+[27.239s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:[m[K In member function ‘[01m[Kvoid GestureControlEngine::FeedSmart(const ConstSharedPtr&)[m[K’:
+[27.240s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:423:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[27.241s]   423 |                  [01;35m[K"smart queue len exceed limit: %d"[m[K,
+[27.241s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[27.242s]   424 |                  [32m[Kqueue_len_limit_[m[K);
+[27.243s]       |                  [32m[K~~~~~~~~~~~~~~~~[m[K
+[27.244s]       |                  [32m[K|[m[K
+[27.244s]       |                  [32m[Ksize_t {aka long unsigned int}[m[K
+[27.245s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/gesture_control/src/gesture_control_engine.cpp:423:50:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[27.246s]   423 |                  "smart queue len exceed limit: [01;36m[K%d[m[K",
+[27.247s]       |                                                 [01;36m[K~^[m[K
+[27.247s]       |                                                  [01;36m[K|[m[K
+[27.248s]       |                                                  [01;36m[Kint[m[K
+[27.249s]       |                                                 [32m[K%ld[m[K
+[65.753s] [100%] [32m[1mLinking CXX executable gesture_control[0m
+[69.789s] [100%] Built target gesture_control

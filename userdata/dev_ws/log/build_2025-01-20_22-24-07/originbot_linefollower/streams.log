@@ -1,0 +1,25 @@
+[11.891s] Invoking command in '/userdata/dev_ws/build/originbot_linefollower': AMENT_PREFIX_PATH=/userdata/dev_ws/install/originbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/dev_ws/install/originbot_msgs LD_LIBRARY_PATH=/userdata/dev_ws/install/originbot_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/dev_ws/build/originbot_linefollower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/dev_ws/install/originbot_linefollower/lib/python3.10/site-packages:/userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /userdata/dev_ws/build/originbot_linefollower/build --no-deps symlink_data
+[14.476s] running develop
+[15.882s] running egg_info
+[15.883s] creating originbot_linefollower.egg-info
+[15.884s] writing originbot_linefollower.egg-info/PKG-INFO
+[15.888s] writing dependency_links to originbot_linefollower.egg-info/dependency_links.txt
+[15.893s] writing entry points to originbot_linefollower.egg-info/entry_points.txt
+[15.899s] writing requirements to originbot_linefollower.egg-info/requires.txt
+[15.903s] writing top-level names to originbot_linefollower.egg-info/top_level.txt
+[15.908s] writing manifest file 'originbot_linefollower.egg-info/SOURCES.txt'
+[15.921s] reading manifest file 'originbot_linefollower.egg-info/SOURCES.txt'
+[15.927s] writing manifest file 'originbot_linefollower.egg-info/SOURCES.txt'
+[15.942s] running build_ext
+[15.945s] Creating /userdata/dev_ws/install/originbot_linefollower/lib/python3.10/site-packages/originbot-linefollower.egg-link (link to .)
+[15.950s] Installing follower script to /userdata/dev_ws/install/originbot_linefollower/lib/originbot_linefollower
+[15.954s] 
+[15.958s] Installed /userdata/dev_ws/build/originbot_linefollower
+[15.961s] running symlink_data
+[15.964s] creating /userdata/dev_ws/install/originbot_linefollower/share/ament_index
+[15.968s] creating /userdata/dev_ws/install/originbot_linefollower/share/ament_index/resource_index
+[15.971s] creating /userdata/dev_ws/install/originbot_linefollower/share/ament_index/resource_index/packages
+[15.990s] symbolically linking /userdata/dev_ws/build/originbot_linefollower/resource/originbot_linefollower -> /userdata/dev_ws/install/originbot_linefollower/share/ament_index/resource_index/packages
+[15.995s] symbolically linking /userdata/dev_ws/build/originbot_linefollower/package.xml -> /userdata/dev_ws/install/originbot_linefollower/share/originbot_linefollower
+[15.998s] creating /userdata/dev_ws/install/originbot_linefollower/share/originbot_linefollower/launch
+[16.266s] Invoked command in '/userdata/dev_ws/build/originbot_linefollower' returned '0': AMENT_PREFIX_PATH=/userdata/dev_ws/install/originbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/dev_ws/install/originbot_msgs LD_LIBRARY_PATH=/userdata/dev_ws/install/originbot_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/dev_ws/build/originbot_linefollower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/dev_ws/install/originbot_linefollower/lib/python3.10/site-packages:/userdata/dev_ws/install/originbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /userdata/dev_ws/build/originbot_linefollower/build --no-deps symlink_data

@@ -1,0 +1,54 @@
+[0.161s] Invoking command in '/userdata/dev_ws/build/originbot_bringup': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/dev_ws/src/originbot/originbot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/userdata/dev_ws/install/originbot_bringup
+[0.893s] -- The C compiler identification is GNU 11.2.0
+[1.596s] -- The CXX compiler identification is GNU 11.2.0
+[1.655s] -- Detecting C compiler ABI info
+[2.127s] -- Detecting C compiler ABI info - done
+[2.215s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.217s] -- Detecting C compile features
+[2.222s] -- Detecting C compile features - done
+[2.237s] -- Detecting CXX compiler ABI info
+[2.740s] -- Detecting CXX compiler ABI info - done
+[2.802s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.805s] -- Detecting CXX compile features
+[2.809s] -- Detecting CXX compile features - done
+[2.824s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.058s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.570s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.673s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[4.886s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.908s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.950s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.028s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.113s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.439s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.456s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.932s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.078s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.280s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.340s] -- Looking for pthread.h
+[6.914s] -- Looking for pthread.h - found
+[6.920s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.487s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.495s] -- Found Threads: TRUE  
+[7.930s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[8.262s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[8.392s] -- Found tf2_ros: 0.25.9 (/opt/ros/humble/share/tf2_ros/cmake)
+[9.355s] [31mCMake Error at CMakeLists.txt:29 (find_package):
+[9.355s]   By not providing "Findjoy_linux.cmake" in CMAKE_MODULE_PATH this project
+[9.356s]   has asked CMake to find a package configuration file provided by
+[9.357s]   "joy_linux", but CMake did not find one.
+[9.357s] 
+[9.358s]   Could not find a package configuration file provided by "joy_linux" with
+[9.358s]   any of the following names:
+[9.367s] 
+[9.369s]     joy_linuxConfig.cmake
+[9.370s]     joy_linux-config.cmake
+[9.372s] 
+[9.373s]   Add the installation prefix of "joy_linux" to CMAKE_PREFIX_PATH or set
+[9.374s]   "joy_linux_DIR" to a directory containing one of the above files.  If
+[9.374s]   "joy_linux" provides a separate development package or SDK, be sure it has
+[9.375s]   been installed.
+[9.375s] 
+[9.376s] -- Configuring incomplete, errors occurred!
+[9.377s] See also "/userdata/dev_ws/build/originbot_bringup/CMakeFiles/CMakeOutput.log".
+[9.377s] [0m

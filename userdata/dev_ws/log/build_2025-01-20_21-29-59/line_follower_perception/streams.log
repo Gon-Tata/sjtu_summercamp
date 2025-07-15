@@ -1,0 +1,4 @@
+[0.172s] Invoking command in '/userdata/dev_ws/build/line_follower_perception': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/line_follower_perception -- -j8 -l8
+[0.554s] [ 50%] [32mBuilding CXX object CMakeFiles/line_follower_perception.dir/src/line_follower_perception.cpp.o[0m
+[79.413s] [100%] [32m[1mLinking CXX executable line_follower_perception[0m
+[85.802s] [100%] Built target line_follower_perception

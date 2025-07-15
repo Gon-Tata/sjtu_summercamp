@@ -1,0 +1,65 @@
+[0.191s] Invoking command in '/userdata/dev_ws/build/qpOASES': /usr/bin/cmake --build /userdata/dev_ws/build/qpOASES -- -j8 -l8
+[0.362s] [35m[1mConsolidate compiler generated dependencies of target qpOASES[0m
+[0.512s] [ 46%] Built target qpOASES
+[0.564s] [35m[1mConsolidate compiler generated dependencies of target example1[0m
+[0.572s] [35m[1mConsolidate compiler generated dependencies of target example1a[0m
+[0.587s] [35m[1mConsolidate compiler generated dependencies of target example2[0m
+[0.624s] [35m[1mConsolidate compiler generated dependencies of target example1b[0m
+[0.629s] [ 51%] Built target example1
+[0.639s] [35m[1mConsolidate compiler generated dependencies of target example3b[0m
+[0.645s] [35m[1mConsolidate compiler generated dependencies of target example4[0m
+[0.664s] [35m[1mConsolidate compiler generated dependencies of target example5[0m
+[0.666s] [35m[1mConsolidate compiler generated dependencies of target example3[0m
+[0.667s] [ 56%] Built target example1a
+[0.693s] [ 60%] Built target example1b
+[0.695s] [ 65%] Built target example2
+[0.712s] [35m[1mConsolidate compiler generated dependencies of target exampleLP[0m
+[0.756s] [ 70%] Built target example3b
+[0.757s] [ 75%] Built target example4
+[0.758s] [ 80%] Built target example3
+[0.779s] [35m[1mConsolidate compiler generated dependencies of target qrecipeSchur[0m
+[0.780s] [ 85%] Built target example5
+[0.796s] [35m[1mConsolidate compiler generated dependencies of target qrecipe[0m
+[0.810s] [ 90%] Built target exampleLP
+[0.857s] [ 95%] Built target qrecipeSchur
+[0.858s] [100%] Built target qrecipe
+[0.970s] Invoked command in '/userdata/dev_ws/build/qpOASES' returned '0': /usr/bin/cmake --build /userdata/dev_ws/build/qpOASES -- -j8 -l8
+[0.977s] Invoking command in '/userdata/dev_ws/build/qpOASES': /usr/bin/cmake --install /userdata/dev_ws/build/qpOASES
+[1.012s] -- Install configuration: "Release"
+[1.013s] -- Up-to-date: /userdata/dev_ws/install/qpOASES/lib/libqpOASES.a
+[1.014s] -- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES.hpp
+[1.014s] -- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES
+[1.015s] -- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/Matrices.hpp
+[1.015s] -- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/SQProblem.hpp
+[1.016s] -- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/QProblemB.hpp
+[1.016s] -- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/SubjectTo.ipp
+[1.017s] -- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/QProblem.ipp
+[1.017s] -- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/Options.hpp
+[1.018s] -- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/MessageHandling.hpp
+[1.018s] -- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/extras
+[1.019s] -- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/extras/SolutionAnalysis.ipp
+[1.020s] -- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/extras/OQPinterface.hpp
+[1.021s] -- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/extras/SolutionAnalysis.hpp
+[1.027s] -- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/Flipper.hpp
+[1.028s] -- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/SparseSolver.hpp
+[1.028s] -- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/Constants.hpp
+[1.030s] -- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/LapackBlasReplacement.hpp
+[1.031s] -- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/MessageHandling.ipp
+[1.031s] -- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/ConstraintProduct.hpp
+[1.032s] -- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/QProblem.hpp
+[1.033s] -- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/SQProblemSchur.hpp
+[1.034s] -- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/Constraints.hpp
+[1.034s] -- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/SQProblemSchur.ipp
+[1.035s] -- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/QProblemB.ipp
+[1.036s] -- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/Bounds.hpp
+[1.036s] -- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/Indexlist.hpp
+[1.038s] -- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/Types.hpp
+[1.038s] -- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/Indexlist.ipp
+[1.039s] -- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/UnitTesting.hpp
+[1.040s] -- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/Bounds.ipp
+[1.041s] -- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/Utils.hpp
+[1.044s] -- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/SubjectTo.hpp
+[1.049s] -- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/Constraints.ipp
+[1.050s] -- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/Utils.ipp
+[1.051s] -- Up-to-date: /userdata/dev_ws/install/qpOASES/include/qpOASES/SQProblem.ipp
+[1.052s] Invoked command in '/userdata/dev_ws/build/qpOASES' returned '0': /usr/bin/cmake --install /userdata/dev_ws/build/qpOASES

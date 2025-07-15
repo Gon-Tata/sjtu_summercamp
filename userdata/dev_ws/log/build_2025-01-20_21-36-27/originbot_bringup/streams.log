@@ -1,0 +1,36 @@
+[0.044s] Invoking command in '/userdata/dev_ws/build/originbot_bringup': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/dev_ws/src/originbot/originbot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/userdata/dev_ws/install/originbot_bringup
+[0.107s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.806s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.867s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.009s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.024s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.057s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.112s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.183s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.366s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.373s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.826s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.110s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.276s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.375s] -- Found tf2_ros: 0.25.9 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.867s] -- Found joy_linux: 3.3.0 (/opt/ros/humble/share/joy_linux/cmake)
+[2.908s] [31mCMake Error at CMakeLists.txt:30 (find_package):
+[2.909s]   By not providing "Findteleop_twist_joy.cmake" in CMAKE_MODULE_PATH this
+[2.909s]   project has asked CMake to find a package configuration file provided by
+[2.910s]   "teleop_twist_joy", but CMake did not find one.
+[2.911s] 
+[2.911s]   Could not find a package configuration file provided by "teleop_twist_joy"
+[2.912s]   with any of the following names:
+[2.912s] 
+[2.913s]     teleop_twist_joyConfig.cmake
+[2.913s]     teleop_twist_joy-config.cmake
+[2.914s] 
+[2.914s]   Add the installation prefix of "teleop_twist_joy" to CMAKE_PREFIX_PATH or
+[2.915s]   set "teleop_twist_joy_DIR" to a directory containing one of the above
+[2.915s]   files.  If "teleop_twist_joy" provides a separate development package or
+[2.916s]   SDK, be sure it has been installed.
+[2.916s] 
+[2.916s] [0m
+[2.917s] -- Configuring incomplete, errors occurred!
+[2.917s] See also "/userdata/dev_ws/build/originbot_bringup/CMakeFiles/CMakeOutput.log".
+[2.959s] Invoked command in '/userdata/dev_ws/build/originbot_bringup' returned '1': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/dev_ws/src/originbot/originbot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/userdata/dev_ws/install/originbot_bringup

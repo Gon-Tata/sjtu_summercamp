@@ -1,0 +1,34 @@
+[0.067s] Invoking command in '/userdata/dev_ws/build/vp100_ros2': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/vp100_ros2 -- -j8 -l8
+[1.815s] [35m[1mConsolidate compiler generated dependencies of target vp100_ros2_node[0m
+[1.819s] [35m[1mConsolidate compiler generated dependencies of target vp100_ros2_client[0m
+[1.831s] [ 50%] Built target vp100_ros2_client
+[1.832s] [100%] Built target vp100_ros2_node
+[1.847s] Invoked command in '/userdata/dev_ws/build/vp100_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/vp100_ros2 -- -j8 -l8
+[1.881s] Invoking command in '/userdata/dev_ws/build/vp100_ros2': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/vp100_ros2
+[2.233s] -- Install configuration: ""
+[2.234s] -- Execute custom install script
+[2.235s] -- Up-to-date symlink: /userdata/dev_ws/install/vp100_ros2/lib/vp100_ros2/vp100_ros2_node
+[2.235s] -- Up-to-date symlink: /userdata/dev_ws/install/vp100_ros2/lib/vp100_ros2/vp100_ros2_client
+[2.236s] -- Up-to-date symlink: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/launch/__pycache__/vp100_launch.cpython-310.pyc
+[2.237s] -- Up-to-date symlink: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/launch/__pycache__/vp100_launch_view.cpython-38.pyc
+[2.237s] -- Up-to-date symlink: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/launch/vp100.py
+[2.238s] -- Up-to-date symlink: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/launch/vp100.rviz
+[2.243s] -- Up-to-date symlink: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/launch/vp100_launch.py
+[2.244s] -- Up-to-date symlink: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/launch/vp100_launch_view.py
+[2.247s] -- Up-to-date symlink: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/params/vp100.yaml
+[2.249s] -- Up-to-date symlink: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/startup/initenv.sh
+[2.250s] -- Up-to-date symlink: /userdata/dev_ws/install/vp100_ros2/share/ament_index/resource_index/package_run_dependencies/vp100_ros2
+[2.269s] -- Up-to-date symlink: /userdata/dev_ws/install/vp100_ros2/share/ament_index/resource_index/parent_prefix_path/vp100_ros2
+[2.271s] -- Up-to-date symlink: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/environment/ament_prefix_path.sh
+[2.272s] -- Up-to-date symlink: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/environment/ament_prefix_path.dsv
+[2.273s] -- Up-to-date symlink: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/environment/path.sh
+[2.273s] -- Up-to-date symlink: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/environment/path.dsv
+[2.274s] -- Up-to-date symlink: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/local_setup.bash
+[2.275s] -- Up-to-date symlink: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/local_setup.sh
+[2.276s] -- Up-to-date symlink: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/local_setup.zsh
+[2.277s] -- Up-to-date symlink: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/local_setup.dsv
+[2.277s] -- Symlinking: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/package.dsv
+[2.278s] -- Up-to-date symlink: /userdata/dev_ws/install/vp100_ros2/share/ament_index/resource_index/packages/vp100_ros2
+[2.279s] -- Up-to-date symlink: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/cmake/vp100_ros2Config.cmake
+[2.280s] -- Up-to-date symlink: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/cmake/vp100_ros2Config-version.cmake
+[2.281s] -- Up-to-date symlink: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/package.xml

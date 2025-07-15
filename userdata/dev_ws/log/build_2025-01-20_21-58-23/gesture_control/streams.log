@@ -1,0 +1,35 @@
+[0.183s] Invoking command in '/userdata/dev_ws/build/gesture_control': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/gesture_control -- -j8 -l8
+[0.395s] [35m[1mConsolidate compiler generated dependencies of target gesture_control[0m
+[0.735s] [100%] Built target gesture_control
+[1.045s] Invoked command in '/userdata/dev_ws/build/gesture_control' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/gesture_control -- -j8 -l8
+[1.052s] Invoking command in '/userdata/dev_ws/build/gesture_control': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/gesture_control
+[1.243s] -- Install configuration: ""
+[1.244s] -- Execute custom install script
+[1.245s] -- Symlinking: /userdata/dev_ws/install/gesture_control/lib/gesture_control/gesture_control
+[1.245s] -- Symlinking: /userdata/dev_ws/install/gesture_control/share/gesture_control/launch/gesture_control.launch.py
+[1.250s] -- Symlinking: /userdata/dev_ws/install/gesture_control/lib/gesture_control/README.md
+[1.252s] -- Symlinking: /userdata/dev_ws/install/gesture_control/lib/gesture_control/images/gazebo.jpeg
+[1.294s] -- Symlinking: /userdata/dev_ws/install/gesture_control/lib/gesture_control/images/gesture_ctrl_bot.gif
+[1.330s] -- Symlinking: /userdata/dev_ws/install/gesture_control/lib/gesture_control/images/gesture_ctrl_web.gif
+[1.358s] -- Symlinking: /userdata/dev_ws/install/gesture_control/lib/gesture_control/images/gesture_ctrl_workflow.jpg
+[1.426s] -- Symlinking: /userdata/dev_ws/install/gesture_control/lib/gesture_control/images/image-awesome.jpeg
+[1.465s] -- Symlinking: /userdata/dev_ws/install/gesture_control/lib/gesture_control/images/image-ok.jpeg
+[1.502s] -- Symlinking: /userdata/dev_ws/install/gesture_control/lib/gesture_control/images/image-palm.jpeg
+[1.542s] -- Symlinking: /userdata/dev_ws/install/gesture_control/lib/gesture_control/images/image-thumbleft.jpeg
+[1.584s] -- Symlinking: /userdata/dev_ws/install/gesture_control/lib/gesture_control/images/image-thumbright.jpeg
+[1.624s] -- Symlinking: /userdata/dev_ws/install/gesture_control/lib/gesture_control/images/image-victory.jpeg
+[1.666s] -- Symlinking: /userdata/dev_ws/install/gesture_control/share/ament_index/resource_index/package_run_dependencies/gesture_control
+[1.706s] -- Symlinking: /userdata/dev_ws/install/gesture_control/share/ament_index/resource_index/parent_prefix_path/gesture_control
+[1.748s] -- Symlinking: /userdata/dev_ws/install/gesture_control/share/gesture_control/environment/ament_prefix_path.sh
+[1.791s] -- Symlinking: /userdata/dev_ws/install/gesture_control/share/gesture_control/environment/ament_prefix_path.dsv
+[1.830s] -- Symlinking: /userdata/dev_ws/install/gesture_control/share/gesture_control/environment/path.sh
+[1.871s] -- Symlinking: /userdata/dev_ws/install/gesture_control/share/gesture_control/environment/path.dsv
+[1.910s] -- Symlinking: /userdata/dev_ws/install/gesture_control/share/gesture_control/local_setup.bash
+[1.950s] -- Symlinking: /userdata/dev_ws/install/gesture_control/share/gesture_control/local_setup.sh
+[1.989s] -- Symlinking: /userdata/dev_ws/install/gesture_control/share/gesture_control/local_setup.zsh
+[2.030s] -- Symlinking: /userdata/dev_ws/install/gesture_control/share/gesture_control/local_setup.dsv
+[2.070s] -- Symlinking: /userdata/dev_ws/install/gesture_control/share/gesture_control/package.dsv
+[2.109s] -- Symlinking: /userdata/dev_ws/install/gesture_control/share/ament_index/resource_index/packages/gesture_control
+[2.148s] -- Symlinking: /userdata/dev_ws/install/gesture_control/share/gesture_control/cmake/gesture_controlConfig.cmake
+[2.186s] -- Symlinking: /userdata/dev_ws/install/gesture_control/share/gesture_control/cmake/gesture_controlConfig-version.cmake
+[2.225s] -- Symlinking: /userdata/dev_ws/install/gesture_control/share/gesture_control/package.xml

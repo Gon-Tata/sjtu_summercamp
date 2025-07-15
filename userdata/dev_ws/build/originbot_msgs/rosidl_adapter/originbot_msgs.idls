@@ -1,0 +1,4 @@
+/userdata/dev_ws/build/originbot_msgs/rosidl_adapter/originbot_msgs:msg/OriginbotStatus.idl
+/userdata/dev_ws/build/originbot_msgs/rosidl_adapter/originbot_msgs:srv/OriginbotBuzzer.idl
+/userdata/dev_ws/build/originbot_msgs/rosidl_adapter/originbot_msgs:srv/OriginbotLed.idl
+/userdata/dev_ws/build/originbot_msgs/rosidl_adapter/originbot_msgs:srv/OriginbotPID.idl

@@ -1,0 +1,11 @@
+/userdata/dev_ws/build/originbot_qrcode_detect/CMakeFiles/uninstall.dir
+/userdata/dev_ws/build/originbot_qrcode_detect/CMakeFiles/originbot_qrcode_detect_uninstall.dir
+/userdata/dev_ws/build/originbot_qrcode_detect/CMakeFiles/qr_decoder.dir
+/userdata/dev_ws/build/originbot_qrcode_detect/CMakeFiles/qrcode_control.dir
+/userdata/dev_ws/build/originbot_qrcode_detect/CMakeFiles/test.dir
+/userdata/dev_ws/build/originbot_qrcode_detect/CMakeFiles/edit_cache.dir
+/userdata/dev_ws/build/originbot_qrcode_detect/CMakeFiles/rebuild_cache.dir
+/userdata/dev_ws/build/originbot_qrcode_detect/CMakeFiles/list_install_components.dir
+/userdata/dev_ws/build/originbot_qrcode_detect/CMakeFiles/install.dir
+/userdata/dev_ws/build/originbot_qrcode_detect/CMakeFiles/install/local.dir
+/userdata/dev_ws/build/originbot_qrcode_detect/CMakeFiles/install/strip.dir

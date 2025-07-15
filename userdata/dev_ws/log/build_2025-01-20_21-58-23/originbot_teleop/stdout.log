@@ -1,0 +1,3 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/originbot_teleop.dir/src/originbot_teleop.cc.o[0m
+[100%] [32m[1mLinking CXX executable originbot_teleop[0m
+[100%] Built target originbot_teleop

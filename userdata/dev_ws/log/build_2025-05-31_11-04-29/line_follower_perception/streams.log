@@ -1,0 +1,110 @@
+[0.065s] Invoking command in '/userdata/dev_ws/build/line_follower_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/originbot_linefollower:/userdata/dev_ws/install/originbot_demo:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception -DCMAKE_INSTALL_PREFIX=/userdata/dev_ws/install/line_follower_perception
+[0.250s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.070s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.149s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.330s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.349s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.389s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.458s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.543s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.793s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.807s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.334s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.663s] -- Found dnn_node: 2.4.2 (/opt/tros/humble/share/dnn_node/cmake)
+[2.675s] -- Found hbm_img_msgs: 2.0.0 (/opt/tros/humble/share/hbm_img_msgs/cmake)
+[2.751s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.879s] -- Found hobot_cv: 2.3.0 (/opt/tros/humble/share/hobot_cv/cmake)
+[2.915s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.411s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.416s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.417s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/include>
+[3.418s] -- Configured cppcheck exclude dirs and/or files: 
+[3.422s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.422s] -- Configured cpplint exclude dirs and/or files: 
+[3.426s] -- Added test 'lint_cmake' to check CMake code style
+[3.433s] -- Added test 'uncrustify' to check C / C++ code style
+[3.433s] -- Configured uncrustify additional arguments: 
+[3.435s] -- Added test 'xmllint' to check XML markup files
+[3.444s] -- Configuring done
+[3.548s] -- Generating done
+[3.574s] -- Build files have been written to: /userdata/dev_ws/build/line_follower_perception
+[3.638s] Invoked command in '/userdata/dev_ws/build/line_follower_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/originbot_linefollower:/userdata/dev_ws/install/originbot_demo:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception -DCMAKE_INSTALL_PREFIX=/userdata/dev_ws/install/line_follower_perception
+[3.668s] Invoking command in '/userdata/dev_ws/build/line_follower_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/originbot_linefollower:/userdata/dev_ws/install/originbot_demo:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/line_follower_perception -- -j8 -l8
+[3.887s] [35m[1mConsolidate compiler generated dependencies of target line_follower_perception[0m
+[4.101s] [ 50%] [32mBuilding CXX object CMakeFiles/line_follower_perception.dir/src/line_follower_perception.cpp.o[0m
+[26.560s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/src/line_follower_perception.cpp:[m[K In member function ‘[01m[Kvoid LineFollowerPerceptionNode::subscription_callback(hbm_img_msgs::msg::HbmMsg1080P_<std::allocator<void> >::SharedPtr)[m[K’:
+[26.560s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/src/line_follower_perception.cpp:170:7:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kret[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[26.561s]   170 |   int [01;35m[Kret[m[K = 0;
+[26.561s]       |       [01;35m[K^~~[m[K
+[26.570s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[26.570s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[26.571s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[26.571s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[26.572s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[26.572s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[26.573s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[26.573s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[26.574s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[26.574s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[26.574s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[26.575s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/include/line_follower_perception/line_follower_perception.h:20[m[K,
+[26.575s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/src/line_follower_perception.cpp:15[m[K:
+[26.576s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/src/line_follower_perception.cpp:[m[K In member function ‘[01m[Kint LineFollowerPerceptionNode::Predict(std::vector<std::shared_ptr<hobot::easy_dnn::DNNInput> >&, const std::shared_ptr<hobot::dnn_node::DnnNodeOutput>&, std::shared_ptr<std::vector<hbDNNRoi> >)[m[K’:
+[26.576s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/src/line_follower_perception.cpp:234:65:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<std::shared_ptr<hobot::easy_dnn::DNNInput> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[26.577s]   234 |   RCLCPP_INFO(rclcpp::get_logger("LineFollowerPerceptionNode"), [01;35m[K"input size:%d roi size:%d"[m[K, [32m[Kdnn_inputs.size()[m[K, rois->size());
+[26.577s]       |                                                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~[m[K
+[26.577s]       |                                                                                                             [32m[K|[m[K
+[26.578s]       |                                                                                                             [32m[Kstd::vector<std::shared_ptr<hobot::easy_dnn::DNNInput> >::size_type {aka long unsigned int}[m[K
+[26.578s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/src/line_follower_perception.cpp:234:78:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[26.579s]   234 |   RCLCPP_INFO(rclcpp::get_logger("LineFollowerPerceptionNode"), "input size:[01;36m[K%d[m[K roi size:%d", dnn_inputs.size(), rois->size());
+[26.579s]       |                                                                             [01;36m[K~^[m[K
+[26.580s]       |                                                                              [01;36m[K|[m[K
+[26.580s]       |                                                                              [01;36m[Kint[m[K
+[26.580s]       |                                                                             [32m[K%ld[m[K
+[26.581s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[26.581s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[26.582s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[26.582s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[26.583s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[26.583s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[26.583s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[26.584s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[26.584s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[26.585s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[26.585s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[26.586s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/include/line_follower_perception/line_follower_perception.h:20[m[K,
+[26.586s]                  from [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/src/line_follower_perception.cpp:15[m[K:
+[26.586s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/src/line_follower_perception.cpp:234:65:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kstd::vector<hbDNNRoi>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[26.587s]   234 |   RCLCPP_INFO(rclcpp::get_logger("LineFollowerPerceptionNode"), [01;35m[K"input size:%d roi size:%d"[m[K, dnn_inputs.size(), [32m[Krois->size()[m[K);
+[26.587s]       |                                                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                     [32m[K~~~~~~~~~~~~[m[K
+[26.588s]       |                                                                                                                           [32m[K|[m[K
+[26.588s]       |                                                                                                                           [32m[Kstd::vector<hbDNNRoi>::size_type {aka long unsigned int}[m[K
+[26.589s] [01m[K/userdata/dev_ws/src/originbot/originbot_deeplearning/line_follower_perception/src/line_follower_perception.cpp:234:90:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[26.589s]   234 |   RCLCPP_INFO(rclcpp::get_logger("LineFollowerPerceptionNode"), "input size:%d roi size:[01;36m[K%d[m[K", dnn_inputs.size(), rois->size());
+[26.589s]       |                                                                                         [01;36m[K~^[m[K
+[26.590s]       |                                                                                          [01;36m[K|[m[K
+[26.590s]       |                                                                                          [01;36m[Kint[m[K
+[26.591s]       |                                                                                         [32m[K%ld[m[K
+[67.424s] [100%] [32m[1mLinking CXX executable line_follower_perception[0m
+[73.705s] [100%] Built target line_follower_perception
+[73.772s] Invoked command in '/userdata/dev_ws/build/line_follower_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/originbot_linefollower:/userdata/dev_ws/install/originbot_demo:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/line_follower_perception -- -j8 -l8
+[73.833s] Invoking command in '/userdata/dev_ws/build/line_follower_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/originbot_linefollower:/userdata/dev_ws/install/originbot_demo:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/line_follower_perception
+[73.868s] -- Install configuration: ""
+[73.870s] -- Execute custom install script
+[73.872s] -- Up-to-date symlink: /userdata/dev_ws/install/line_follower_perception/lib/line_follower_perception/line_follower_perception
+[73.874s] -- Up-to-date symlink: /userdata/dev_ws/install/line_follower_perception/share/ament_index/resource_index/package_run_dependencies/line_follower_perception
+[73.875s] -- Up-to-date symlink: /userdata/dev_ws/install/line_follower_perception/share/ament_index/resource_index/parent_prefix_path/line_follower_perception
+[73.877s] -- Up-to-date symlink: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception/environment/ament_prefix_path.sh
+[73.877s] -- Up-to-date symlink: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception/environment/ament_prefix_path.dsv
+[73.878s] -- Up-to-date symlink: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception/environment/path.sh
+[73.879s] -- Up-to-date symlink: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception/environment/path.dsv
+[73.880s] -- Up-to-date symlink: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception/local_setup.bash
+[73.881s] -- Up-to-date symlink: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception/local_setup.sh
+[73.882s] -- Up-to-date symlink: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception/local_setup.zsh
+[73.883s] -- Up-to-date symlink: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception/local_setup.dsv
+[73.884s] -- Symlinking: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception/package.dsv
+[73.927s] -- Up-to-date symlink: /userdata/dev_ws/install/line_follower_perception/share/ament_index/resource_index/packages/line_follower_perception
+[73.929s] -- Up-to-date symlink: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception/cmake/line_follower_perceptionConfig.cmake
+[73.930s] -- Up-to-date symlink: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception/cmake/line_follower_perceptionConfig-version.cmake
+[73.931s] -- Up-to-date symlink: /userdata/dev_ws/install/line_follower_perception/share/line_follower_perception/package.xml
+[73.951s] Invoked command in '/userdata/dev_ws/build/line_follower_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/originbot_linefollower:/userdata/dev_ws/install/originbot_demo:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/line_follower_perception

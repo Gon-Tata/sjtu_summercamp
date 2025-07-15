@@ -1,0 +1,10 @@
+/userdata/dev_ws/build/originbot_send_goal/CMakeFiles/uninstall.dir
+/userdata/dev_ws/build/originbot_send_goal/CMakeFiles/originbot_send_goal_uninstall.dir
+/userdata/dev_ws/build/originbot_send_goal/CMakeFiles/send_goal_node.dir
+/userdata/dev_ws/build/originbot_send_goal/CMakeFiles/test.dir
+/userdata/dev_ws/build/originbot_send_goal/CMakeFiles/edit_cache.dir
+/userdata/dev_ws/build/originbot_send_goal/CMakeFiles/rebuild_cache.dir
+/userdata/dev_ws/build/originbot_send_goal/CMakeFiles/list_install_components.dir
+/userdata/dev_ws/build/originbot_send_goal/CMakeFiles/install.dir
+/userdata/dev_ws/build/originbot_send_goal/CMakeFiles/install/local.dir
+/userdata/dev_ws/build/originbot_send_goal/CMakeFiles/install/strip.dir

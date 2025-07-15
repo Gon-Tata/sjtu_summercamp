@@ -1,0 +1,160 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-62c93d3dc5f59e673e55.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "qpOASES",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "example1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example1-Release-cb203fb21ac4adc69c59.json",
+					"name" : "example1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example1a::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example1a-Release-57806addb1babbe820f5.json",
+					"name" : "example1a",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example1b::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example1b-Release-ea2a24e8546baf1b346f.json",
+					"name" : "example1b",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example2-Release-7d2ded8b54579eb8f211.json",
+					"name" : "example2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example3-Release-1c2135db6e12de24ca4e.json",
+					"name" : "example3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example3b::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example3b-Release-1edd00be808bb3c6cc22.json",
+					"name" : "example3b",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example4-Release-2c0a1553005135ecd5da.json",
+					"name" : "example4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example5-Release-c03bb521572a4c72643e.json",
+					"name" : "example5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exampleLP::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exampleLP-Release-210506031b2a67090f3f.json",
+					"name" : "exampleLP",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qpOASES::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qpOASES-Release-7aad285d1aef54a22068.json",
+					"name" : "qpOASES",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qrecipe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qrecipe-Release-9b75e06db2da224e6d5d.json",
+					"name" : "qrecipe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qrecipeSchur::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qrecipeSchur-Release-a8b7580824d5861f3bfd.json",
+					"name" : "qrecipeSchur",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/userdata/dev_ws/build/qpOASES",
+		"source" : "/userdata/dev_ws/src/originbot/originbot_driver/qpOASES"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

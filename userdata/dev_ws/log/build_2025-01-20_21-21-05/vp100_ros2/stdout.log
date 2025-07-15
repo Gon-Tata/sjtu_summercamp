@@ -1,0 +1,91 @@
+-- The C compiler identification is GNU 11.2.0
+-- The CXX compiler identification is GNU 11.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /userdata/dev_ws/src/originbot/originbot_driver/vp100_ros2/src;/userdata/dev_ws/src/originbot/originbot_driver/vp100_ros2/sdk/src/impl/include;/userdata/dev_ws/src/originbot/originbot_driver/vp100_ros2/sdk/src/nvilidar;/userdata/dev_ws/src/originbot/originbot_driver/vp100_ros2/sdk/src/3rdparty
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /userdata/dev_ws/build/vp100_ros2
+[ 50%] [32mBuilding CXX object CMakeFiles/vp100_ros2_client.dir/src/vp100_ros2_client.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/vp100_ros2_node.dir/sdk/src/impl/src/serial/nvilidar_serial_unix.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/vp100_ros2_node.dir/sdk/src/nvilidar/nvilidar_driver_serialport.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/vp100_ros2_client.dir/sdk/src/nvilidar/nvilidar_driver_serialport.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/vp100_ros2_node.dir/src/vp100_ros2_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/vp100_ros2_client.dir/sdk/src/impl/src/serial/nvilidar_serial_win.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/vp100_ros2_node.dir/sdk/src/impl/src/serial/nvilidar_serial_win.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/vp100_ros2_client.dir/sdk/src/impl/src/serial/nvilidar_serial_unix.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/vp100_ros2_node.dir/sdk/src/nvilidar/nvilidar_process.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/vp100_ros2_client.dir/sdk/src/nvilidar/nvilidar_process.cpp.o[0m
+[ 91%] [32m[1mLinking CXX executable vp100_ros2_node[0m
+[ 91%] Built target vp100_ros2_node
+[100%] [32m[1mLinking CXX executable vp100_ros2_client[0m
+[100%] Built target vp100_ros2_client
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /userdata/dev_ws/install/vp100_ros2/lib/vp100_ros2/vp100_ros2_node
+-- Symlinking: /userdata/dev_ws/install/vp100_ros2/lib/vp100_ros2/vp100_ros2_client
+-- Symlinking: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/launch/__pycache__/vp100_launch.cpython-310.pyc
+-- Symlinking: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/launch/__pycache__/vp100_launch_view.cpython-38.pyc
+-- Symlinking: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/launch/vp100.py
+-- Symlinking: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/launch/vp100.rviz
+-- Symlinking: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/launch/vp100_launch.py
+-- Symlinking: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/launch/vp100_launch_view.py
+-- Symlinking: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/params/vp100.yaml
+-- Symlinking: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/startup/initenv.sh
+-- Symlinking: /userdata/dev_ws/install/vp100_ros2/share/ament_index/resource_index/package_run_dependencies/vp100_ros2
+-- Symlinking: /userdata/dev_ws/install/vp100_ros2/share/ament_index/resource_index/parent_prefix_path/vp100_ros2
+-- Symlinking: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/environment/ament_prefix_path.sh
+-- Symlinking: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/environment/ament_prefix_path.dsv
+-- Symlinking: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/environment/path.sh
+-- Symlinking: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/environment/path.dsv
+-- Symlinking: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/local_setup.bash
+-- Symlinking: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/local_setup.sh
+-- Symlinking: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/local_setup.zsh
+-- Symlinking: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/local_setup.dsv
+-- Symlinking: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/package.dsv
+-- Symlinking: /userdata/dev_ws/install/vp100_ros2/share/ament_index/resource_index/packages/vp100_ros2
+-- Symlinking: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/cmake/vp100_ros2Config.cmake
+-- Symlinking: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/cmake/vp100_ros2Config-version.cmake
+-- Symlinking: /userdata/dev_ws/install/vp100_ros2/share/vp100_ros2/package.xml
